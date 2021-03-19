@@ -16,8 +16,8 @@ sections:
 upload_dir: images
 public_path: images
 front_matter_path: ''
-use_front_matter_path: 
-file_template: ":day:_:month:_:year:-:filename:"
+use_front_matter_path: false
+file_template: ":year:_:month:_:day:-:filename:-bpc"
 build:
   preview_output_directory: _site
   install_dependencies_command: npm install
