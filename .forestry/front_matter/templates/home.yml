@@ -1,4 +1,19 @@
 ---
 label: Home
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The title of the website
+  default: Brevard Pool Care
+- name: slogan
+  type: text
+  config:
+    required: false
+  label: Slogan
+  description: The company slogan.
+  default: Brevard Pool Care is a Brevard Country Pool Care Company that provides
+    it's customers with the best pool care service in Florida!
