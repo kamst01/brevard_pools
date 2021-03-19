@@ -13,7 +13,7 @@ sections:
   - home
 - type: heading
   label: Data
-upload_dir: images/uploads
+upload_dir: images
 public_path: images
 front_matter_path: ''
 use_front_matter_path: 
