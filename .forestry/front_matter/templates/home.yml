@@ -22,8 +22,7 @@ fields:
   label: Description
   description: The page description.
 - name: images
-  type: file
-  config:
-    maxSize: 64
+  type: image_gallery
+  config: {}
   label: Images
-  description: Upload images used on this page.
+  description: Upload images for the page.
