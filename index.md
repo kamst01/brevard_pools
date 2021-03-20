@@ -41,7 +41,7 @@ second-service-title: Chlorine Pools
 second-service-description: We clean & maintain Chlorine Pools.
 third-service-title: Salt Pools
 third-service-description: We clean & maintain Salt water pools.
-fourth-service-title: Power washing
+fourth-service-title: Power Washing
 fourth-service-description: We offer power washing services on pools to all our customers!
 meet-brevard-pool-care: Meet Brevard Pool Care
 meet-brevard-pool-care-subheading: Let's Work Together
@@ -52,6 +52,16 @@ first-review: Spencer and his crew have taken care of us for nearly 5 years and 
 first-reviewer: Barbara Willett
 trusted-heading: Trusted by over 100 customers in Brevard.
 trusted-subheading: 'We guarantee we''ll provide customer satisfaction! '
+fifth-service-title: Deep Cleaning
+fifth-service-description: We deep clean pools as requested.
+sixth-service-title: Leaf Blowing
+sixth-service-description: We will blow the leaves off your property. Priced per sq/ft.
+seventh-service-title: Water Testing
+seventh-service-description: We can check your Ph levels or the salt levels of your
+  pool during our appointment, or just in a one-time situation.
+eighth-service-title: Pool Supplies Delivery
+eighth-service-description: We can deliver explicit pool supplies to you, only during
+  one of our scheduled appointments. Ask us anytime!
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
