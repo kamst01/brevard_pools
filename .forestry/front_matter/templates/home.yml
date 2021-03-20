@@ -81,3 +81,9 @@ fields:
     required: false
   label: Trusted Section Third Stat
   description: The third stat for the 'Trusted' Section.
+- name: first-question
+  type: text
+  config:
+    required: false
+  label: First Question
+  description: The first FAQ question.
