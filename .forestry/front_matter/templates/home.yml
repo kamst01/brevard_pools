@@ -311,3 +311,9 @@ fields:
     required: false
   label: Contact Subheading
   description: Subheading for Contact Us Section.
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+  description: The company Address.
