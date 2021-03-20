@@ -50,6 +50,8 @@ first-review: Spencer and his crew have taken care of us for nearly 5 years and 
   been consistently pleased with the service and support.  They are awesome  and you
   couldn't do better for your pool care!  Highly recommended!
 first-reviewer: Barbara Willett
+trusted-heading: Trusted by over 100 customers in Brevard.
+trusted-subheading: 'We guarantee we''ll provide customer satisfaction! '
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
