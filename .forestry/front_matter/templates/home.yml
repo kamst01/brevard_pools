@@ -39,12 +39,12 @@ fields:
     required: false
   label: Description
   description: The page description.
-- name: trusted-slogan
+- name: trusted-subheading
   type: text
   config:
     required: false
-  label: Trusted Slogan
-  description: Slogan used in the 'Trusted' Section.
+  label: Trusted Subheading
+  description: Subheading used in the 'Trusted' Section.
 - name: trusted-first-title
   type: text
   config:
@@ -245,3 +245,9 @@ fields:
     required: false
   label: First Reviewer
   description: The first reviewer's name for the 'Testimonial' Section.
+- name: trusted-heading
+  type: text
+  config:
+    required: false
+  label: Trusted Heading
+  description: The Heading for the 'Trusted' Section.
