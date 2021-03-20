@@ -33,6 +33,12 @@ fields:
     required: false
   description: The company phone number.
   label: Phone Number
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+  description: The company Address.
 - name: description
   type: text
   config:
@@ -178,16 +184,6 @@ fields:
     required: false
   label: Services Subheading
   description: The Subheading for the Services Section.
-- name: available-services
-  type: field_group
-  config: {}
-  fields:
-  - name: first-service-title
-    type: text
-    config:
-      required: false
-    label: First Service Title
-  label: Available Services
 - name: first-service-title
   type: text
   config:
@@ -309,3 +305,15 @@ fields:
     required: false
   label: First Reviewer
   description: The first reviewer's name for the 'Testimonial' Section.
+- name: contact-heading
+  type: text
+  config:
+    required: false
+  label: Contact Heading
+  description: Heading for Contact Us Section.
+- name: contact-subheading
+  type: text
+  config:
+    required: false
+  label: Contact Subheading
+  description: Subheading for Contact Us Section.
