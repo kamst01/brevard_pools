@@ -27,14 +27,50 @@ fields:
     required: false
   label: Description
   description: The page description.
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
-  description: Upload images for the page.
 - name: trusted-slogan
   type: text
   config:
     required: false
   label: Trusted Slogan
   description: Slogan used in the 'Trusted' Section.
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+  description: Upload images for the page.
+- name: trusted-first-title
+  type: text
+  config:
+    required: false
+  label: Trusted First Section Title
+  description: The first title used in the 'Trusted' Section.
+- name: trusted-first-stat
+  type: text
+  config:
+    required: false
+  label: Trusted First Section Big Stat
+  description: The first big stat in the 'Trusted' Section.
+- name: trusted-second-title
+  type: text
+  config:
+    required: false
+  label: Trusted Section Second Title
+  description: The second title for the 'Trusted' Section.
+- name: trusted-second-stat
+  type: text
+  config:
+    required: false
+  label: Trusted Section Second Stat
+  description: The second stat for the 'Trusted' Section.
+- name: trusted-third-title
+  type: text
+  config:
+    required: false
+  label: Trusted Section Third Title
+  description: The third title for the 'Trusted' Section.
+- name: trusted-third-stat
+  type: text
+  config:
+    required: false
+  label: Trusted Section Third Stat
+  description: The third stat for the 'Trusted' Section.
