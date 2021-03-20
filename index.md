@@ -15,8 +15,8 @@ trusted-third-stat: "$100k+"
 faq: []
 mission-statement: Making each pool better, every day.
 first-question: How often can I schedule an appointment?
-first-answer: We can come by daily, weekly or monthly! We also offer 6-month & yearly
-  checkups.
+first-answer: We offer daily, weekly or monthly appointments. We also offer select
+  long-term packages to customers. Please contact us for more information.
 second-question: How much extra do chemicals cost in my appointment?
 second-answer: "$0! They're 100% free & included in the price!"
 third-question: If I need an early appointment, can you do that?
