@@ -32,3 +32,9 @@ fields:
   config: {}
   label: Images
   description: Upload images for the page.
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+  description: The company logo.
