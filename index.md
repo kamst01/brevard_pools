@@ -48,4 +48,12 @@ meet-brevard-pool-care-subheading: Let's Work Together
 first-service-description: We clean & maintain Green Pools.
 
 ---
-Spencer - add your content here.
+###### We take treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
+
+Owning a pool is a privilege & owning a pool should come with pride. When we come to clean / care / maintain your pool, we understand that it is a special commodity. 
+
+Our business is service; & we make sure we bring the best customer service at every appointment. No matter the size of the job - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared.
+
+#### How we're different
+
+We've been working with Brevard Country, Florida **since 2012**! Since day one, we've trained our employees to not only pay attention to details, but to put themselves in the customers shoes. Every time we finish an appointment, we hear great real-time feedback from our customers : how we're always professional, timely & orderly when we arrive.
