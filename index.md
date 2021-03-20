@@ -12,5 +12,6 @@ trusted-second-title: Happy Customers
 trusted-second-stat: 100+
 trusted-third-title: "$100k+"
 trusted-third-stat: Insured
+faq: []
 
 ---
