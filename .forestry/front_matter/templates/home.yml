@@ -153,3 +153,9 @@ fields:
     required: false
   label: Mission Statement
   description: The company's mission statement, if available.
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  description: Company Email.
