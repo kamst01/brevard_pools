@@ -67,8 +67,8 @@ seventh-service-title: Water Testing
 seventh-service-description: We can check your Ph levels or the salt levels of your
   pool during our appointment, or just in a one-time situation.
 eighth-service-title: Pool Supplies Delivery
-eighth-service-description: We can deliver explicit pool supplies to you, only during
-  one of our scheduled appointments. Ask us anytime!
+eighth-service-description: We can deliver previously established pool supplies to
+  you, only during one of our scheduled appointments. Ask us anytime!
 available-services:
   first-service-title: Green Pools
 contact-heading: Get in touch
