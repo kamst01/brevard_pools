@@ -299,3 +299,15 @@ fields:
     required: false
   label: First Reviewer
   description: The first reviewer's name for the 'Testimonial' Section.
+- name: contact-heading
+  type: text
+  config:
+    required: false
+  label: Contact Heading
+  description: Heading for Contact Us Section.
+- name: contact-subheading
+  type: text
+  config:
+    required: false
+  label: Contact Subheading
+  description: Subheading for Contact Us Section.
