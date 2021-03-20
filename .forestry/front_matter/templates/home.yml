@@ -93,3 +93,15 @@ fields:
     required: false
   label: First Answer
   description: The answer to the first question.
+- name: second-question
+  type: text
+  config:
+    required: false
+  label: Second Question
+  description: The second question in the FAQ section.
+- name: second-answer
+  type: text
+  config:
+    required: false
+  label: Second Answer
+  description: The answer to the second question in the FAQ section.
