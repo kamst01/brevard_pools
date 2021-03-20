@@ -18,7 +18,8 @@ first-question: How often can I schedule an appointment?
 first-answer: We offer daily, weekly or monthly appointments. We also offer select
   long-term packages to customers. Please contact us for more information.
 second-question: How much extra do chemicals cost in my appointment?
-second-answer: "$0! They're 100% free & included in the price!"
+second-answer: "$0! They're 100% free! You can be sure we only use top quality products
+  for our customers."
 third-question: If I need an early appointment, can you do that?
 third-answer: We work as early as 7 AM! We love helping our customers as early as
   possible.
