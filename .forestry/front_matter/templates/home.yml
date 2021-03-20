@@ -233,3 +233,15 @@ fields:
   label: Meet Brevard Pool Care
   description: '"Meet Brevard Pool Care".'
   default: Meet Brevard Pool Care
+- name: first-review
+  type: text
+  config:
+    required: false
+  label: First Review
+  description: The first review to show on the 'Testimonial' Section.
+- name: first-reviewer
+  type: text
+  config:
+    required: false
+  label: First Reviewer
+  description: The first reviewer's name for the 'Testimonial' Section.
