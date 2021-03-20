@@ -72,8 +72,8 @@ eighth-service-description: We can deliver explicit pool supplies to you, only d
 available-services:
   first-service-title: Green Pools
 contact-heading: Get in touch
-contact-subheading: 'Brevard Pool Care is a Brevard County Company that provides it''s
-  customers with the best pool care service in Florida! '
+contact-subheading: 'Brevard Pool Care is a fully licensed & insured LLC that provides
+  it''s customers with the best pool care service in Florida! '
 address: Merritt Island, Florida.
 
 ---
