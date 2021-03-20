@@ -33,6 +33,12 @@ fields:
     required: false
   description: The company phone number.
   label: Phone Number
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+  description: The company Address.
 - name: description
   type: text
   config:
@@ -311,9 +317,3 @@ fields:
     required: false
   label: Contact Subheading
   description: Subheading for Contact Us Section.
-- name: address
-  type: text
-  config:
-    required: false
-  label: Address
-  description: The company Address.
