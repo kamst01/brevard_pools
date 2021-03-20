@@ -48,7 +48,7 @@ meet-brevard-pool-care-subheading: Let's Work Together
 first-service-description: We clean & maintain Green Pools.
 
 ---
-### We take treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
+### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
 
 Owning a pool is a privilege & owning a pool should come with pride. When we come to clean / care / maintain your pool, we understand that it is a special commodity. 
 
