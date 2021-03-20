@@ -220,3 +220,16 @@ fields:
     required: false
   label: Fourth Service Description
   description: The description for the fourth service offered to customers.
+- name: meet-brevard-pool-care-subheading
+  type: text
+  config:
+    required: false
+  label: Meet Brevard Pool Care Subheading
+  description: The subheading for the 'Meet Brevard Pool Care' Section.
+- name: meet-brevard-pool-care
+  type: text
+  config:
+    required: false
+  label: Meet Brevard Pool Care
+  description: '"Meet Brevard Pool Care".'
+  default: Meet Brevard Pool Care
