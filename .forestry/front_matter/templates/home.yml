@@ -33,11 +33,6 @@ fields:
     required: false
   label: Trusted Slogan
   description: Slogan used in the 'Trusted' Section.
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
-  description: Upload images for the page.
 - name: trusted-first-title
   type: text
   config:
@@ -74,3 +69,11 @@ fields:
     required: false
   label: Trusted Section Third Stat
   description: The third stat for the 'Trusted' Section.
+- name: faq
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: FAQ
+  description: The items in the FAQ.
