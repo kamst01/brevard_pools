@@ -46,6 +46,10 @@ fourth-service-description: We offer power washing services on pools to all our 
 meet-brevard-pool-care: Meet Brevard Pool Care
 meet-brevard-pool-care-subheading: Let's Work Together
 first-service-description: We clean & maintain Green Pools.
+first-review: Spencer and his crew have taken care of us for nearly 5 years and we've
+  been consistently pleased with the service and support.  They are awesome  and you
+  couldn't do better for your pool care!  Highly recommended!
+first-reviewer: Barbara Willett
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
