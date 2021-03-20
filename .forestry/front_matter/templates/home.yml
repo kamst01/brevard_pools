@@ -14,7 +14,13 @@ fields:
   config:
     required: false
   label: Slogan
-  description: The company slogan.
+  description: The company slogan, if there is one.
+- name: phone-number
+  type: text
+  config:
+    required: false
+  description: The company phone number.
+  label: Phone Number
 - name: description
   type: text
   config:
@@ -26,3 +32,9 @@ fields:
   config: {}
   label: Images
   description: Upload images for the page.
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+  description: The company logo.
