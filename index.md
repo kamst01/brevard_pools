@@ -6,3 +6,4 @@ description: Brevard Pool Care is a Brevard Country Pool Care Company that provi
   customers with the best pool care service in Florida!
 
 ---
+{{ slogan }}
