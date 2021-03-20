@@ -178,16 +178,6 @@ fields:
     required: false
   label: Services Subheading
   description: The Subheading for the Services Section.
-- name: available-services
-  type: field_group
-  config: {}
-  fields:
-  - name: first-service-title
-    type: text
-    config:
-      required: false
-    label: First Service Title
-  label: Available Services
 - name: first-service-title
   type: text
   config:
