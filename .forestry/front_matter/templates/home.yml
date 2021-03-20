@@ -147,3 +147,9 @@ fields:
     description: The answer to the sixth question in the FAQ.
   label: FAQ
   description: Items in the FAQ.
+- name: mission-statement
+  type: text
+  config:
+    required: false
+  label: Mission Statement
+  description: The company's mission statement, if available.
