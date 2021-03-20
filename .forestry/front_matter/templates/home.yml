@@ -70,10 +70,80 @@ fields:
   label: Trusted Section Third Stat
   description: The third stat for the 'Trusted' Section.
 - name: faq
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
+  type: field_group
+  config: {}
+  fields:
+  - name: first-question
+    type: text
+    config:
+      required: false
+    label: First Question
+    description: First question in the FAQ.
+  - name: first-question-answer
+    type: text
+    config:
+      required: false
+    label: First Question Answer
+    description: The answer to the first question in the FAQ.
+  - name: second-question
+    type: text
+    config:
+      required: false
+    label: Second Question
+    description: The second question in the FAQ.
+  - name: second-answer
+    type: text
+    config:
+      required: false
+    label: Second Answer
+    description: The answer to the second question in the FAQ.
+  - name: third-question
+    type: text
+    config:
+      required: false
+    label: Third Question
+    description: The third question in the FAQ.
+  - name: third-answer
+    type: text
+    config:
+      required: false
+    description: The answer to the third question in the FAQ.
+    label: Third Answer
+  - name: fourth-question
+    type: text
+    config:
+      required: false
+    label: Fourth Question
+    description: The fourthquestion in the FAQ.
+  - name: fourth_answer
+    type: text
+    config:
+      required: false
+    label: Fourth Answer
+    description: The answer to the fourth question in the FAQ.
+  - name: fifth-question
+    type: text
+    config:
+      required: false
+    label: Fifth Question
+    description: The fifthquestion in the FAQ.
+  - name: fifth-answer
+    type: text
+    config:
+      required: false
+    label: Fifth Answer
+    description: The answer to the fifth question in the FAQ.
+  - name: sixth-question
+    type: text
+    config:
+      required: false
+    label: Sixth Question
+    description: The sixth question in the FAQ.
+  - name: sixth-answer
+    type: text
+    config:
+      required: false
+    label: Sixth Answer
+    description: The answer to the sixth question in the FAQ.
   label: FAQ
-  description: The items in the FAQ.
+  description: Items in the FAQ.
