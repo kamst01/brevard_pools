@@ -129,3 +129,27 @@ fields:
     required: false
   label: Fourth Answer
   description: The answer to the fourth question in the FAQ section.
+- name: fifth-question
+  type: text
+  config:
+    required: false
+  label: Fifth Question
+  description: The fifth question in the FAQ section.
+- name: fifth-answer
+  type: text
+  config:
+    required: false
+  label: Fifth Answer
+  description: The answer to the fifth question in the FAQ section.
+- name: sixth-question
+  type: text
+  config:
+    required: false
+  label: Sixth Question
+  description: The sixth question in the FAQ question.
+- name: sixth-answer
+  type: text
+  config:
+    required: false
+  label: Sixth Answer
+  description: The answer to the sixth question in the FAQ section.
