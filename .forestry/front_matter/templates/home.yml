@@ -15,6 +15,18 @@ fields:
     required: false
   label: Slogan
   description: The company slogan, if there is one.
+- name: mission-statement
+  type: text
+  config:
+    required: false
+  label: Mission Statement
+  description: The company's mission statement, if available.
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  description: Company Email.
 - name: phone-number
   type: text
   config:
