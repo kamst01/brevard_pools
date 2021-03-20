@@ -172,3 +172,51 @@ fields:
     required: false
   label: Services Subheading
   description: The Subheading for the Services Section.
+- name: first-service-title
+  type: text
+  config:
+    required: false
+  label: First Service Title
+  description: The title for the first services offered to customers.
+- name: first-services-description
+  type: text
+  config:
+    required: false
+  label: First Services Description
+  description: The description for the first services offered to customers.
+- name: second-service-title
+  type: text
+  config:
+    required: false
+  label: Second Service Title
+  description: The title for the second service offered to customers.
+- name: second-service-description
+  type: text
+  config:
+    required: false
+  label: Second Service Description
+  description: The description for the second service offered to customers.
+- name: third-service-title
+  type: text
+  config:
+    required: false
+  label: Third Service Title
+  description: The title for the third service offered to customers.
+- name: third-service-description
+  type: text
+  config:
+    required: false
+  label: Third Service Description
+  description: The description for the third service offered to customers.
+- name: fourth-service-title
+  type: text
+  config:
+    required: false
+  label: Fourth Service Title
+  description: The title for the fourth service offered to members.
+- name: fourth-service-description
+  type: text
+  config:
+    required: false
+  label: Fourth Service Description
+  description: The description for the fourth service offered to customers.
