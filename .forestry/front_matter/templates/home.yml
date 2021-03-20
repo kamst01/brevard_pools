@@ -153,3 +153,22 @@ fields:
     required: false
   label: Sixth Answer
   description: The answer to the sixth question in the FAQ section.
+- name: services
+  type: text
+  config:
+    required: false
+  label: Services
+  description: Services.
+  default: Services.
+- name: services-title
+  type: text
+  config:
+    required: false
+  label: Services Title
+  description: The title for the Services Section.
+- name: services-subheading
+  type: text
+  config:
+    required: false
+  label: Services Subheading
+  description: The Subheading for the Services Section.
