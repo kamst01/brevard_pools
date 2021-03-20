@@ -226,6 +226,18 @@ fields:
     required: false
   label: Fourth Service Description
   description: The description for the fourth service offered to customers.
+- name: fifth-service-title
+  type: text
+  config:
+    required: false
+  label: Fifth Service Title
+  description: The title for the fifth service available to customers.
+- name: fifth-service-description
+  type: text
+  config:
+    required: false
+  label: Fifth Service Description
+  description: The description for the fifth service available to customers.
 - name: meet-brevard-pool-care-subheading
   type: text
   config:
@@ -251,3 +263,15 @@ fields:
     required: false
   label: First Reviewer
   description: The first reviewer's name for the 'Testimonial' Section.
+- name: sixth-service-title
+  type: text
+  config:
+    required: false
+  label: Sixth Service Title
+  description: The title for the sixth service available to customers.
+- name: sixth-service-description
+  type: text
+  config:
+    required: false
+  label: Sixth Service Description
+  description: The description for the sixth service available to customers.
