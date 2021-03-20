@@ -31,6 +31,18 @@ fifth-answer: Although it is not required, it is recommended highly to contact u
 sixth-question: There is a foreign object in my pool! Can you help?
 sixth-answer: Yes! We clean, care & remove select debry from our customer's pools!
 email: spencer@brevardpoolcare.com
+services: Services
+services-title: Our Offered Services
+services-subheading: With each service, you can guarantee you will get top notch customer
+  service, hard working employees & a clean pool.
+first-service-title: Green Pools
+first-services-description: We clean & maintain green pools.
+second-service-title: Chlorine Pools
+second-service-description: We clean & maintain Chlorine Pools.
+third-service-title: Salt Pools
+third-service-description: We clean & maintain Salt water pools.
+fourth-service-title: Power washing
+fourth-service-description: We offer power washing services on pools to all our customers!
 
 ---
 Spencer - add your content here.
