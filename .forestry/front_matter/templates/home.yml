@@ -178,11 +178,11 @@ fields:
     required: false
   label: First Service Title
   description: The title for the first services offered to customers.
-- name: first-services-description
+- name: first-service-description
   type: text
   config:
     required: false
-  label: First Services Description
+  label: First Service Description
   description: The description for the first services offered to customers.
 - name: second-service-title
   type: text
