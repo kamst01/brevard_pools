@@ -52,6 +52,10 @@ first-review: Spencer and his crew have taken care of us for nearly 5 years and 
 first-reviewer: Barbara Willett
 trusted-heading: Trusted by over 100 customers in Brevard.
 trusted-subheading: 'We guarantee we''ll provide customer satisfaction! '
+fifth-service-title: Deep cleaning
+fifth-service-description: We deep clean pools as requested.
+sixth-service-title: Leaf blowing
+sixth-service-description: We will blow the leaves off your property. Priced per sq/ft.
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
