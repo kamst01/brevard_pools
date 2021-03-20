@@ -87,3 +87,9 @@ fields:
     required: false
   label: First Question
   description: The first FAQ question.
+- name: first-answer
+  type: text
+  config:
+    required: false
+  label: First Answer
+  description: The answer to the first question.
