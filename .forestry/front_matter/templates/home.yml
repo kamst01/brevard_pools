@@ -14,7 +14,13 @@ fields:
   config:
     required: false
   label: Slogan
-  description: The company slogan.
+  description: The company slogan, if there is one.
+- name: phone-number
+  type: text
+  config:
+    required: false
+  description: The company phone number.
+  label: Phone Number
 - name: description
   type: text
   config:
