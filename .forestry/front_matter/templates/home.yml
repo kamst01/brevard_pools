@@ -105,3 +105,27 @@ fields:
     required: false
   label: Second Answer
   description: The answer to the second question in the FAQ section.
+- name: third-question
+  type: text
+  config:
+    required: false
+  label: Third Question
+  description: The third question in the FAQ section.
+- name: third-answer
+  type: text
+  config:
+    required: false
+  label: Third Answer
+  description: The answer to the third question in the FAQ section.
+- name: fourth-question
+  type: text
+  config:
+    required: false
+  label: Fourth Question
+  description: The fourth question of the FAQ section.
+- name: fourth-answer
+  type: text
+  config:
+    required: false
+  label: Fourth Answer
+  description: The answer to the fourth question in the FAQ section.
