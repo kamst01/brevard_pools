@@ -74,6 +74,7 @@ available-services:
 contact-heading: Get in touch
 contact-subheading: 'Brevard Pool Care is a Brevard County Company that provides it''s
   customers with the best pool care service in Florida! '
+address: Merritt Island, Florida.
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
