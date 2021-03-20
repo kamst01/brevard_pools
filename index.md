@@ -10,8 +10,8 @@ trusted-first-title: Star Rating
 trusted-first-stat: "5"
 trusted-second-title: Happy Customers
 trusted-second-stat: 100+
-trusted-third-title: "$100k+"
-trusted-third-stat: Insured
+trusted-third-title: Insured
+trusted-third-stat: "$100k+"
 faq: []
 
 ---
