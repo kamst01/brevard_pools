@@ -32,3 +32,9 @@ fields:
   config: {}
   label: Images
   description: Upload images for the page.
+- name: trusted-slogan
+  type: text
+  config:
+    required: false
+  label: Trusted Slogan
+  description: Slogan used in the 'Trusted' Section.
