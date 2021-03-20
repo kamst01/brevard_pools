@@ -69,6 +69,8 @@ seventh-service-description: We can check your Ph levels or the salt levels of y
 eighth-service-title: Pool Supplies Delivery
 eighth-service-description: We can deliver explicit pool supplies to you, only during
   one of our scheduled appointments. Ask us anytime!
+available-services:
+  first-service-title: Green Pools
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
