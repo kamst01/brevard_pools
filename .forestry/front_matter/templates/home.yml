@@ -32,9 +32,3 @@ fields:
   config: {}
   label: Images
   description: Upload images for the page.
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
-  description: "<strong>DO NOT CHANGE THIS!</strong>"
