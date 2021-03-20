@@ -13,5 +13,6 @@ trusted-second-stat: 100+
 trusted-third-title: Insured
 trusted-third-stat: "$100k+"
 faq: []
+mission-statement: Making each pool better, every day.
 
 ---
