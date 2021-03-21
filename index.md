@@ -132,6 +132,8 @@ trusted:
 video-still: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-chlorine_ojrfrq.jpg
 about-us-image: https://res.cloudinary.com/bpc-cloud/v1616209001/images/pool-testing_psiofz.jpg
 review-image: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-salt_mtxhzg.jpg
+navigation-logo: https://res.cloudinary.com/bpc-cloud/v1616199938/images/logoexpanded_icou0s.png
+footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
