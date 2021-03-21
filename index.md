@@ -61,8 +61,8 @@ service:
     third-service:
       service-toggle: true
       service-title: Salt Water Pools
-      service-description: 'Owning a salt pool can be stressful or tedious. We
-        can help you automate this process with our regularly scheduled appointments.
+      service-description: 'Owning a salt pool can be stressful or tedious. We can
+        help you automate this process with our regularly scheduled appointments.
         Contact us for more information! '
       service-disable-toggle: false
     fourth-service:
@@ -93,8 +93,8 @@ service:
     eighth-service:
       service-toggle: false
       service-title: Pool Supplies Delivery
-      service-description: We can deliver explicit pool supplies to you, only
-        during one of our scheduled appointments. Ask us anytime!
+      service-description: We can deliver explicit pool supplies to you, only during
+        one of our scheduled appointments. Ask us anytime!
       service-disable-toggle: true
 trusted:
   trusted-toggle: true
