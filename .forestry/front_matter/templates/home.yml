@@ -554,11 +554,15 @@ fields:
         label: Eighth Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
-- name: faq
+- name: faqs
   type: field_group
   config: {}
-  label: FAQ
+  label: FAQs
   fields:
+  - name: faq
+    type: field_group
+    config: {}
+    label: FAQ
   - name: first-question
     type: text
     config:
