@@ -102,6 +102,7 @@ service:
         Contact us today for more information.
       service-disable-toggle: false
       service-icon-color: pink
+      service-icon: leaf
     seventh-service:
       service-toggle: true
       service-title: Water Testing
