@@ -558,115 +558,110 @@ fields:
   type: field_group
   config: {}
   label: FAQs
+  description: The 'FAQ' Section.
   fields:
-  - name: faq
+  - name: first-question
     type: field_group
     config: {}
-    label: FAQ
+    label: First Question
     fields:
-    - name: first-question
-      type: field_group
-      config: {}
-      label: First Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Question
-        description: The first FAQ question.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Answer
-        description: The answer to the first question.
-    - name: second-question
-      type: field_group
-      config: {}
+    - name: question
+      type: text
+      config:
+        required: false
+      label: Question
+      description: The first FAQ question.
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Answer
+      description: The answer to the first question.
+  - name: second-question
+    type: field_group
+    config: {}
+    label: Second Question
+    fields:
+    - name: question
+      type: text
+      config:
+        required: false
       label: Second Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Second Question
-        description: The second question in the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Second Answer
-        description: The answer to the second question in the FAQ section.
-    - name: third-question
-      type: field_group
-      config: {}
+      description: The second question in the FAQ section.
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Second Answer
+      description: The answer to the second question in the FAQ section.
+  - name: third-question
+    type: field_group
+    config: {}
+    label: Third Question
+    fields:
+    - name: question
+      type: text
+      config:
+        required: false
       label: Third Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Third Question
-        description: The third question in the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Third Answer
-        description: The answer to the third question in the FAQ section.
-    - name: fourth-question
-      type: field_group
-      config: {}
+      description: The third question in the FAQ section.
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Third Answer
+      description: The answer to the third question in the FAQ section.
+  - name: fourth-question
+    type: field_group
+    config: {}
+    label: Fourth Question
+    fields:
+    - name: question
+      type: text
+      config:
+        required: false
       label: Fourth Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Fourth Question
-        description: The fourth question of the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Fourth Answer
-        description: The answer to the fourth question in the FAQ section.
-    - name: fifth-question
-      type: field_group
-      config: {}
+      description: The fourth question of the FAQ section.
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Fourth Answer
+      description: The answer to the fourth question in the FAQ section.
+  - name: fifth-question
+    type: field_group
+    config: {}
+    label: Fifth Question
+    fields:
+    - name: question
+      type: text
+      config:
+        required: false
       label: Fifth Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Fifth Question
-        description: The fifth question in the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Fifth Answer
-        description: The answer to the fifth question in the FAQ section.
-    - name: sixth-question
-      type: field_group
-      config: {}
+      description: The fifth question in the FAQ section.
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Fifth Answer
+      description: The answer to the fifth question in the FAQ section.
+  - name: sixth-question
+    type: field_group
+    config: {}
+    label: Sixth Question
+    fields:
+    - name: question
+      type: text
+      config:
+        required: false
       label: Sixth Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Sixth Question
-        description: The sixth question in the FAQ question.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Sixth Answer
-        description: The answer to the sixth question in the FAQ section.
-  description: The 'FAQ' Section.
+      description: The sixth question in the FAQ question.
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Sixth Answer
+      description: The answer to the sixth question in the FAQ section.
 - name: meet-brevard-pool-care-subheading
   type: text
   config:
