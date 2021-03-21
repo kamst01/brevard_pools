@@ -118,6 +118,7 @@ service:
         one of our scheduled appointments. Ask us anytime!
       service-disable-toggle: true
       service-icon-color: yellow
+      service-icon: package
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
