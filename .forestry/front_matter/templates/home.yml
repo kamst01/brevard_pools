@@ -140,7 +140,7 @@ fields:
         type: boolean
         label: First Service Toggle
         description: Use this toggle to show or hide the First Service.
-      - name: first-service-disable-toggle
+      - name: disable-toggle
         type: boolean
         label: First Service Disable Toggle
         description: Use this toggle if you want to still show the first Service,
@@ -165,7 +165,7 @@ fields:
         type: boolean
         label: Second Service Toggle
         description: Use this toggle to show or hide the Second Service.
-      - name: second-service-disable-toggle
+      - name: disable-toggle
         type: boolean
         label: Second Service Disable Toggle
         description: Use this toggle if you want to still show the second Service,
