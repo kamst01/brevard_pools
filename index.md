@@ -41,53 +41,52 @@ contact-subheading: 'Brevard Pool Care is a fully licensed & insured LLC that pr
 address: Merritt Island, Florida - 32952.
 services:
   services-toggle: true
-  service-heading: Our Offered Services
   services-subheading: With each service, you can guarantee you will get top notch
     customer service, hard working employees & a clean pool.
-  first-service-title: Green Pools
-  second-service-title: Chlorine Pools
-  third-service-title: Salt Water Pools
-  fourth-service-title: Power Washing
-  fifth-service-title: Deep Cleaning
-  sixth-service-title: Leaf Blowing
-  seventh-service-title: Water Testing
-  eighth-service-title: Pool Supplies Delivery
-  first-service-description: We clean & maintain Green Pools. Whether it's algae build
-    up or a maintained green pool!
-  second-service-description: We check the chlorine & state of your pool. During every
-    appointment we help you & discuss maintaining the correct chlorine levels.
-  third-service-description: 'Owning a salt pool can be stressful or tedious. We can
-    help you automate this process with our regularly scheduled appointments. Contact
-    us for more information! '
-  fourth-service-description: We offer power washing services on pools to all our
-    customers! Just ask us during your scheduling, or we can assess it on the spot.
-  fifth-service-description: We deep clean pools as requested. Whether it's an abandoned
-    pool, or a regularly maintened pool. We come up with a different plan for each
-    pool.
-  sixth-service-description: We will blow the leaves off your property. Priced per
-    sq/ft. Contact us today for more information.
-  seventh-service-description: We can check your Ph levels or the salt levels of your
-    pool during our appointment, or just in a one-time situation.
-  eighth-service-description: We can deliver explicit pool supplies to you, only during
-    one of our scheduled appointments. Ask us anytime!
   services-heading: Our Offered Services
   services-microheading: Services
   first-service:
     first-service-toggle: true
+    first-service-title: Green Pools
+    first-service-description: We clean & maintain Green Pools. Whether it's algae build
+    up or a maintained green pool!
   second-service:
     second-service-toggle: true
+    second-service-title: Chlorine Pools
+    second-service-description: We check the chlorine & state of your pool. During every
+    appointment we help you & discuss maintaining the correct chlorine levels.
   third-service:
     third-service-toggle: true
+    third-service-title: Salt Water Pools
+    third-service-description: 'Owning a salt pool can be stressful or tedious. We can
+    help you automate this process with our regularly scheduled appointments. Contact
+    us for more information! '
   fourth-service:
     fourth-service-toggle: true
+    fourth-service-title: Power Washing
+    fourth-service-description: We offer power washing services on pools to all our
+    customers! Just ask us during your scheduling, or we can assess it on the spot.
   fifth-service:
     fifth-service-toggle: true
+    fifth-service-title: Deep Cleaning
+    fifth-service-description: We deep clean pools as requested. Whether it's an abandoned
+    pool, or a regularly maintened pool. We come up with a different plan for each
+    pool.
   sixth-service:
     sixth-service-toggle: true
+    sixth-service-title: Leaf Blowing
+    sixth-service-description: We will blow the leaves off your property. Priced per
+    sq/ft. Contact us today for more information.
   seventh-service:
     seventh-service-toggle: true
+    seventh-service-title: Water Testing
+    seventh-service-description: We can check your Ph levels or the salt levels of your
+    pool during our appointment, or just in a one-time situation.
   eighth-service:
     eighth-service-toggle: true
+    eighth-service-title: Pool Supplies Delivery
+    eighth-service-description: We can deliver explicit pool supplies to you, only during
+      one of our scheduled appointments. Ask us anytime!
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
