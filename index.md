@@ -130,7 +130,7 @@ trusted:
   trusted-third-stat: "$100k+"
   trusted-third-title: Insured
 video-still: ''
-about-us-image: ''
+about-us-image: https://res.cloudinary.com/bpc-cloud/v1616209001/images/pool-testing_psiofz.jpg
 review-image: ''
 
 ---
