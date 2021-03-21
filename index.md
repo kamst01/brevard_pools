@@ -42,7 +42,7 @@ address: Merritt Island, Florida - 32952.
 service:
   services-toggle: true
   services-subheading: With each service, you can guarantee you will get top notch
-    customer service, hard working employees & a clean pool.
+    customer service, hard working employees & a clean pool. We provide that.
   services-heading: Our Offered Services
   services-microheading: Services
   services:
