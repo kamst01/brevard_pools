@@ -94,6 +94,7 @@ service:
         each pool.
       service-disable-toggle: false
       service-icon-color: blue
+      service-icon: hand-sparkles
     sixth-service:
       service-toggle: true
       service-title: Leaf Blowing
