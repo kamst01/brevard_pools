@@ -11,7 +11,7 @@
           {{#if service-toggle}}
             <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
               <div>
-                <span class="inline-flex p-3 {{#if service-disable-toggle}}text-red-700 bg-red-50{{else}}text-green-700 bg-green-50{{/if}} rounded-lg ring-4 ring-white">
+                <span class="inline-flex p-3 {{#if service-disable-toggle}}text-red-700 bg-red-50{{else if service-icon-color}}text-{{service-icon-color}}-700 bg-{{service-icon-color}}-50{{/if}} rounded-lg ring-4 ring-white">
                 {{#if service-disable-toggle}}
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
                     <circle cx="12" cy="12" r="10"></circle>

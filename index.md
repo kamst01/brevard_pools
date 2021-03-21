@@ -66,12 +66,14 @@ service:
         help you automate this process with our regularly scheduled appointments.
         Contact us for more information! '
       service-disable-toggle: false
+      service-icon-color:
     fourth-service:
       service-toggle: true
       service-title: Power Washing
       service-description: We offer power washing services on pools to all our customers!
         Just ask us during your scheduling, or we can assess it on the spot.
       service-disable-toggle: false
+      service-icon-color:
     fifth-service:
       service-toggle: true
       service-title: Deep Cleaning
@@ -79,24 +81,28 @@ service:
         pool, or a regularly maintened pool. We come up with a different plan for
         each pool.
       service-disable-toggle: false
+      service-icon-color:
     sixth-service:
       service-toggle: true
       service-title: Leaf Blowing
       service-description: We will blow the leaves off your property. Priced per sq/ft.
         Contact us today for more information.
       service-disable-toggle: false
+      service-icon-color:
     seventh-service:
       service-toggle: true
       service-title: Water Testing
       service-description: We can check your Ph levels or the salt levels of your
         pool during our appointment, or just in a one-time situation.
       service-disable-toggle: false
+      service-icon-color:
     eighth-service:
       service-toggle: true
       service-title: Pool Supplies Delivery
       service-description: We can deliver explicit pool supplies to you, only during
         one of our scheduled appointments. Ask us anytime!
       service-disable-toggle: true
+      service-icon-color:
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.

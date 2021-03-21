@@ -200,6 +200,26 @@ fields:
         config:
           required: false
         label: Second Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: third-service
       type: field_group
       config: {}
@@ -225,6 +245,26 @@ fields:
         config:
           required: false
         label: Third Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: fourth-service
       type: field_group
       config: {}
@@ -250,6 +290,26 @@ fields:
         config:
           required: false
         label: Fourth Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: fifth-service
       type: field_group
       config: {}
@@ -275,6 +335,26 @@ fields:
         config:
           required: false
         label: Fifth Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: sixth-service
       type: field_group
       config: {}
@@ -300,6 +380,26 @@ fields:
         config:
           required: false
         label: Sixth Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: seventh-service
       type: field_group
       config: {}
@@ -325,6 +425,26 @@ fields:
         config:
           required: false
         label: Seventh Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: eighth-service
       type: field_group
       config: {}
@@ -350,6 +470,26 @@ fields:
         config:
           required: false
         label: Eighth Service Description
+      - name: service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
 - name: faq
   type: field_group
   config: {}
