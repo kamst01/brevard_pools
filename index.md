@@ -80,6 +80,8 @@ services:
     third-service-toggle: true
   fourth-service:
     fourth-service-toggle: true
+  fifth-service:
+    fifth-service-toggle: true
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
