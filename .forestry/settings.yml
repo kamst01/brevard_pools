@@ -15,8 +15,8 @@ sections:
   label: Data
 upload_dir: images
 public_path: https://res.cloudinary.com/bpc-cloud/images
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: https://res.cloudinary.com/bpc-cloud/images
+use_front_matter_path: true
 file_template: ":year:_:month:_:day:-:filename:-bpc"
 build:
   preview_output_directory: _site
