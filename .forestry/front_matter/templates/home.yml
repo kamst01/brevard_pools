@@ -136,6 +136,11 @@ fields:
       type: boolean
       label: First Service Toggle
       description: Use this toggle to show or hide the First Service.
+    - name: first-service-disable-toggle
+      type: boolean
+      label: First Service Disable Toggle
+      description: Use this toggle if you want to still show the first Service, but
+        want it disabled.
     - name: first-service-title
       type: text
       config:
