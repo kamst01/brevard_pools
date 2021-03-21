@@ -165,121 +165,105 @@ fields:
     required: false
   label: Sixth Answer
   description: The answer to the sixth question in the FAQ section.
-- name: services
-  type: text
-  config:
-    required: false
+- name: servicess
+  type: field_group
+  config: {}
+  fields:
+  - name: services-toggle
+    type: boolean
+    label: Services Toggle
+    description: Use this toggle to show or hide the entire 'Services' Section.
+  - name: service-heading
+    type: text
+    config:
+      required: false
+    label: Service Heading
+  - name: services-subheading
+    type: text
+    config:
+      required: false
+    label: Services Subheading
+  - name: first-service-title
+    type: text
+    config:
+      required: false
+    label: First Service Title
+  - name: first-service-description
+    type: text
+    config:
+      required: false
+    label: First Service Description
+  - name: second-service-title
+    type: text
+    config:
+      required: false
+    label: Second Service Title
+  - name: second-service-description
+    type: text
+    config:
+      required: false
+    label: Second Service Description
+  - name: third-service-title
+    type: text
+    config:
+      required: false
+    label: Third Service Title
+  - name: third-service-description
+    type: text
+    config:
+      required: false
+    label: Third Service Description
+  - name: fourth-service-title
+    type: text
+    config:
+      required: false
+    label: Fourth Service Title
+  - name: fourth-service-description
+    type: text
+    config:
+      required: false
+    label: Fourth Service Description
+  - name: fifth-service-title
+    type: text
+    config:
+      required: false
+    label: Fifth Service Title
+  - name: fifth-service-description
+    type: text
+    config:
+      required: false
+    label: Fifth Service Description
+  - name: sixth-service-title
+    type: text
+    config:
+      required: false
+    label: Sixth Service title
+  - name: sixth-service-description
+    type: text
+    config:
+      required: false
+    label: Sixth Service Description
+  - name: seventh-service-title
+    type: text
+    config:
+      required: false
+    label: Seventh Service Title
+  - name: seventh-service-description
+    type: text
+    config:
+      required: false
+    label: Seventh Service Description
+  - name: eighth-service-title
+    type: text
+    config:
+      required: false
+    label: Eighth Service Title
+  - name: eighth-service-description
+    type: text
+    config:
+      required: false
+    label: Eighth Service Description
   label: Services
-  description: Services.
-  default: Services.
-- name: services-title
-  type: text
-  config:
-    required: false
-  label: Services Title
-  description: The title for the Services Section.
-- name: services-subheading
-  type: text
-  config:
-    required: false
-  label: Services Subheading
-  description: The Subheading for the Services Section.
-- name: first-service-title
-  type: text
-  config:
-    required: false
-  label: First Service Title
-  description: The title for the first services offered to customers.
-- name: first-service-description
-  type: text
-  config:
-    required: false
-  label: First Service Description
-  description: The description for the first services offered to customers.
-- name: second-service-title
-  type: text
-  config:
-    required: false
-  label: Second Service Title
-  description: The title for the second service offered to customers.
-- name: second-service-description
-  type: text
-  config:
-    required: false
-  label: Second Service Description
-  description: The description for the second service offered to customers.
-- name: third-service-title
-  type: text
-  config:
-    required: false
-  label: Third Service Title
-  description: The title for the third service offered to customers.
-- name: third-service-description
-  type: text
-  config:
-    required: false
-  label: Third Service Description
-  description: The description for the third service offered to customers.
-- name: fourth-service-title
-  type: text
-  config:
-    required: false
-  label: Fourth Service Title
-  description: The title for the fourth service offered to members.
-- name: fourth-service-description
-  type: text
-  config:
-    required: false
-  label: Fourth Service Description
-  description: The description for the fourth service offered to customers.
-- name: fifth-service-title
-  type: text
-  config:
-    required: false
-  label: Fifth Service Title
-  description: The title for the fifth service available to customers.
-- name: fifth-service-description
-  type: text
-  config:
-    required: false
-  label: Fifth Service Description
-  description: The description for the fifth service available to customers.
-- name: sixth-service-title
-  type: text
-  config:
-    required: false
-  label: Sixth Service Title
-  description: The title for the sixth service available to customers.
-- name: sixth-service-description
-  type: text
-  config:
-    required: false
-  label: Sixth Service Description
-  description: The description for the sixth service available to customers.
-- name: seventh-service-title
-  type: text
-  config:
-    required: false
-  label: Seventh Service Title
-  description: The title for the seventh service available to customers.
-- name: seventh-service-description
-  type: text
-  config:
-    required: false
-  label: Seventh Service Description
-  description: The description for the seventh service available to customers.
-- name: eighth-service-title
-  type: text
-  config:
-    required: false
-  label: Eighth Service Title
-  description: The title for the eighth service available to customers.
-- name: eighth-service-description
-  type: text
-  config:
-    required: false
-  label: Eighth service Description
-  description: The description for the eighth service available to customers.
 - name: meet-brevard-pool-care-subheading
   type: text
   config:
