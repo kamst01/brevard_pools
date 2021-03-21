@@ -89,7 +89,7 @@ service:
       service-description: We will blow the leaves off your property. Priced per sq/ft.
         Contact us today for more information.
       service-disable-toggle: false
-      service-icon-color: 
+      service-icon-color: pink
     seventh-service:
       service-toggle: true
       service-title: Water Testing
