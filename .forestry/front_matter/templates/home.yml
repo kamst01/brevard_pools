@@ -565,12 +565,16 @@ fields:
     label: FAQ
     fields:
     - name: first-question
+      type: field_group
+      config: {}
+      label: First Question
+    - name: question
       type: text
       config:
         required: false
       label: First Question
       description: The first FAQ question.
-    - name: first-answer
+    - name: answer
       type: text
       config:
         required: false
