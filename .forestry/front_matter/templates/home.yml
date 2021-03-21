@@ -208,6 +208,14 @@ fields:
         config:
           required: false
         label: Second Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Second Service Icon
+        description: The icon to display within the second service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
@@ -226,7 +234,7 @@ fields:
             file: 
             path: 
         label: Second Service Icon Color
-        description: Choose the color to be shown with the icon in the First Service
+        description: Choose the color to be shown with the icon in the Second Service
           offered to customers.
     - name: third-service
       type: field_group
@@ -253,6 +261,14 @@ fields:
         config:
           required: false
         label: Third Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Third Service Icon
+        description: The icon to display within the third service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
@@ -298,6 +314,14 @@ fields:
         config:
           required: false
         label: Fourth Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Third Service Icon
+        description: The icon to display within the Third Service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
@@ -343,6 +367,14 @@ fields:
         config:
           required: false
         label: Fifth Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Fifth Service Icon
+        description: The icon to display within the Fifth Service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
@@ -388,6 +420,14 @@ fields:
         config:
           required: false
         label: Sixth Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Sixth Service Icon
+        description: The icon to display within the Sixth service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
@@ -433,6 +473,14 @@ fields:
         config:
           required: false
         label: Seventh Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Seventh Service Icon
+        description: The icon to display within the Seventh service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
@@ -478,6 +526,14 @@ fields:
         config:
           required: false
         label: Eighth Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: Eighth Service Icon
+        description: The icon to display within the Eighth service shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
         type: select
         default: []
