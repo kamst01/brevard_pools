@@ -9,6 +9,12 @@ fields:
   label: Title
   description: The title of the website.
   default: Brevard Pool Care
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: The page description.
 - name: slogan
   type: text
   config:
@@ -39,12 +45,6 @@ fields:
     required: false
   label: Address
   description: The company Address.
-- name: description
-  type: text
-  config:
-    required: false
-  label: Description
-  description: The page description.
 - name: trusted
   type: field_group
   config: {}
