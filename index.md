@@ -7,7 +7,7 @@ description: Brevard Pool Care is a Brevard County Company that provides it's cu
 layout: layouts/base
 trusted-slogan: We guarantee we'll provide customer satisfaction!
 trusted-first-title: Star Rating
-trusted-first-stat: "5"
+trusted-first-stat: '5'
 trusted-second-title: Happy Customers
 trusted-second-stat: 100+
 trusted-third-title: Insured
@@ -77,6 +77,16 @@ services:
     pool during our appointment, or just in a one-time situation.
   eighth-service-description: We can deliver explicit pool supplies to you, only during
     one of our scheduled appointments. Ask us anytime!
+trusted:
+  trusted-toggle: true
+  trusted-heading: Trusted by over 100 customers in Brevard.
+  trusted-subheading: 'We guarantee we''ll provide customer satisfaction! '
+  trusted-first-title: Star Rating
+  trusted-first-stat: "5"
+  trusted-second-title: Happy Customers
+  trusted-second-stat: 100+
+  trusted-third-stat: "$100k+"
+  trusted-third-title: Insured
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
