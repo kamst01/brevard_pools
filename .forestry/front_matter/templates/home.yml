@@ -27,22 +27,6 @@ fields:
     maxSize: 64
   label: Navigation Logo
   description: The logo used in the navigation at the top page.
-- name: navigation
-  type: field_group
-  config: {}
-  fields:
-  - name: navigation-unordered-list
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-    label: Navigation Unordered List
-    description: The unordered list for the navigation. You can place this list in
-      any order you'd like.
-  label: Navigation
-  description: "<strong>If passing HTML/.hbs ID's, you MUST prefix with #. They must
-    also exist in the HTML/.hbs.</strong> Otherwise, pass a normal URL."
 - name: header-video
   type: file
   config:
