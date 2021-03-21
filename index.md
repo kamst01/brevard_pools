@@ -74,6 +74,8 @@ services:
   services-microheading: Services
   first-service:
     first-service-toggle: true
+  second-service:
+    second-service-toggle: true
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
