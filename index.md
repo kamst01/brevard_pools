@@ -129,6 +129,9 @@ trusted:
   trusted-second-stat: 100+
   trusted-third-stat: "$100k+"
   trusted-third-title: Insured
+video-still: images/v1616209001/images/pool-testing_psiofz.jpg
+about-us-image: images/v1616251548/images/pool-chlorine_ojrfrq.jpg
+review-image: images/v1616251548/images/pool-salt_mtxhzg.jpg
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
