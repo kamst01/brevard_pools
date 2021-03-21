@@ -173,7 +173,7 @@ fields:
     type: boolean
     label: Services Toggle
     description: Use this toggle to show or hide the entire 'Services' Section.
-  - name: service-heading
+  - name: services-heading
     type: text
     config:
       required: false
