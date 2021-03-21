@@ -48,8 +48,8 @@ fields:
 - name: trusted
   type: field_group
   config: {}
-  fields:
   label: Trusted
+  fields:
   - name: trusted-toggle
     type: boolean
     label: Trusted Toggle
