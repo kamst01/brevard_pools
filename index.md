@@ -40,7 +40,7 @@ contact-subheading: 'Brevard Pool Care is a fully licensed & insured LLC that pr
   it''s customers with the best pool care service in Florida! '
 address: Merritt Island, Florida - 32952.
 services:
-  services-toggle: false
+  services-toggle: true
   services-subheading: With each service, you can guarantee you will get top notch
     customer service, hard working employees & a clean pool.
   services-heading: Our Offered Services
