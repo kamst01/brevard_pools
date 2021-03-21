@@ -52,7 +52,7 @@ service:
       service-description: We clean & maintain Green Pools. Whether it's algae build
         up or a maintained green pool!
       service-disable-toggle: true
-      disable-toggle: false
+      disable-toggle: true
     second-service:
       service-toggle: true
       service-title: Chlorine Pools
