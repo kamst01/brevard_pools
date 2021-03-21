@@ -1,9 +1,10 @@
+{{#if services.services-toggle}}
 <div class="bg-white" id="services">
   <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-1 lg:grid-row-2 lg:gap-x-8">
     <div class="text-center">
-      <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">{{ services }}</h2>
-      <p class="mt-2 text-3xl font-extrabold text-gray-900">{{ services-title }}</p>
-      <p class="mt-4 text-lg text-gray-500">{{ services-subheading }}</p>
+      <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">{{ services.services-microheading }}</h2>
+      <p class="mt-2 text-3xl font-extrabold text-gray-900">{{ serivces.services-heading }}</p>
+      <p class="mt-4 text-lg text-gray-500">{{ services.services-subheading }}</p>
     </div>
     <div class="mt-12 overflow-hidden bg-gray-200 divide-y divide-gray-200 rounded-lg shadow sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
       <div class="relative p-6 bg-white rounded-tl-lg rounded-tr-lg sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
@@ -222,4 +223,4 @@
     </div>
   </div>
 </div>
-
+{{/if}}
