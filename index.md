@@ -60,7 +60,7 @@ service:
         up or a maintained green pool!
       service-disable-toggle: false
       service-icon-color: green
-      service-icon: swimmer
+      service-icon: pool
     second-service:
       service-toggle: true
       service-title: Chlorine Pools
