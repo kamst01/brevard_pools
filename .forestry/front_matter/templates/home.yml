@@ -217,7 +217,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Second Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
     - name: third-service
@@ -262,7 +262,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Third Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
     - name: fourth-service
@@ -307,7 +307,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Fourth Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
     - name: fifth-service
@@ -352,7 +352,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Fifth Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
     - name: sixth-service
@@ -397,7 +397,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Sixth Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
     - name: seventh-service
@@ -442,7 +442,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Seventh Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
     - name: eighth-service
@@ -487,7 +487,7 @@ fields:
             section: 
             file: 
             path: 
-        label: First Service Icon Color
+        label: Eighth Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
 - name: faq
