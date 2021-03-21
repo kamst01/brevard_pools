@@ -5,13 +5,6 @@ phone-number: "(321)412-5983"
 description: Brevard Pool Care is a Brevard County Company that provides it's customers
   with the best pool care service in Florida!
 layout: layouts/base
-trusted-slogan: We guarantee we'll provide customer satisfaction!
-trusted-first-title: Star Rating
-trusted-first-stat: '5'
-trusted-second-title: Happy Customers
-trusted-second-stat: 100+
-trusted-third-title: Insured
-trusted-third-stat: "$100k+"
 mission-statement: Making each pool better, every day.
 faq:
   faq-toggle: true
