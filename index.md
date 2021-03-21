@@ -72,6 +72,8 @@ services:
     one of our scheduled appointments. Ask us anytime!
   services-heading: Our Offered Services
   services-microheading: Services
+  first-service:
+    first-service-toggle: true
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
