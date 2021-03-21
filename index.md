@@ -11,20 +11,24 @@ faq:
   faqs:
     first-question:
       question: How often can I schedule an appointment?
-      answer: We offer daily, weekly or monthly appointments. We also offer select long-term packages to customers. Please contact us for more information.
+      answer: We offer daily, weekly or monthly appointments. We also offer select
+        long-term packages to customers. Please contact us for more information.
     second-question:
       question: How much extra do chemicals cost in my appointment?
-      answer: "$0! They're 100% free! You can be sure we only use top quality products for our customers."
-    third-question: 
+      answer: "$0! They're 100% free! You can be sure we only use top quality products
+        for our customers."
+    third-question:
       question: If I need an early appointment, can you do that?
-      answer: We work as early as 7 AM! We love helping our customers as early as possible.
-    fourth-question: 
+      answer: We work as early as 7 AM! We love helping our customers as early as
+        possible.
+    fourth-question:
       question: How far are you willing to travel?
       answer: We work within the Brevard County limits.
-    fifth-question: 
+    fifth-question:
       question: Do I NEED an appointment?
-      answer: Although it is not required, it is recommended highly to contact us & schedule an appointment.
-    sixth-question: 
+      answer: Although it is not required, it is recommended highly to contact us
+        & schedule an appointment.
+    sixth-question:
       question: There is a foreign object in my pool! Can you help?
       answer: Yes! We clean, care & remove select debry from our customer's pools!
 email: spencer@brevardpoolcare.com
@@ -56,6 +60,7 @@ service:
         up or a maintained green pool!
       service-disable-toggle: false
       service-icon-color: green
+      service-icon: pool
     second-service:
       service-toggle: true
       service-title: Chlorine Pools
