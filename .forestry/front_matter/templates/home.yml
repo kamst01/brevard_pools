@@ -136,7 +136,7 @@ fields:
       label: First Service
       description: The Information for the First Service is stored here.
       fields:
-      - name: first-service-toggle
+      - name: service-toggle
         type: boolean
         label: First Service Toggle
         description: Use this toggle to show or hide the First Service.
@@ -190,7 +190,7 @@ fields:
         type: boolean
         label: Third Service Toggle
         description: Use this toggle to show or hide the Third Service.
-      - name: third-service-disable-toggle
+      - name: disable-toggle
         type: boolean
         label: Third Service Disable Toggle
         description: Use this toggle if you want to still show the third Service,
