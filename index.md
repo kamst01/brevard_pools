@@ -96,7 +96,7 @@ service:
       service-description: We can check your Ph levels or the salt levels of your
         pool during our appointment, or just in a one-time situation.
       service-disable-toggle: false
-      service-icon-color: 
+      service-icon-color: purple
     eighth-service:
       service-toggle: true
       service-title: Pool Supplies Delivery
