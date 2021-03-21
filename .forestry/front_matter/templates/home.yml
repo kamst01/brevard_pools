@@ -160,7 +160,13 @@ fields:
         default: []
         config:
           required: false
-          options: []
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
           source:
             type: simple
             section: 
