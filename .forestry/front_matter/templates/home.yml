@@ -155,6 +155,12 @@ fields:
         config:
           required: false
         label: First Service Description
+      - name: service-icon
+        type: text
+        config:
+          required: false
+        label: First Service Icon
+        description: The icon to display within the first service shown to customers.
       - name: service-icon-color
         type: select
         default: []
@@ -174,7 +180,8 @@ fields:
             path: 
         label: First Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
-          offered to customers.
+          offered to customers. View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
     - name: second-service
       type: field_group
       config: {}
