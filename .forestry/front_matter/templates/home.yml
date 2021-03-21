@@ -572,13 +572,13 @@ fields:
       type: text
       config:
         required: false
-      label: First Question
+      label: Question
       description: The first FAQ question.
     - name: answer
       type: text
       config:
         required: false
-      label: First Answer
+      label: Answer
       description: The answer to the first question.
     - name: second-question
       type: text
