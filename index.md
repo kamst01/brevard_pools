@@ -68,6 +68,7 @@ service:
         appointment we help you & discuss maintaining the correct chlorine levels.
       service-disable-toggle: false
       service-icon-color: blue
+      service-icon: swimmer
     third-service:
       service-toggle: true
       service-title: Salt Water Pools
