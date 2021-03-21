@@ -92,7 +92,7 @@ service:
         pool during our appointment, or just in a one-time situation.
       service-disable-toggle: false
     eighth-service:
-      service-toggle: false
+      service-toggle: true
       service-title: Pool Supplies Delivery
       service-description: We can deliver explicit pool supplies to you, only during
         one of our scheduled appointments. Ask us anytime!
