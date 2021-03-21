@@ -105,6 +105,11 @@ trusted:
   trusted-second-stat: 100+
   trusted-third-stat: "$100k+"
   trusted-third-title: Insured
+service:
+  services-microheading: Services
+  services-heading: Our Offered Services
+  services-subheading: With each service, you can guarantee you will get top notch
+    customer service, hard working employees & a clean pool.
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
