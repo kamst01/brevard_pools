@@ -110,6 +110,7 @@ service:
         pool during our appointment, or just in a one-time situation.
       service-disable-toggle: false
       service-icon-color: purple
+      service-icon: vials
     eighth-service:
       service-toggle: true
       service-title: Pool Supplies Delivery
