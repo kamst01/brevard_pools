@@ -101,6 +101,7 @@ fields:
       required: false
     label: Trusted Section Third Stat
     description: The third stat for the 'Trusted' Section.
+  description: The 'Trusted By Brevard' Section.
 - name: faq
   type: field_group
   config: {}
@@ -178,6 +179,7 @@ fields:
       required: false
     label: Sixth Answer
     description: The answer to the sixth question in the FAQ section.
+  description: The 'FAQ' Section.
 - name: services
   type: field_group
   config: {}
