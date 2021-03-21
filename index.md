@@ -77,6 +77,7 @@ service:
         Contact us for more information! '
       service-disable-toggle: false
       service-icon-color: indigo
+      service-icon: hand-holding-water
     fourth-service:
       service-toggle: true
       service-title: Power Washing
