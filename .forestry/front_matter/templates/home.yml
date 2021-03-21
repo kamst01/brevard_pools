@@ -318,8 +318,8 @@ fields:
         type: text
         config:
           required: false
-        label: Third Service Icon
-        description: The icon to display within the Third Service shown to customers.
+        label: Fourth Service Icon
+        description: The icon to display within the Fourth Service shown to customers.
           View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
           title="Fontawesome Link" target="_blank">here</a>.
       - name: service-icon-color
