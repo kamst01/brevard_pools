@@ -74,7 +74,7 @@ service:
       service-description: We offer power washing services on pools to all our customers!
         Just ask us during your scheduling, or we can assess it on the spot.
       service-disable-toggle: false
-      service-icon-color: 
+      service-icon-color: yellow
     fifth-service:
       service-toggle: true
       service-title: Deep Cleaning
