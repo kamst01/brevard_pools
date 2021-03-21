@@ -82,7 +82,7 @@ service:
         pool, or a regularly maintened pool. We come up with a different plan for
         each pool.
       service-disable-toggle: false
-      service-icon-color: 
+      service-icon-color: blue
     sixth-service:
       service-toggle: true
       service-title: Leaf Blowing
