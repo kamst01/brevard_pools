@@ -85,6 +85,7 @@ service:
         Just ask us during your scheduling, or we can assess it on the spot.
       service-disable-toggle: false
       service-icon-color: yellow
+      service-icon: hand-sparkles
     fifth-service:
       service-toggle: true
       service-title: Deep Cleaning
