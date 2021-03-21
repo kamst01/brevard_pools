@@ -46,7 +46,7 @@ services:
   services-heading: Our Offered Services
   services-microheading: Services
   first-service:
-    first-service-toggle: false
+    first-service-toggle: true
     first-service-title: Green Pools
     first-service-description: We clean & maintain Green Pools. Whether it's algae
       build up or a maintained green pool!
