@@ -155,7 +155,7 @@ fields:
         config:
           required: false
         label: First Service Description
-      - name: first-service-icon-color
+      - name: service-icon-color
         type: select
         default: []
         config:
