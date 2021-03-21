@@ -60,7 +60,7 @@ service:
         up or a maintained green pool!
       service-disable-toggle: false
       service-icon-color: green
-      service-icon: swimmer
+      service-icon: swimming-pool
     second-service:
       service-toggle: true
       service-title: Chlorine Pools
@@ -68,6 +68,7 @@ service:
         appointment we help you & discuss maintaining the correct chlorine levels.
       service-disable-toggle: false
       service-icon-color: blue
+      service-icon: swimmer
     third-service:
       service-toggle: true
       service-title: Salt Water Pools
@@ -76,6 +77,7 @@ service:
         Contact us for more information! '
       service-disable-toggle: false
       service-icon-color: indigo
+      service-icon: hand-holding-water
     fourth-service:
       service-toggle: true
       service-title: Power Washing
@@ -83,6 +85,7 @@ service:
         Just ask us during your scheduling, or we can assess it on the spot.
       service-disable-toggle: false
       service-icon-color: yellow
+      service-icon: tint
     fifth-service:
       service-toggle: true
       service-title: Deep Cleaning
@@ -91,13 +94,15 @@ service:
         each pool.
       service-disable-toggle: false
       service-icon-color: blue
+      service-icon: hand-sparkles
     sixth-service:
       service-toggle: true
       service-title: Leaf Blowing
       service-description: We will blow the leaves off your property. Priced per sq/ft.
         Contact us today for more information.
-      service-disable-toggle: false
+      service-disable-toggle: true
       service-icon-color: pink
+      service-icon: leaf
     seventh-service:
       service-toggle: true
       service-title: Water Testing
@@ -105,6 +110,7 @@ service:
         pool during our appointment, or just in a one-time situation.
       service-disable-toggle: false
       service-icon-color: purple
+      service-icon: vials
     eighth-service:
       service-toggle: true
       service-title: Pool Supplies Delivery
@@ -112,6 +118,7 @@ service:
         one of our scheduled appointments. Ask us anytime!
       service-disable-toggle: true
       service-icon-color: yellow
+      service-icon: box
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
