@@ -97,78 +97,79 @@ fields:
   type: field_group
   config: {}
   label: FAQ
-- name: first-question
-  type: text
-  config:
-    required: false
-  label: First Question
-  description: The first FAQ question.
-- name: first-answer
-  type: text
-  config:
-    required: false
-  label: First Answer
-  description: The answer to the first question.
-- name: second-question
-  type: text
-  config:
-    required: false
-  label: Second Question
-  description: The second question in the FAQ section.
-- name: second-answer
-  type: text
-  config:
-    required: false
-  label: Second Answer
-  description: The answer to the second question in the FAQ section.
-- name: third-question
-  type: text
-  config:
-    required: false
-  label: Third Question
-  description: The third question in the FAQ section.
-- name: third-answer
-  type: text
-  config:
-    required: false
-  label: Third Answer
-  description: The answer to the third question in the FAQ section.
-- name: fourth-question
-  type: text
-  config:
-    required: false
-  label: Fourth Question
-  description: The fourth question of the FAQ section.
-- name: fourth-answer
-  type: text
-  config:
-    required: false
-  label: Fourth Answer
-  description: The answer to the fourth question in the FAQ section.
-- name: fifth-question
-  type: text
-  config:
-    required: false
-  label: Fifth Question
-  description: The fifth question in the FAQ section.
-- name: fifth-answer
-  type: text
-  config:
-    required: false
-  label: Fifth Answer
-  description: The answer to the fifth question in the FAQ section.
-- name: sixth-question
-  type: text
-  config:
-    required: false
-  label: Sixth Question
-  description: The sixth question in the FAQ question.
-- name: sixth-answer
-  type: text
-  config:
-    required: false
-  label: Sixth Answer
-  description: The answer to the sixth question in the FAQ section.
+  fields:
+  - name: first-question
+    type: text
+    config:
+      required: false
+    label: First Question
+    description: The first FAQ question.
+  - name: first-answer
+    type: text
+    config:
+      required: false
+    label: First Answer
+    description: The answer to the first question.
+  - name: second-question
+    type: text
+    config:
+      required: false
+    label: Second Question
+    description: The second question in the FAQ section.
+  - name: second-answer
+    type: text
+    config:
+      required: false
+    label: Second Answer
+    description: The answer to the second question in the FAQ section.
+  - name: third-question
+    type: text
+    config:
+      required: false
+    label: Third Question
+    description: The third question in the FAQ section.
+  - name: third-answer
+    type: text
+    config:
+      required: false
+    label: Third Answer
+    description: The answer to the third question in the FAQ section.
+  - name: fourth-question
+    type: text
+    config:
+      required: false
+    label: Fourth Question
+    description: The fourth question of the FAQ section.
+  - name: fourth-answer
+    type: text
+    config:
+      required: false
+    label: Fourth Answer
+    description: The answer to the fourth question in the FAQ section.
+  - name: fifth-question
+    type: text
+    config:
+      required: false
+    label: Fifth Question
+    description: The fifth question in the FAQ section.
+  - name: fifth-answer
+    type: text
+    config:
+      required: false
+    label: Fifth Answer
+    description: The answer to the fifth question in the FAQ section.
+  - name: sixth-question
+    type: text
+    config:
+      required: false
+    label: Sixth Question
+    description: The sixth question in the FAQ question.
+  - name: sixth-answer
+    type: text
+    config:
+      required: false
+    label: Sixth Answer
+    description: The answer to the sixth question in the FAQ section.
 - name: services
   type: field_group
   config: {}
