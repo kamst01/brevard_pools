@@ -131,7 +131,7 @@ trusted:
   trusted-third-title: Insured
 video-still: ''
 about-us-image: ''
-review-image: images/v1616251548/images/pool-salt_mtxhzg.jpg
+review-image: ''
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
