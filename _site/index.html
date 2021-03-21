@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brevard Pool Care is a Brevard County Company that provides it's customers with the best pool care service in Florida!">
+    <title>Brevard Pool Care</title>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+    <nav class="z-10 bg-white shadow">
+      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="flex justify-between h-24">
+          <div class="flex">
+            <div class="flex flex-col items-center flex-shrink-0 text-center justify-evenly">
+              <img loading="lazy" class="block w-auto h-20" src="https://res.cloudinary.com/bpc-cloud/image/upload/v1616199938/images/logoexpanded_icou0s.png" alt="Brevard Pool Care Logo">
+            </div>
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <!-- Current: "border-blue-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+              <a href="#about-us" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-blue-600 hover:text-gray-700">
+                About Us
+              </a>
+              <a href="#services" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-blue-600 hover:text-gray-700">
+                Services
+              </a>
+              <a href="#contact-us" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-blue-600 hover:text-gray-700">
+                Contact Us
+              </a>
+            </div>
+          </div>
+          <div class="flex items-center -mr-2 sm:hidden">
+            <!-- Mobile menu button -->
+            <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-controls="mobile-menu" aria-expanded="false" onclick="document.getElementById('mobile-menu').classList.toggle('hidden');">
+              <span class="sr-only">Open main menu</span>
+              <!--
+                Icon when menu is closed.
+    
+                Heroicon name: outline/menu
+    
+                Menu open: "hidden", Menu closed: "block"
+              -->
+              <svg class="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+              <!--
+                Icon when menu is open.
+    
+                Heroicon name: outline/x
+    
+                Menu open: "block", Menu closed: "hidden"
+              -->
+              <svg class="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile menu, show/hide based on menu state. -->
+      <div class="hidden" id="mobile-menu">
+        <div class="pt-2 pb-3 space-y-1">
+          <!-- Current: "bg-blue-50 border-blue-500 text-blue-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+          <a href="#about-us" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">About Us</a>
+          <a href="#services" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">Services</a>
+          <a href="#contact-us" class="block py-2 pl-3 pr-4 text-base font-medium text-gray-500 border-l-4 border-transparent hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">Contact Us</a>
+        </div>
+      </div>
+    </nav>    <header class="relative overflow-hidden">
+        <div class="hidden lg:block lg:absolute lg:inset-0" aria-hidden="true">
+            <svg class="absolute top-0 transform translate-x-64 -translate-y-8 left-1/2" width="640" height="784" fill="none" viewBox="0 0 640 784">
+                <defs>
+                    <pattern id="9ebea6f4-a1f5-4d96-8c4e-4c2abf658047" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="4" height="4" class="text-blue-200" fill="currentColor" />
+                    </pattern>
+                </defs>
+                <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
+                <rect x="118" width="404" height="784" fill="url(#9ebea6f4-a1f5-4d96-8c4e-4c2abf658047)" />
+            </svg>
+        </div>
+        <div class="relative z-10 px-4 mx-auto my-16 max-w-7xl sm:my-24 sm:px-6 lg:my-32">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="space-y-4 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+                    <h1>
+                        <span class="block text-sm font-semibold tracking-wide text-blue-600 uppercase sm:text-base lg:text-sm xl:text-base">Brevard Pool Care</span>
+                        <span class="block mt-1 text-4xl font-extrabold tracking-tight sm:text-5xl xl:text-6xl">
+                            <span class="block text-gray-900">Free top quality products at every appointment!</span>
+                        </span>
+                    </h1>
+                    <p class="mt-3 text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                        Brevard Pool Care is a Brevard County Company that provides it&#x27;s customers with the best pool care service in Florida!
+                    </p>
+                    <div class="inline-flex items-center divide-x divide-gray-300">
+                        <div class="inline-flex flex-shrink-0 pr-5">
+                            <!-- Heroicon name: solid/star -->
+                            <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <!-- Heroicon name: solid/star -->
+                            <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <!-- Heroicon name: solid/star -->
+                            <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <!-- Heroicon name: solid/star -->
+                            <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                            <!-- Heroicon name: solid/star -->
+                            <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                        </div>
+                        <div class="flex-1 min-w-0 py-1 pl-5 text-sm text-gray-500 sm:py-3">
+                            <p class="font-medium text-gray-900">
+                                Rated 5 stars by our 
+                                <a href="https://www.google.com/search?hl=en&q=brevard%20pool%20care#lrd=0x88e0a9ad1aa6ab27:0x78f4d95cd24c5296,1,,," class="text-blue-600 hover:text-blue-700">
+                                    happy customers
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative mt-12 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                    <svg class="absolute top-0 origin-top transform scale-75 -translate-x-1/2 -translate-y-8 left-1/2 sm:scale-100 lg:hidden" width="640" height="784" fill="none" viewBox="0 0 640 784" aria-hidden="true">
+                        <defs>
+                            <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-blue-200" fill="currentColor" />
+                            </pattern>
+                        </defs>
+                        <rect y="72" width="640" height="640" class="text-gray-50" fill="currentColor" />
+                        <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
+                    </svg>
+                    <div class="relative w-full mx-auto rounded-lg shadow-lg lg:max-w-md">
+                        <button type="button" class="relative block w-full overflow-hidden bg-white rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            <span class="sr-only">Watch our video to learn more</span>
+                            <img loading="lazy" class="w-full" src="https://res.cloudinary.com/bpc-cloud/image/upload/v1616209001/images/pool-testing_psiofz.jpg" alt="">
+                            <div class="absolute inset-0 flex items-center justify-center w-full h-full" aria-hidden="true">
+                                <svg class="w-20 h-20 text-blue-600 transition-all hover:text-blue-700" fill="currentColor" viewBox="0 0 84 84">
+                                    <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
+                                    <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>    <main>
+        <div class="pt-12 bg-blue-100 sm:pt-16">
+          <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+              <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                Trusted by over 100 customers in Brevard.
+              </h2>
+              <p class="mt-3 text-xl text-gray-600 sm:mt-4">
+                We guarantee we&#x27;ll provide customer satisfaction! 
+              </p>
+            </div>
+          </div>
+          <div class="pb-12 mt-10 bg-white sm:pb-16">
+            <div class="relative">
+              <div class="absolute inset-0 bg-blue-100 h-1/2"></div>
+              <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto">
+                  <dl class="bg-white rounded-lg shadow-lg sm:grid sm:grid-cols-3">
+                    <div class="flex flex-col p-6 text-center bg-blue-200 border-b border-blue-100 md:rounded-l-lg sm:border-0 sm:border-r">
+                      <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                        Star Rating
+                      </dt>
+                      <dd class="order-1 text-5xl font-extrabold text-blue-500 opacity-90">
+                        5
+                      </dd>
+                    </div>
+                    <div class="flex flex-col p-6 text-center bg-blue-200 border-t border-b border-blue-100 sm:border-0 sm:border-l sm:border-r">
+                      <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                        Happy Customers
+                      </dt>
+                      <dd class="order-1 text-5xl font-extrabold text-blue-500 opacity-90">
+                        100+
+                      </dd>
+                    </div>
+                    <div class="flex flex-col p-6 text-center bg-blue-200 border-t border-blue-100 md:rounded-r-lg sm:border-0 sm:border-l">
+                      <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
+                        Insured
+                      </dt>
+                      <dd class="order-1 text-5xl font-extrabold text-blue-500 opacity-90">
+                        $100k+
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white" id="services">
+          <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-1 lg:grid-row-2 lg:gap-x-8">
+            <div class="text-center">
+              <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">Services</h2>
+              <p class="mt-2 text-3xl font-extrabold text-gray-900">Our Offered Services</p>
+              <p class="mt-4 text-lg text-gray-500">With each service, you can guarantee you will get top notch customer service, hard working employees &amp; a clean pool.</p>
+            </div>
+            <div class="mt-12 overflow-hidden bg-gray-200 divide-y divide-gray-200 rounded-lg shadow sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+                <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                  <div>
+                    <span class="inline-flex p-3 text-green-700 rounded-lg bg-green-50 ring-4 ring-white">
+                      <svg class="w-6 h-6" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path fill="currentColor" d="M624 416h-16c-26.04 0-45.8-8.42-56.09-17.9-8.9-8.21-19.66-14.1-31.77-14.1h-16.3c-12.11 0-22.87 5.89-31.77 14.1C461.8 407.58 442.04 416 416 416s-45.8-8.42-56.09-17.9c-8.9-8.21-19.66-14.1-31.77-14.1h-16.3c-12.11 0-22.87 5.89-31.77 14.1C269.8 407.58 250.04 416 224 416s-45.8-8.42-56.09-17.9c-8.9-8.21-19.66-14.1-31.77-14.1h-16.3c-12.11 0-22.87 5.89-31.77 14.1C77.8 407.58 58.04 416 32 416H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h16c38.62 0 72.72-12.19 96-31.84 23.28 19.66 57.38 31.84 96 31.84s72.72-12.19 96-31.84c23.28 19.66 57.38 31.84 96 31.84s72.72-12.19 96-31.84c23.28 19.66 57.38 31.84 96 31.84h16c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm-400-32v-96h192v96c19.12 0 30.86-6.16 34.39-9.42 9.17-8.46 19.2-14.34 29.61-18.07V128c0-17.64 14.36-32 32-32s32 14.36 32 32v16c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16v-16c0-52.94-43.06-96-96-96s-96 43.06-96 96v96H224v-96c0-17.64 14.36-32 32-32s32 14.36 32 32v16c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16v-16c0-52.94-43.06-96-96-96s-96 43.06-96 96v228.5c10.41 3.73 20.44 9.62 29.61 18.07 3.53 3.27 15.27 9.43 34.39 9.43z"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="mt-4">
+                    <h3 class="text-lg font-semibold">
+                      <a href="#" class="focus:outline-none">
+                        <!-- Extend touch target to entire panel -->
+                        <span class="absolute inset-0" aria-hidden="true"></span>
+                        Green Pools
+                      </a>
+                    </h3>
+                    <p class="mt-2 text-sm font-medium text-gray-700">
+                      We clean &amp; maintain Green Pools. Whether it&#x27;s algae build up or a maintained green pool!
+                    </p>
+                  </div>
+                  <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                    <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                      Book Now
+                    </button>
+                  </span>
+                </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-blue-700 rounded-lg bg-blue-50 ring-4 ring-white">
+                    <svg class="w-6 h-6" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                      <path fill="currentColor" d="M189.61 310.58c3.54 3.26 15.27 9.42 34.39 9.42s30.86-6.16 34.39-9.42c16.02-14.77 34.5-22.58 53.46-22.58h16.3c18.96 0 37.45 7.81 53.46 22.58 3.54 3.26 15.27 9.42 34.39 9.42s30.86-6.16 34.39-9.42c14.86-13.71 31.88-21.12 49.39-22.16l-112.84-80.6 18-12.86c3.64-2.58 8.28-3.52 12.62-2.61l100.35 21.53c25.91 5.53 51.44-10.97 57-36.88 5.55-25.92-10.95-51.44-36.88-57L437.68 98.47c-30.73-6.58-63.02.12-88.56 18.38l-80.02 57.17c-10.38 7.39-19.36 16.44-26.72 26.94L173.75 299c5.47 3.23 10.82 6.93 15.86 11.58zM624 352h-16c-26.04 0-45.8-8.42-56.09-17.9-8.9-8.21-19.66-14.1-31.77-14.1h-16.3c-12.11 0-22.87 5.89-31.77 14.1C461.8 343.58 442.04 352 416 352s-45.8-8.42-56.09-17.9c-8.9-8.21-19.66-14.1-31.77-14.1h-16.3c-12.11 0-22.87 5.89-31.77 14.1C269.8 343.58 250.04 352 224 352s-45.8-8.42-56.09-17.9c-8.9-8.21-19.66-14.1-31.77-14.1h-16.3c-12.11 0-22.87 5.89-31.77 14.1C77.8 343.58 58.04 352 32 352H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h16c38.62 0 72.72-12.19 96-31.84 23.28 19.66 57.38 31.84 96 31.84s72.72-12.19 96-31.84c23.28 19.66 57.38 31.84 96 31.84s72.72-12.19 96-31.84c23.28 19.66 57.38 31.84 96 31.84h16c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm-512-96c44.18 0 80-35.82 80-80s-35.82-80-80-80-80 35.82-80 80 35.82 80 80 80z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    <a href="#" class="focus:outline-none">
+                      <!-- Extend touch target to entire panel -->
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      Chlorine Pools
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    We check the chlorine &amp; state of your pool. During every appointment we help you &amp; discuss maintaining the correct chlorine levels.
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Book Now
+                  </button>
+                </span>
+              </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-yellow-700 rounded-lg bg-yellow-50 ring-4 ring-white">
+                    <svg class="w-6 h-6" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M288 256c53 0 96-42.1 96-94 0-40-57.1-120.7-83.2-155.6-6.4-8.5-19.2-8.5-25.6 0C249.1 41.3 192 122 192 162c0 51.9 43 94 96 94zm277.3 72.1c-11.8-10.7-30.2-10-42.6 0L430.3 402c-11.3 9.1-25.4 14-40 14H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h78.3c15.9 0 30.7-10.9 33.3-26.6 3.3-20-12.1-37.4-31.6-37.4H192c-27 0-53.1 9.3-74.1 26.3L71.4 384H16c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h356.8c14.5 0 28.6-4.9 40-14L564 377c15.2-12.1 16.4-35.3 1.3-48.9z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    <a href="#" class="focus:outline-none">
+                      <!-- Extend touch target to entire panel -->
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      Salt Water Pools
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    Owning a salt pool can be stressful or tedious. We can help you automate this process with our regularly scheduled appointments. Contact us for more information! 
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Book Now
+                  </button>
+                </span>
+              </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-indigo-700 rounded-lg bg-indigo-50 ring-4 ring-white">
+                    <svg class="w-6 h-6" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                      <path fill="currentColor" d="M205.22 22.09c-7.94-28.78-49.44-30.12-58.44 0C100.01 179.85 0 222.72 0 333.91 0 432.35 78.72 512 176 512s176-79.65 176-178.09c0-111.75-99.79-153.34-146.78-311.82zM176 448c-61.75 0-112-50.25-112-112 0-8.84 7.16-16 16-16s16 7.16 16 16c0 44.11 35.89 80 80 80 8.84 0 16 7.16 16 16s-7.16 16-16 16z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    <a href="#" class="focus:outline-none">
+                      <!-- Extend touch target to entire panel -->
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      Power Washing
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    We offer power washing services on pools to all our customers! Just ask us during your scheduling, or we can assess it on the spot.
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Book Now
+                  </button>
+                </span>
+              </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-purple-700 rounded-lg bg-purple-50 ring-4 ring-white">
+                    <svg aria-hidden="true" class="w-6 h-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                      <path fill="currentColor" d="M106.66,170.64l.09,0,49.55-20.65a7.32,7.32,0,0,0,3.68-6h0a7.29,7.29,0,0,0-3.68-6l-49.57-20.67-.07,0L86,67.68a6.66,6.66,0,0,0-11.92,0l-20.7,49.63-.05,0L3.7,138A7.29,7.29,0,0,0,0,144H0a7.32,7.32,0,0,0,3.68,6L53.27,170.6l.07,0L74,220.26a6.65,6.65,0,0,0,11.92,0l20.69-49.62ZM471.38,467.41l-1-.42-1-.5a38.67,38.67,0,0,1,0-69.14l1-.49,1-.43,37.49-15.63,15.63-37.48.41-1,.47-.95c3.85-7.74,10.58-13.63,18.35-17.34,0-1.33.25-2.69.27-4V144a32,32,0,0,0-64,0v72a8,8,0,0,1-8,8H456a8,8,0,0,1-8-8V64a32,32,0,0,0-64,0V216a8,8,0,0,1-8,8H360a8,8,0,0,1-8-8V32a32,32,0,0,0-64,0V216a8,8,0,0,1-8,8H264a8,8,0,0,1-8-8V64a32,32,0,0,0-64,0v241l-23.59-32.49a40,40,0,0,0-64.71,47.09L229.3,492.21A48.07,48.07,0,0,0,268.09,512H465.7c19.24,0,35.65-11.73,43.24-28.79l-.07-.17ZM349.79,339.52,320,351.93l-12.42,29.78a4,4,0,0,1-7.15,0L288,351.93l-29.79-12.41a4,4,0,0,1,0-7.16L288,319.94l12.42-29.78a4,4,0,0,1,7.15,0L320,319.94l29.79,12.42a4,4,0,0,1,0,7.16ZM640,431.91a7.28,7.28,0,0,0-3.68-6l-49.57-20.67-.07,0L566,355.63a6.66,6.66,0,0,0-11.92,0l-20.7,49.63-.05,0L483.7,426a7.28,7.28,0,0,0-3.68,6h0a7.29,7.29,0,0,0,3.68,5.95l49.57,20.67.07,0L554,508.21a6.65,6.65,0,0,0,11.92,0l20.69-49.62h0l.09,0,49.55-20.66a7.29,7.29,0,0,0,3.68-5.95h0Z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    <a href="#" class="focus:outline-none">
+                      <!-- Extend touch target to entire panel -->
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      Deep Cleaning
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    We deep clean pools as requested. Whether it&#x27;s an abandoned pool, or a regularly maintened pool. We come up with a different plan for each pool.
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Book Now
+                  </button>
+                </span>
+              </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-green-900 bg-green-100 rounded-lg ring-4 ring-white">
+                    <svg class="w-6 h-6" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                      <path fill="currentColor" d="M546.2 9.7c-5.6-12.5-21.6-13-28.3-1.2C486.9 62.4 431.4 96 368 96h-80C182 96 96 182 96 288c0 7 .8 13.7 1.5 20.5C161.3 262.8 253.4 224 384 224c8.8 0 16 7.2 16 16s-7.2 16-16 16C132.6 256 26 410.1 2.4 468c-6.6 16.3 1.2 34.9 17.5 41.6 16.4 6.8 35-1.1 41.8-17.3 1.5-3.6 20.9-47.9 71.9-90.6 32.4 43.9 94 85.8 174.9 77.2C465.5 467.5 576 326.7 576 154.3c0-50.2-10.8-102.2-29.8-144.6z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    <a href="#" class="focus:outline-none">
+                      <!-- Extend touch target to entire panel -->
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      Leaf Blowing
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    We will blow the leaves off your property. Priced per sq/ft. Contact us today for more information.
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Book Now
+                  </button>
+                </span>
+              </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-blue-900 bg-blue-100 rounded-lg ring-4 ring-white">
+                    <svg class="w-6 h-6" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                      <path fill="currentColor" d="M72 64h24v240c0 44.1 35.9 80 80 80s80-35.9 80-80V64h24c4.4 0 8-3.6 8-8V8c0-4.4-3.6-8-8-8H72c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8zm72 0h64v96h-64V64zm480 384H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h608c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM360 64h24v240c0 44.1 35.9 80 80 80s80-35.9 80-80V64h24c4.4 0 8-3.6 8-8V8c0-4.4-3.6-8-8-8H360c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8zm72 0h64v96h-64V64z"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    <a href="#" class="focus:outline-none">
+                      <!-- Extend touch target to entire panel -->
+                      <span class="absolute inset-0" aria-hidden="true"></span>
+                      Water Testing
+                    </a>
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    We can check your Ph levels or the salt levels of your pool during our appointment, or just in a one-time situation.
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                    Book Now
+                  </button>
+                </span>
+              </div>
+              <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
+                <div>
+                  <span class="inline-flex p-3 text-red-700 rounded-lg bg-red-50 ring-4 ring-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="15" y1="9" x2="9" y2="15"></line>
+                      <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                  </span>
+                </div>
+                <div class="mt-4">
+                  <h3 class="text-lg font-semibold">
+                    Pool Supplies Delivery
+                  </h3>
+                  <p class="mt-2 text-sm font-medium text-gray-700">
+                    We can deliver explicit pool supplies to you, only during one of our scheduled appointments. Ask us anytime!
+                  </p>
+                </div>
+                <span class="absolute text-gray-300 pointer-events-none top-6 right-6 group-hover:text-gray-400" aria-hidden="true">
+                  <button type="button" class="inline-flex items-center disabled px-3 py-1.5 border border-transparent text-xs font-medium rounded-full shadow-sm text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:cursor-normal">
+                    Not Available
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>        <div class="overflow-hidden bg-white" id="about-us">
+            <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                <div class="absolute top-0 bottom-0 hidden w-screen lg:block bg-gray-50 left-3/4"></div>
+                <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+                    <div>
+                        <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">Let&#x27;s Work Together</h2>
+                        <h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">Meet Brevard Pool Care</h3>
+                    </div>
+                </div>
+                <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+                    <div class="relative lg:row-start-1 lg:col-start-2">
+                        <svg class="absolute top-0 right-0 hidden -mt-20 -mr-20 lg:block" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
+                            <defs>
+                                <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                    <rect x="0" y="0" width="4" height="4" class="text-blue-200" fill="currentColor" />
+                                </pattern>
+                            </defs>
+                            <rect width="404" height="384" fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
+                        </svg>
+                        <div class="relative mx-auto text-base max-w-prose lg:max-w-none">
+                            <figure>
+                                <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                                    <img loading="lazy" class="object-cover object-center rounded-lg shadow-lg" src="https://res.cloudinary.com/bpc-cloud/image/upload/v1616209001/images/pool-testing_psiofz.jpg" alt="Spencer working hard for our customers showing our testing results." width="1184" height="1376">
+                                </div>
+                                <figcaption class="flex mt-3 text-sm text-gray-500">
+                                    <!-- Heroicon name: solid/camera -->
+                                    <svg class="flex-none w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                                    </svg>
+                                    <span class="ml-2">Photograph by Gary Civitate</span>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="mt-8 lg:mt-0">
+                        <div class="mx-auto text-base prose max-w-prose lg:max-w-none">
+                            <h3>We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.</h3>
+<p>Owning a pool is a privilege &amp; owning a pool should come with pride. When we come to clean / care / maintain your pool, we understand that it is a special commodity.</p>
+<p>We understand that our business is service. We make sure to bring the best pool service &amp; customer service to every appointment! No matter the size of the job - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared.</p>
+<h4>How we're different</h4>
+<p>We've been working with Brevard Country, Florida <strong>since 2012</strong>! Since day one, we've trained our employees to not only pay attention to details, but to put themselves in the customers shoes. Every time we finish an appointment, we hear great real-time feedback from our customers : how we're always professional, timely &amp; orderly when we arrive.</p>
+<p>What do we bring besides great pool servicing &amp; fantastic customer service? <strong>FREE Chemicals!</strong> Every appointment we provide our own chemicals that we will use during our work at your residence / location. We also water test your pool at every visit!</p>
+<h4>If you see us around the Island, don't hesitate to honk! We love seeing friendly faces!</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-16 lg:py-24">
+          <div class="pb-16 mx-auto bg-blue-200 rounded-lg max-w-7xl lg:pb-0 lg:z-10 lg:relative">
+            <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
+              <div class="relative lg:-my-12">
+                <div aria-hidden="true" class="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden"></div>
+                <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+                  <figure>
+                    <div class="overflow-hidden shadow-xl aspect-w-10 aspect-h-6 rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+                      <img loading="lazy" class="object-cover lg:h-full lg:w-full" src="https://res.cloudinary.com/bpc-cloud/image/upload/v1616251548/images/pool-salt_mtxhzg.jpg" alt="A beautiful view from a customers property in Merritt Island, Florida.">
+                    </div>
+                    <figcaption class="flex mt-4 text-sm text-gray-500">
+                      <!-- Heroicon name: solid/camera -->
+                      <svg class="flex-none w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+                      </svg>
+                      <span class="ml-2">Photograph by Gary Civitate</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
+                <div class="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
+                  <blockquote>
+                    <div>
+                      <svg class="w-12 h-12 text-blue-400 opacity-70" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                        <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                      </svg>
+                      <p class="mt-6 text-2xl font-medium text-gray-900">
+                        Spencer and his crew have taken care of us for nearly 5 years and we&#x27;ve been consistently pleased with the service and support.  They are awesome  and you couldn&#x27;t do better for your pool care!  Highly recommended!
+                      </p>
+                    </div>
+                    <footer class="mt-6">
+                      <div class="inline-flex items-center divide-x divide-gray-600">
+                            <div class="inline-flex flex-shrink-0 pr-5">
+                                <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-5 h-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <div class="flex-1 min-w-0 py-1 pl-5 text-sm text-gray-900 sm:py-3">
+                                <p class="font-medium">
+                                    Rated 5 stars by
+                                    <span class="font-semibold">
+                                        Barbara Willett
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        <div class="bg-white">
+          <div class="max-w-7xl mx-auto py-16 px-4 divide-y-2 divide-gray-200 sm:py-24 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-gray-900">
+              Frequently asked questions
+            </h2>
+            <div class="mt-6 pt-10">
+              <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-12">
+                <div>
+                  <dt class="text-lg leading-6 font-medium text-gray-900">
+                    
+                  </dt>
+                  <dd class="mt-2 text-base text-gray-500">
+                    
+                  </dd>
+                </div>
+        
+                <div>
+                  <dt class="text-lg leading-6 font-medium text-gray-900">
+                    
+                  </dt>
+                  <dd class="mt-2 text-base text-gray-500">
+                    
+                  </dd>
+                </div>
+        
+                <div>
+                  <dt class="text-lg leading-6 font-medium text-gray-900">
+                    
+                  </dt>
+                  <dd class="mt-2 text-base text-gray-500">
+                    
+                  </dd>
+                </div>
+        
+                <div>
+                  <dt class="text-lg leading-6 font-medium text-gray-900">
+                    
+                  </dt>
+                  <dd class="mt-2 text-base text-gray-500">
+                    
+                  </dd>
+                </div>
+        
+                <div>
+                  <dt class="text-lg leading-6 font-medium text-gray-900">
+                    
+                  </dt>
+                  <dd class="mt-2 text-base text-gray-500">
+                    
+                  </dd>
+                </div>
+        
+                <div>
+                  <dt class="text-lg leading-6 font-medium text-gray-900">
+                    
+                  </dt>
+                  <dd class="mt-2 text-base text-gray-500">
+                    
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>        <div class="relative bg-white" id="contact-us">
+          <div class="absolute inset-0">
+            <div class="absolute inset-y-0 left-0 w-1/2 bg-blue-200"></div>
+          </div>
+          <div class="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
+            <div class="px-4 py-16 bg-blue-200 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+              <div class="max-w-lg mx-auto">
+                <h2 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+                  Get in touch
+                </h2>
+                <p class="mt-3 text-lg leading-6 text-gray-500">
+                  Brevard Pool Care is a fully licensed &amp; insured LLC that provides it&#x27;s customers with the best pool care service in Florida! 
+                </p>
+                <dl class="mt-8 text-base text-gray-500">
+                  <div>
+                    <dt class="sr-only">Postal address</dt>
+                    <dd>
+                      <p>Merritt Island, Florida - 32952.</p>
+                    </dd>
+                  </div>
+                  <div class="mt-6">
+                    <dt class="sr-only">Phone number</dt>
+                    <dd class="flex">
+                      <!-- Heroicon name: outline/phone -->
+                      <svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                      <span class="ml-3">
+                        (321)412-5983
+                      </span>
+                    </dd>
+                  </div>
+                  <div class="mt-3">
+                    <dt class="sr-only">Email</dt>
+                    <dd class="flex">
+                      <!-- Heroicon name: outline/mail -->
+                      <svg class="flex-shrink-0 w-6 h-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                      <span class="ml-3">
+                        spencer@brevardpoolcare.com
+                      </span>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <div class="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+              <div class="max-w-lg mx-auto lg:max-w-none">
+                <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+                  <div>
+                    <label for="full_name" class="sr-only">Full name</label>
+                    <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Full name">
+                  </div>
+                  <div>
+                    <label for="email" class="sr-only">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Email">
+                  </div>
+                  <div>
+                    <label for="phone" class="sr-only">Phone</label>
+                    <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Phone">
+                  </div>
+                  <div>
+                    <label for="message" class="sr-only">Message</label>
+                    <textarea id="message" name="message" rows="4" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Message"></textarea>
+                  </div>
+                  <div>
+                    <button type="submit" class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>    </main>
+    <footer class="bg-gray-50">
+      <div class="flex items-center justify-around px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8 md:justify-center">
+        <div class="w-3/12">
+            <img loading="lazy" class="h-12" src="https://res.cloudinary.com/bpc-cloud/image/upload/v1616199932/images/logo_jr9gmt.png" alt="Company name">
+            <p class="text-base text-gray-500">
+                Making each pool better, every day.
+            </p>
+        </div>
+        <div class="w-auto">
+            <nav class="-mx-5 -my-2" aria-label="Footer">
+                <div class="px-5 py-2">
+                    <a href="#about-us" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700">
+                        About Us
+                    </a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="#services" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700">
+                        Services
+                    </a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="#contact-us" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="px-5 py-2">
+                    <a href="https://www.facebook.com/BrevardPoolCare/" class="text-gray-400 hover:text-gray-500">
+                        <span class="sr-only">Facebook</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+      </div>
+        <div class="pb-8 space-y-4 divide-y divide-gray-400">
+            <p class="space-x-2 text-base text-center text-gray-400 divide-x divide-gray-400">
+                <span>&copy; 2021 Brevard Pool Care, Inc. All rights reserved.</span>
+                <span class="pl-4">
+                    Developed & Designed by <a href="https://www.upwork.com/o/profiles/users/~0194eaa483d9d5e37a/" target="_blank" class="text-gray-600">Keifer Amster</a>
+                </span>
+            </p>
+        </div>
+    </footer></body>
+</html>
