@@ -155,6 +155,20 @@ fields:
         config:
           required: false
         label: First Service Description
+      - name: first-service-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options: []
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: First Service Icon Color
+        description: Choose the color to be shown with the icon in the First Service
+          offered to customers.
     - name: second-service
       type: field_group
       config: {}
