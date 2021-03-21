@@ -188,6 +188,12 @@ fields:
     type: boolean
     label: Services Toggle
     description: Use this toggle to show or hide the entire 'Services' Section.
+  - name: services-microheading
+    type: text
+    config:
+      required: false
+    label: Services Microheading
+    description: The 'micro' heading for the 'Services' Section.
   - name: services-heading
     type: text
     config:
