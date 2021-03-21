@@ -165,7 +165,7 @@ fields:
     required: false
   label: Sixth Answer
   description: The answer to the sixth question in the FAQ section.
-- name: servicess
+- name: services
   type: field_group
   config: {}
   fields:
@@ -264,6 +264,7 @@ fields:
       required: false
     label: Eighth Service Description
   label: Services
+  description: The 'Services' Section on the Front Page.
 - name: meet-brevard-pool-care-subheading
   type: text
   config:
