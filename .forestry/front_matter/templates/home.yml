@@ -126,6 +126,11 @@ fields:
     config:
       required: false
     label: Services Subheading
+  - name: first-service
+    type: field_group
+    config: {}
+    label: First Service
+    description: The Information for the First Service is stored here.
   - name: first-service-title
     type: text
     config:
@@ -136,6 +141,11 @@ fields:
     config:
       required: false
     label: First Service Description
+  - name: second-service
+    type: field_group
+    config: {}
+    label: Second Service
+    description: The information for the Second Service is stored here.
   - name: second-service-title
     type: text
     config:
