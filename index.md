@@ -71,6 +71,7 @@ services:
   eighth-service-description: We can deliver explicit pool supplies to you, only during
     one of our scheduled appointments. Ask us anytime!
   services-heading: Our Offered Services
+  services-microheading: Services
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
