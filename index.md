@@ -67,7 +67,7 @@ service:
         help you automate this process with our regularly scheduled appointments.
         Contact us for more information! '
       service-disable-toggle: false
-      service-icon-color: 
+      service-icon-color: indigo
     fourth-service:
       service-toggle: true
       service-title: Power Washing
