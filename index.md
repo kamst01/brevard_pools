@@ -50,6 +50,7 @@ services:
     first-service-title: Green Pools
     first-service-description: We clean & maintain Green Pools. Whether it's algae
       build up or a maintained green pool!
+    first-service-disable-toggle: true
   second-service:
     second-service-toggle: true
     second-service-title: Chlorine Pools
