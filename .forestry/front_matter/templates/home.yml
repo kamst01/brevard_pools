@@ -9,6 +9,12 @@ fields:
   label: Title
   description: The title of the website.
   default: Brevard Pool Care
+- name: navigation-logo
+  type: file
+  config:
+    maxSize: 64
+  label: Navigation Logo
+  description: The logo used in the navigation at the top page.
 - name: description
   type: text
   config:
@@ -40,6 +46,12 @@ fields:
     maxSize: 64
   label: About Us Image
   description: The image used in the 'About Us' Section.
+- name: footer-logo
+  type: file
+  config:
+    maxSize: 64
+  label: Footer Logo
+  description: The logo used in the footer section at the bottom of the page.
 - name: mission-statement
   type: text
   config:
