@@ -100,7 +100,7 @@ service:
       service-title: Leaf Blowing
       service-description: We will blow the leaves off your property. Priced per sq/ft.
         Contact us today for more information.
-      service-disable-toggle: false
+      service-disable-toggle: true
       service-icon-color: pink
       service-icon: leaf
     seventh-service:
