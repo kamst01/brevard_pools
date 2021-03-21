@@ -45,14 +45,14 @@ fields:
     required: false
   label: Description
   description: The page description.
-- name: truested
+- name: trusted
   type: field_group
   config: {}
   fields:
-  label: Truested
-  - name: truested-toggle
+  label: Trusted
+  - name: trusted-toggle
     type: boolean
-    label: Truested Toggle
+    label: Trusted Toggle
   - name: trusted-heading
     type: text
     config:
