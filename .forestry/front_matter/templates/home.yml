@@ -131,91 +131,161 @@ fields:
     config: {}
     label: First Service
     description: The Information for the First Service is stored here.
-  - name: first-service-title
-    type: text
-    config:
-      required: false
-    label: First Service Title
-  - name: first-service-description
-    type: text
-    config:
-      required: false
-    label: First Service Description
+    fields:
+    - name: first-service-toggle
+      type: boolean
+      label: First Service Toggle
+      description: Use this toggle to show or hide the First Service.
+    - name: first-service-title
+      type: text
+      config:
+        required: false
+      label: First Service Title
+    - name: first-service-description
+      type: text
+      config:
+        required: false
+      label: First Service Description
   - name: second-service
     type: field_group
     config: {}
     label: Second Service
     description: The information for the Second Service is stored here.
-  - name: second-service-title
-    type: text
-    config:
-      required: false
-    label: Second Service Title
-  - name: second-service-description
-    type: text
-    config:
-      required: false
-    label: Second Service Description
-  - name: third-service-title
-    type: text
-    config:
-      required: false
-    label: Third Service Title
-  - name: third-service-description
-    type: text
-    config:
-      required: false
-    label: Third Service Description
-  - name: fourth-service-title
-    type: text
-    config:
-      required: false
-    label: Fourth Service Title
-  - name: fourth-service-description
-    type: text
-    config:
-      required: false
-    label: Fourth Service Description
-  - name: fifth-service-title
-    type: text
-    config:
-      required: false
-    label: Fifth Service Title
-  - name: fifth-service-description
-    type: text
-    config:
-      required: false
-    label: Fifth Service Description
-  - name: sixth-service-title
-    type: text
-    config:
-      required: false
-    label: Sixth Service title
-  - name: sixth-service-description
-    type: text
-    config:
-      required: false
-    label: Sixth Service Description
-  - name: seventh-service-title
-    type: text
-    config:
-      required: false
-    label: Seventh Service Title
-  - name: seventh-service-description
-    type: text
-    config:
-      required: false
-    label: Seventh Service Description
-  - name: eighth-service-title
-    type: text
-    config:
-      required: false
-    label: Eighth Service Title
-  - name: eighth-service-description
-    type: text
-    config:
-      required: false
-    label: Eighth Service Description
+    fields:
+    - name: second-service-toggle
+      type: boolean
+      label: Second Service Toggle
+      description: Use this toggle to show or hide the Second Service.
+    - name: second-service-title
+      type: text
+      config:
+        required: false
+      label: Second Service Title
+    - name: second-service-description
+      type: text
+      config:
+        required: false
+      label: Second Service Description
+  - name: third-service
+    type: field_group
+    config: {}
+    label: Third Service
+    description: The information for the Third Service is stored here.
+    fields:
+    - name: third-service-toggle
+      type: boolean
+      label: Third Service Toggle
+      description: Use this toggle to show or hide the Third Service.
+    - name: third-service-title
+      type: text
+      config:
+        required: false
+      label: Third Service Title
+    - name: third-service-description
+      type: text
+      config:
+        required: false
+      label: Third Service Description
+  - name: fourth-service
+    type: field_group
+    config: {}
+    label: Fourth Service
+    description: The information for the Fourth Service is stored here.
+    fields:
+    - name: fourth-service-toggle
+      type: boolean
+      label: Fourth Service Toggle
+      description: Use this toggle to show or hide the Fourth Service.
+    - name: fourth-service-title
+      type: text
+      config:
+        required: false
+      label: Fourth Service Title
+    - name: fourth-service-description
+      type: text
+      config:
+        required: false
+      label: Fourth Service Description
+  - name: fifth-service
+    type: field_group
+    config: {}
+    label: Fifth Service
+    description: The information for the Fifth Service is stored here.
+    fields:
+    - name: fifth-service-toggle
+      type: boolean
+      label: Fifth Service Toggle
+      description: Use this toggle to show or hide the Fifth Service.
+    - name: fifth-service-title
+      type: text
+      config:
+        required: false
+      label: Fifth Service Title
+    - name: fifth-service-description
+      type: text
+      config:
+        required: false
+      label: Fifth Service Description
+  - name: sixth-service
+    type: field_group
+    config: {}
+    label: Sixth Service
+    description: The information for the Sixth Service is stored here.
+    fields:
+    - name: sixth-service-toggle
+      type: boolean
+      label: Sixth Service Toggle
+      description: Use this toggle to show or hide the Sixth Service.
+    - name: sixth-service-title
+      type: text
+      config:
+        required: false
+      label: Sixth Service title
+    - name: sixth-service-description
+      type: text
+      config:
+        required: false
+      label: Sixth Service Description
+  - name: seventh-service
+    type: field_group
+    config: {}
+    label: Seventh Service
+    description: The information for the Seventh Service is stored here.
+    fields:
+    - name: seventh-service-toggle
+      type: boolean
+      label: Seventh Service Toggle
+      description: Use this toggle to show or hide the Seventh Service.
+    - name: seventh-service-title
+      type: text
+      config:
+        required: false
+      label: Seventh Service Title
+    - name: seventh-service-description
+      type: text
+      config:
+        required: false
+      label: Seventh Service Description
+  - name: eighth-service
+    type: field_group
+    config: {}
+    label: Eighth Service
+    description: The information for the Eighth Service is stored here.
+    fields:
+    - name: eighth-service-toggle
+      type: boolean
+      label: Eighth Service Toggle
+      description: Use this toggle to show or hide the Eighth Service.
+    - name: eighth-service-title
+      type: text
+      config:
+        required: false
+      label: Eighth Service Title
+    - name: eighth-service-description
+      type: text
+      config:
+        required: false
+      label: Eighth Service Description
   label: Services
   description: The 'Services' Section on the Front Page.
 - name: faq
