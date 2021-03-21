@@ -130,10 +130,6 @@ fields:
     label: Services
     description: The 'Services' Section on the Front Page.
     fields:
-    - name: services-toggle
-      type: boolean
-      label: Services Toggle
-      description: Use this toggle to show or hide the entire services area.
     - name: first-service
       type: field_group
       config: {}
@@ -147,8 +143,8 @@ fields:
       - name: first-service-disable-toggle
         type: boolean
         label: First Service Disable Toggle
-        description: Use this toggle if you want to still show the first Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the first Service,
+          but want it disabled.
       - name: first-service-title
         type: text
         config:
@@ -172,8 +168,8 @@ fields:
       - name: second-service-disable-toggle
         type: boolean
         label: Second Service Disable Toggle
-        description: Use this toggle if you want to still show the second Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the second Service,
+          but want it disabled.
       - name: second-service-title
         type: text
         config:
@@ -197,8 +193,8 @@ fields:
       - name: third-service-disable-toggle
         type: boolean
         label: Third Service Disable Toggle
-        description: Use this toggle if you want to still show the third Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the third Service,
+          but want it disabled.
       - name: third-service-title
         type: text
         config:
@@ -222,8 +218,8 @@ fields:
       - name: fourth-service-disable-toggle
         type: boolean
         label: Fourth Service Disable Toggle
-        description: Use this toggle if you want to still show the fourth Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the fourth Service,
+          but want it disabled.
       - name: fourth-service-title
         type: text
         config:
@@ -247,8 +243,8 @@ fields:
       - name: fifth-service-disable-toggle
         type: boolean
         label: Fifth Service Disable Toggle
-        description: Use this toggle if you want to still show the fifth Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the fifth Service,
+          but want it disabled.
       - name: fifth-service-title
         type: text
         config:
@@ -272,8 +268,8 @@ fields:
       - name: sixth-service-disable-toggle
         type: boolean
         label: Sixth Service Disable Toggle
-        description: Use this toggle if you want to still show the Sixth Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the Sixth Service,
+          but want it disabled.
       - name: sixth-service-title
         type: text
         config:
@@ -297,8 +293,8 @@ fields:
       - name: seventh-service-disable-toggle
         type: boolean
         label: Seventh Service Disable Toggle
-        description: Use this toggle if you want to still show the Seventh Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the Seventh Service,
+          but want it disabled.
       - name: seventh-service-title
         type: text
         config:
@@ -322,8 +318,8 @@ fields:
       - name: eighth-service-disable-toggle
         type: boolean
         label: Eighth Service Disable Toggle
-        description: Use this toggle if you want to still show the Eighth Service, but
-          want it disabled.
+        description: Use this toggle if you want to still show the Eighth Service,
+          but want it disabled.
       - name: eighth-service-title
         type: text
         config:
