@@ -119,6 +119,9 @@ service:
       service-disable-toggle: true
       service-icon-color: yellow
       service-icon: box
+  included-in-service:
+  - FREE Water Testing
+  - FREE Chemicals
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
