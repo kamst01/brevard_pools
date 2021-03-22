@@ -8,6 +8,53 @@
     <title>{{{ title }}} | {{{description}}}</title>
     <link rel="stylesheet" href="/style.css"/>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Service",
+        "provider": {
+            "@type": "Organization",
+            "name": "Brevard Pool Care",
+            "additionalType": "https://www.wikidata.org/wiki/Q7658377",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1234 Pool Blvd",
+                "postalCode": "32952",
+                "addressRegion": "FL",
+                "addressLocality": "Merritt Island",
+                "addressCountry": "http://www.wikidata.org/entity/Q30",
+                "name": "Postal Address",
+                "@id": "https://brevardpoolcare.com",
+            },
+            "description": "Brevard Pool Care is a Brevard County Company that provides it's customers with the best pool care service in Florida!",
+            "@id": "https://brevardpoolcare.com"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "25"
+        },
+        "logo": {
+            "@id": "https://res.cloudinary.com/bpc-cloud/v1616199938/images/logoexpanded_icou0s.png"
+        },
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-chlorine_ojrfrq.jpg",
+            "height": "565",
+            "width": "847",
+            "@id": "https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-chlorine_ojrfrq.jpg"
+        },
+        "brand": {
+            "@id": "https://brevardpoolcare.com"
+        },
+        "additionalType": "https://en.wikipedia.org/wiki/Swimming_pool_service_technician",
+        "url": "https://brevardpoolcare.com",
+        "areaServed": "https://www.wikidata.org/wiki/Q488517",
+        "description": "The swimming pool industry is a large and robust industry that can include various job functions that extend beyond making a pool clean and sanitized. Swimming pool service technicians are required to have an elevated understanding of basic water chemistry readings including but not limited to chlorine, pH, alkalinity, stabilizer, and in some cases salt levels. In addition, to properly take care of a swimming pool a technician must have knowledge in maintaining and repairing pool and spa equipment, including filters, pumps, chlorinators, heaters, pool lights, and automation systems. There is also a level of safety that must be accounted for on part of the technician. Ensuring that diving boards, water slides, and other pool accessories are in safe working condition is an important part of the job.",
+        "name": "Pool Service Technician",
+        "@id": "https://brevardpoolcare.com"
+    }
+    </script>
 </head>
 <body>
     {{> navigation }}
