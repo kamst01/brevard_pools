@@ -141,14 +141,35 @@ footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
 
-Owning a pool is a privilege & owning a pool should come with pride. When we come to clean / care / maintain your pool, we understand that it is a special commodity. 
+Owning a pool is a wonderful experience. At Brevard Pool Care we are here to take that experience to the next level! By bringing joy and memories that will last a lifetime! Our customers look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the waters edge or a daily swimmer. Time to change the way you look at owning a swimming pool and chores it evolves. Call Today! Start looking at your pool with a smile making memories with Brevard Pool Care taking over your pools weekly maintenance plan! 
 
-We understand that our business is service. We make sure to bring the best pool service & customer service to every appointment! No matter the size of the job - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared.
+We have mad a name for our selves for premium pool service. We are not satisfied until YOU ARE satisfied - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared and do not leave until all expectations are met.
 
 #### How we're different
 
-We've been working with Brevard Country, Florida **since 2012**! Since day one, we've trained our employees to not only pay attention to details, but to put themselves in the customers shoes. Every time we finish an appointment, we hear great real-time feedback from our customers : how we're always professional, timely & orderly when we arrive.
+We've been working with Brevard Country, Florida **since 2012**! At Brevard Pool Care we have been an  premium pool conseirienge service since day one. All pools are different yet all pools require the same maintenance procedure. At Brevard Pool Care we have developed a 8 step process to clean your pool the same every single visit. What is the 8 step process you ask?
 
-What do we bring besides great pool servicing & fantastic customer service? **FREE Chemicals!** Every appointment we provide our own chemicals that we will use during our work at your residence / location. We also water test your pool at every visit!
+8 STEP PROCESS:
+
+1. Brush Tile / Grout lines-
+   * Every inch of tile will be brushed and grout lines will be clean and free of algae.
+2. Empty skimmer and Pump basket-
+   * Every visit we leave your baskets free of debris.
+3. Net debris off surface of water-
+   * We use the highest quality nets to capture the smallest debris and pollen.
+4. Vacuum every single visit.
+   * No matter what we will use the proper vacuuming technique needed every visit.
+5. Net remaining debris until spotless.
+   * By spotless we mean it!
+6. Brush entire surface of pool 
+   * Brushing the walls, floor, steps, stairs, etc; every visit! All while focusing on spots/stains that require more attention.
+7. Check/Balance chemicals- 
+   * We balance the pool accordingly to the weather conditions. Checking and maintaining the following chemicals: Chlorine, Salt, P.H., Alkalinity, Stabilizer-CYA, Calcium Hardness.
+8. Filter Cleaning/Equipment inspection-  
+   * Filter will be cleaned regularly as required by the manufacture. Most require monthly cleaning. The equipment will be checked for leaks and in proper running condition before leaving your property. Salt Cells will be cleaned every 3 months.
+
+ we've trained our employees to not only pay attention to details, but to put themselves in the customers shoes. Every time we finish an appointment, we hear great real-time feedback from our customers : how we're always professional, timely & orderly when we arrive.
+
+What do we bring besides great pool servicing & fantastic customer service?  Every appointment we provide our own chemicals that we will use during our work at your residence / location. 
 
 #### If you see us around the Island, don't hesitate to honk! We love seeing friendly faces!
