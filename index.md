@@ -141,32 +141,38 @@ footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
 
-Owning a pool is a wonderful experience. At Brevard Pool Care we are here to take that experience to the next level! By bringing joy and memories that will last a lifetime! Our customers look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the waters edge or a daily swimmer. Time to change the way you look at owning a swimming pool and chores it evolves. Call Today! Start looking at your pool with a smile making memories with Brevard Pool Care taking over your pools weekly maintenance plan! 
+Owning a pool is a wonderful experience. At Brevard Pool Care we are here to take that experience to the next level! By bringing joy and memories that will last a lifetime in your well manicured pool! Our customers and their families look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the waters edge or maybe you're a daily swimmer? Time to change the way you look at owning a swimming pool and chores it evolves. Start looking at your pool with a smile making memories, by letting us take over your pools weekly maintenance plan today! One of our friendly service technicians would love to put a smile on your face! After we service your pool all you can say is "WOW". 
 
-We have mad a name for our selves for premium pool service. We are not satisfied until YOU ARE satisfied - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared and do not leave until all expectations are met.
+**Call today (407)-WOW-POOL**
+
+At Brevard Pool Care we have made a name for ourselves for premium pool service. We are not satisfied until YOU ARE satisfied - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared and do not leave until all expectations are met.
 
 #### How we're different
 
-We've been working with Brevard Country, Florida **since 2012**! At Brevard Pool Care we have been an  premium pool conseirienge service since day one. All pools are different yet all pools require the same maintenance procedure. At Brevard Pool Care we have developed a 8 step process to clean your pool the same every single visit. What is the 8 step process you ask?
+We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have developed a 8 step process to clean your pool the same crisp sparkling clean every single visit. What is the 8 step process you ask?
 
 8 STEP PROCESS:
 
-1. Brush Tile / Grout lines-
-   * Every inch of tile will be brushed and grout lines will be clean and free of algae.
-2. Empty skimmer and Pump basket-
-   * Every visit we leave your baskets free of debris.
-3. Net debris off surface of water-
-   * We use the highest quality nets to capture the smallest debris and pollen.
-4. Vacuum every single visit.
+**This process is required to be performed on every regular weekly service visit in this order by our service technicians: of course modified to your pool's specific needs.**
+
+1. **Brush Tile / Grout lines**-
+   * Every inch of tile will be brushed and grout lines will be clean and free of algae. Tile scum will be removed. Removal of any calcium deposits where applicable*. 
+2. **Empty skimmer and Pump basket**-
+   * Every visit we leave your baskets free of debris. Emptying of baskets allows maximum water flow. Inspection of O-ring at the pump lid upon opening, lube if necessary.
+3. **Net debris off surface of water**-
+   * We use the highest quality nets to capture the smallest debris and pollen. 
+4. **Vacuum every single visit**-
    * No matter what we will use the proper vacuuming technique needed every visit.
 5. Net remaining debris until spotless.
    * By spotless we mean it!
-6. Brush entire surface of pool 
+6. **Brush entire surface of pool** 
    * Brushing the walls, floor, steps, stairs, etc; every visit! All while focusing on spots/stains that require more attention.
-7. Check/Balance chemicals- 
-   * We balance the pool accordingly to the weather conditions. Checking and maintaining the following chemicals: Chlorine, Salt, P.H., Alkalinity, Stabilizer-CYA, Calcium Hardness.
-8. Filter Cleaning/Equipment inspection-  
-   * Filter will be cleaned regularly as required by the manufacture. Most require monthly cleaning. The equipment will be checked for leaks and in proper running condition before leaving your property. Salt Cells will be cleaned every 3 months.
+7. **Check/Balance chemicals**- 
+   * We balance the pool accordingly to the weather conditions. Checking and maintaining the following chemicals: Chlorine, Salt, P.H., Alkalinity, Stabilizer-CYA, Calcium Hardness. Phosphates* and nitrates will be tested and removed as necessary.
+8. **Filter Cleaning/Equipment inspection**-  
+   * Filter will be cleaned regularly as required by the manufacture. Most require monthly cleaning. The equipment will be checked for leaks and in proper running condition before leaving your property. Salt Cells will be scheduled to be cleaned every 3 months*.
+
+\*additional cost in some instances.
 
  we've trained our employees to not only pay attention to details, but to put themselves in the customers shoes. Every time we finish an appointment, we hear great real-time feedback from our customers : how we're always professional, timely & orderly when we arrive.
 
