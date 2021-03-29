@@ -1242,6 +1242,11 @@ fields:
           maxSize: 64
         label: Image
         description: This is the image used in the 'Steps 6-10' Section.
+    - name: steps
+      type: field_group
+      config: {}
+      label: steps
+      description: This is the third section Steps for 'Steps 7-10'.
   label: Step
 - name: faq
   type: field_group
