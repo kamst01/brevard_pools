@@ -151,16 +151,16 @@ At Brevard Pool Care we have made a name for ourselves for premium pool service.
 
 #### How we're different
 
-We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have developed a 8 step process to clean your pool the same crisp sparkling clean every single visit. What is the 8 step process you ask?
+We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have developed a **8 step process** to clean your pool the same crisp sparkling clean every single visit. What is the **8 step process** you ask?
 
-8 STEP PROCESS:
+**8 STEP PROCESS:**
 
 **This process is required to be performed on every regular weekly service visit in this order by our service technicians: of course modified to your pool's specific needs.**
 
 1. **Brush Tile / Grout lines**-
-   * Every inch of tile will be brushed and grout lines will be clean and free of algae. Tile scum will be removed. Removal of any calcium deposits where applicable*. 
+   * Every inch of tile will be brushed and grout lines will be clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits* where applicable. 
 2. **Empty skimmer and Pump basket**-
-   * Every visit we leave your baskets free of debris. Emptying of baskets allows maximum water flow. Inspection of O-ring at the pump lid upon opening, lube if necessary.
+   * Every visit we leave your baskets free of debris. Emptying of baskets allows maximum water flow. Inspection of O-ring at the pump lid upon opening, lube if necessary. 
 3. **Net debris off surface of water**-
    * We use the highest quality nets to capture the smallest debris and pollen and our technicians are netting experts! We use a technique to net every inch of surface area of the water.
 4. **Vacuum every single visit**-
@@ -181,3 +181,7 @@ We've been working with Brevard County, Florida **since 2012**! At Brevard Pool 
 What do we bring besides great pool servicing & fantastic customer service?  Every appointment we provide our own chemicals that we will use during our work at your residence / location. 
 
 #### If you see one of our trucks, don't hesitate to honk! We love seeing friendly faces!
+
+**Our expectations**
+
+**About Brevard Pool Care** 
