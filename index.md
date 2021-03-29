@@ -68,7 +68,7 @@ service:
         are charged as used on monthly bill.
       service-disable-toggle: false
       service-icon-color: indigo
-      service-icon: <i class="fas fa-medal"></i>
+      service-icon: medal
     third-service:
       service-toggle: true
       service-title: Mid-Inclusive Service Package
