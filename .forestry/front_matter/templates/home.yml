@@ -631,14 +631,6 @@ fields:
       required: false
     label: steps Microdescription
     description: The 'micro' description for the 'steps '6-10' Section.
-  - name: included-in-step
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-    label: Included In step
-    description: The items included in each step when a customer makes an appointment.
   - name: steps
     type: field_group
     config: {}
