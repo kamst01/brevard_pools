@@ -139,7 +139,7 @@ navigation-logo: https://res.cloudinary.com/bpc-cloud/v1616199938/images/logoexp
 footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
 
 ---
-### We treat every customer the same. No matter the situation or condition of their pool; we will take care of you.
+### We treat every customer the same. No matter the situation or condition of their pool; you're in good hands.
 
 Owning a pool is a wonderful experience. At Brevard Pool Care we are here to take that experience to the next level! By bringing joy and memories that will last a lifetime in your well manicured pool! Our customers and their families look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the waters edge or maybe you're a daily swimmer? 
 
@@ -180,4 +180,4 @@ We've been working with Brevard County, Florida **since 2012**! At Brevard Pool 
 
 What do we bring besides great pool servicing & fantastic customer service?  Every appointment we provide our own chemicals that we will use during our work at your residence / location. 
 
-#### If you see us around the Island, don't hesitate to honk! We love seeing friendly faces!
+#### If you see one of our trucks, don't hesitate to honk! We love seeing friendly faces!
