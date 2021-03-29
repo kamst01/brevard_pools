@@ -710,8 +710,8 @@ fields:
       - name: step-disable-toggle
         type: boolean
         label: Second step Disable Toggle
-        description: Use this toggle if you want to still show the second step,
-          but want it disabled.
+        description: Use this toggle if you want to still show the second step, but
+          want it disabled.
       - name: step-number
         type: number
         config:
@@ -826,8 +826,8 @@ fields:
       - name: step-disable-toggle
         type: boolean
         label: Fourth step Disable Toggle
-        description: Use this toggle if you want to still show the fourth step,
-          but want it disabled.
+        description: Use this toggle if you want to still show the fourth step, but
+          want it disabled.
       - name: step-number
         type: number
         config:
@@ -1006,8 +1006,8 @@ fields:
       - name: step-disable-toggle
         type: boolean
         label: Seventh step Disable Toggle
-        description: Use this toggle if you want to still show the Seventh step,
-          but want it disabled.
+        description: Use this toggle if you want to still show the Seventh step, but
+          want it disabled.
       - name: step-number
         type: number
         config:
@@ -1064,8 +1064,8 @@ fields:
       - name: step-disable-toggle
         type: boolean
         label: Eighth step Disable Toggle
-        description: Use this toggle if you want to still show the Eighth step,
-          but want it disabled.
+        description: Use this toggle if you want to still show the Eighth step, but
+          want it disabled.
       - name: step-number
         type: number
         config:

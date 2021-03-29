@@ -129,16 +129,16 @@ step:
   steps-toggle: true
   steps-subheading: With each step, you can guarantee you will get top notch products
     used in your pool with hard working employees. We guarantee that.
-  steps-heading: Our Famouse 10 Steps
+  steps-heading: Our Famous 10 Steps
   steps-first-microheading: Steps 1-5
-  steps-second-microheading: Steps 6-10
+  steps-second-microheading: ''
   steps:
     first-step:
       step-toggle: true
       step-number: 1
       step-title: Brush Tile / Grout lines
-      step-description: Every inch of tile will be brushed and grout lines will
-        be clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits*
+      step-description: Every inch of tile will be brushed and grout lines will be
+        clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits*
         where applicable.
       step-disable-toggle: false
       step-icon-color: green
@@ -157,9 +157,9 @@ step:
       step-toggle: true
       step-number: 3
       step-title: Net debris off surface of water
-      step-description: We use the highest quality nets to capture the smallest
-        debris and pollen and our technicians are netting experts! We use a technique
-        to net every inch of surface area of the water.
+      step-description: We use the highest quality nets to capture the smallest debris
+        and pollen and our technicians are netting experts! We use a technique to
+        net every inch of surface area of the water.
       step-disable-toggle: false
       step-icon-color: blue
       step-icon: award
@@ -170,9 +170,9 @@ step:
       step-description: Pool will be vacuumed every single visit. We have the newest
         in pool vacuum technology as well as the old faithful system hose and vacuum
         head. We use the same technique to vacuum every inch of the bottom of the
-        pool, every single visit. A fun fact we call this technique "mowing the
-        lawn" because you wouldn't miss a blade of grass mowing the lawn; well we
-        won't miss anything in your pool either!
+        pool, every single visit. A fun fact we call this technique "mowing the lawn"
+        because you wouldn't miss a blade of grass mowing the lawn; well we won't
+        miss anything in your pool either!
       step-disable-toggle: false
       step-icon-color: yellow
       step-icon: trophy
@@ -180,9 +180,9 @@ step:
       step-toggle: true
       step-number: 5
       step-title: Net remaining debris until spotless
-      step-description: By spotless we mean it! Debris as well as nails or metal
-        toys can leave unwanted stains. We can remove the metal or debris and work
-        on removing any stains*.
+      step-description: By spotless we mean it! Debris as well as nails or metal toys
+        can leave unwanted stains. We can remove the metal or debris and work on removing
+        any stains*.
       step-disable-toggle: false
       step-icon-color: blue
       step-icon: hand-sparkles
@@ -223,8 +223,8 @@ step:
       step-number: 9
       step-title: Equipment Inspection
       step-description: The equipment will be inspected for air leaks on the suction
-        side and water leaks on equipment. Equipment will be replaced as needed
-        to maintain premium operation.
+        side and water leaks on equipment. Equipment will be replaced as needed to
+        maintain premium operation.
       step-disable-toggle: false
       step-icon-color: indigo
       step-icon: box
@@ -234,8 +234,8 @@ step:
       step-title: Log chemicals and chemical dosages
       step-description: We use a premium route management software to log all our
         customers chemicals readings and dosages we added to your pool every visit!
-        By keeping track we can see the issues that may arise well in the future
-        and take the proper preventative maintenance.
+        By keeping track we can see the issues that may arise well in the future and
+        take the proper preventative maintenance.
       step-disable-toggle: false
       step-icon-color: blue
       step-icon: box
