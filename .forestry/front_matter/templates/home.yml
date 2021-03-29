@@ -608,30 +608,6 @@ fields:
     config:
       required: false
     label: steps Subheading
-  - name: steps-first-microheading
-    type: text
-    config:
-      required: false
-    label: steps Microheading
-    description: The 'micro' heading for the 'steps 1-5' Section.
-  - name: steps-first-microdescription
-    type: text
-    config:
-      required: false
-    label: steps Microdescription
-    description: The 'micro' description for the 'steps 1-5' Section.
-  - name: steps-second-microheading
-    type: text
-    config:
-      required: false
-    label: steps Microheading
-    description: The 'micro' heading for the 'steps 6-10' Section.
-  - name: steps-second-microdescription
-    type: text
-    config:
-      required: false
-    label: steps Microdescription
-    description: The 'micro' description for the 'steps '6-10' Section.
   - name: steps
     type: field_group
     config: {}
