@@ -76,7 +76,7 @@ service:
         process. All basic chemicals plus any additional treatments included!  '
       service-disable-toggle: false
       service-icon-color: blue
-      service-icon: <i class="fas fa-award"></i>
+      service-icon: award
     fourth-service:
       service-toggle: true
       service-title: Gold Concierge all Inclusive Service Package
