@@ -130,8 +130,8 @@ step:
   steps-subheading: With each step, you can guarantee you will get top notch products
     used in your pool with hard working employees. We guarantee that.
   steps-heading: Our Offered steps
-  steps-first-microheading: steps
-  steps-second-microheading: steps 2
+  steps-first-microheading: Steps 1-5
+  steps-second-microheading: Steps 6-10
   steps:
     steps-first-section:
       first-step:
@@ -187,6 +187,7 @@ step:
         step-disable-toggle: false
         step-icon-color: blue
         step-icon: hand-sparkles
+      image: https://res.cloudinary.com/bpc-cloud/v1616209001/images/pool-testing_psiofz.jpg
     steps-second-section:
       sixth-step:
         step-toggle: true
@@ -240,6 +241,7 @@ step:
         step-disable-toggle: false
         step-icon-color: blue
         step-icon: box
+      image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-salt-two_yo54l8.jpg
   included-in-step:
   - 10 Step Service Process
   - Free Advice

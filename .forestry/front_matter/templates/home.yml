@@ -593,168 +593,10 @@ fields:
         label: Eighth Service Icon Color
         description: Choose the color to be shown with the icon in the First Service
           offered to customers.
-- name: faq
-  type: field_group
-  config: {}
-  label: FAQ
-  description: The 'FAQ' Section.
-  fields:
-  - name: faqs
-    type: field_group
-    config: {}
-    label: FAQs
-    description: The 'FAQ' Section.
-    fields:
-    - name: first-question
-      type: field_group
-      config: {}
-      label: First Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Question
-        description: The first FAQ question.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Answer
-        description: The answer to the first question.
-    - name: second-question
-      type: field_group
-      config: {}
-      label: Second Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Second Question
-        description: The second question in the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Second Answer
-        description: The answer to the second question in the FAQ section.
-    - name: third-question
-      type: field_group
-      config: {}
-      label: Third Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Third Question
-        description: The third question in the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Third Answer
-        description: The answer to the third question in the FAQ section.
-    - name: fourth-question
-      type: field_group
-      config: {}
-      label: Fourth Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Fourth Question
-        description: The fourth question of the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Fourth Answer
-        description: The answer to the fourth question in the FAQ section.
-    - name: fifth-question
-      type: field_group
-      config: {}
-      label: Fifth Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Fifth Question
-        description: The fifth question in the FAQ section.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Fifth Answer
-        description: The answer to the fifth question in the FAQ section.
-    - name: sixth-question
-      type: field_group
-      config: {}
-      label: Sixth Question
-      fields:
-      - name: question
-        type: text
-        config:
-          required: false
-        label: Sixth Question
-        description: The sixth question in the FAQ question.
-      - name: answer
-        type: text
-        config:
-          required: false
-        label: Sixth Answer
-        description: The answer to the sixth question in the FAQ section.
-- name: meet-brevard-pool-care-subheading
-  type: text
-  config:
-    required: false
-  label: Meet Brevard Pool Care Subheading
-  description: The subheading for the 'Meet Brevard Pool Care' Section.
-- name: meet-brevard-pool-care
-  type: text
-  config:
-    required: false
-  label: Meet Brevard Pool Care
-  description: '"Meet Brevard Pool Care".'
-  default: Meet Brevard Pool Care
-- name: first-review
-  type: text
-  config:
-    required: false
-  label: First Review
-  description: The first review to show on the 'Testimonial' Section.
-- name: first-reviewer
-  type: text
-  config:
-    required: false
-  label: First Reviewer
-  description: The first reviewer's name for the 'Testimonial' Section.
-- name: review-image
-  type: file
-  config:
-    maxSize: 64
-  label: Review Image
-  description: The image used in the 'Review' Section.
-- name: contact-heading
-  type: text
-  config:
-    required: false
-  label: Contact Heading
-  description: Heading for Contact Us Section.
-- name: contact-subheading
-  type: text
-  config:
-    required: false
-  label: Contact Subheading
-  description: Subheading for Contact Us Section.
 - name: step
   type: field_group
   config: {}
-  label: step
-  fields: 
+  fields:
   - name: steps-heading
     type: text
     config:
@@ -789,14 +631,6 @@ fields:
       required: false
     label: steps Microdescription
     description: The 'micro' description for the 'steps '6-10' Section.
-  - name: included-in-step
-    type: list
-    config:
-      use_select: false
-      min: 
-      max: 
-    label: Included In step
-    description: The items included in each step when a customer makes an appointment.
   - name: steps
     type: field_group
     config: {}
@@ -822,13 +656,14 @@ fields:
         - name: step-disable-toggle
           type: boolean
           label: First step Disable Toggle
-          description: Use this toggle if you want to still show the first step,
-            but want it disabled.
+          description: Use this toggle if you want to still show the first step, but
+            want it disabled.
         - name: step-number
           type: number
           config:
             required: true
-          label: Input a number for the step.
+          label: First Step Number
+          description: Insert a number for the step.
         - name: step-title
           type: text
           config:
@@ -938,8 +773,8 @@ fields:
         - name: step-disable-toggle
           type: boolean
           label: Third step Disable Toggle
-          description: Use this toggle if you want to still show the third step,
-            but want it disabled.
+          description: Use this toggle if you want to still show the third step, but
+            want it disabled.
         - name: step-number
           type: number
           config:
@@ -1054,8 +889,8 @@ fields:
         - name: step-disable-toggle
           type: boolean
           label: Fifth step Disable Toggle
-          description: Use this toggle if you want to still show the fifth step,
-            but want it disabled.
+          description: Use this toggle if you want to still show the fifth step, but
+            want it disabled.
         - name: step-number
           type: number
           config:
@@ -1099,6 +934,12 @@ fields:
           label: Fifth step Icon Color
           description: Choose the color to be shown with the icon in the First step
             offered to customers.
+      - name: image
+        type: file
+        config:
+          maxSize: 64
+        label: Image
+        description: The image used in the first 'Step 1-5' Section.
     - name: steps-second-section
       type: field_group
       config: {}
@@ -1118,8 +959,8 @@ fields:
         - name: step-disable-toggle
           type: boolean
           label: Sixth step Disable Toggle
-          description: Use this toggle if you want to still show the Sixth step,
-            but want it disabled.
+          description: Use this toggle if you want to still show the Sixth step, but
+            want it disabled.
         - name: step-number
           type: number
           config:
@@ -1292,8 +1133,8 @@ fields:
         - name: step-disable-toggle
           type: boolean
           label: ninth step Disable Toggle
-          description: Use this toggle if you want to still show the ninth step,
-            but want it disabled.
+          description: Use this toggle if you want to still show the ninth step, but
+            want it disabled.
         - name: step-number
           type: number
           config:
@@ -1350,8 +1191,8 @@ fields:
         - name: step-disable-toggle
           type: boolean
           label: tenth step Disable Toggle
-          description: Use this toggle if you want to still show the tenth step,
-            but want it disabled.
+          description: Use this toggle if you want to still show the tenth step, but
+            want it disabled.
         - name: step-number
           type: number
           config:
@@ -1395,3 +1236,167 @@ fields:
           label: tenth step Icon Color
           description: Choose the color to be shown with the icon in the First step
             offered to customers.
+      - name: image
+        type: file
+        config:
+          maxSize: 64
+        label: Image
+        description: This is the image used in the 'Steps 6-10' Section.
+  label: Step
+- name: faq
+  type: field_group
+  config: {}
+  label: FAQ
+  description: The 'FAQ' Section.
+  fields:
+  - name: faqs
+    type: field_group
+    config: {}
+    label: FAQs
+    description: The 'FAQ' Section.
+    fields:
+    - name: first-question
+      type: field_group
+      config: {}
+      label: First Question
+      fields:
+      - name: question
+        type: text
+        config:
+          required: false
+        label: Question
+        description: The first FAQ question.
+      - name: answer
+        type: text
+        config:
+          required: false
+        label: Answer
+        description: The answer to the first question.
+    - name: second-question
+      type: field_group
+      config: {}
+      label: Second Question
+      fields:
+      - name: question
+        type: text
+        config:
+          required: false
+        label: Second Question
+        description: The second question in the FAQ section.
+      - name: answer
+        type: text
+        config:
+          required: false
+        label: Second Answer
+        description: The answer to the second question in the FAQ section.
+    - name: third-question
+      type: field_group
+      config: {}
+      label: Third Question
+      fields:
+      - name: question
+        type: text
+        config:
+          required: false
+        label: Third Question
+        description: The third question in the FAQ section.
+      - name: answer
+        type: text
+        config:
+          required: false
+        label: Third Answer
+        description: The answer to the third question in the FAQ section.
+    - name: fourth-question
+      type: field_group
+      config: {}
+      label: Fourth Question
+      fields:
+      - name: question
+        type: text
+        config:
+          required: false
+        label: Fourth Question
+        description: The fourth question of the FAQ section.
+      - name: answer
+        type: text
+        config:
+          required: false
+        label: Fourth Answer
+        description: The answer to the fourth question in the FAQ section.
+    - name: fifth-question
+      type: field_group
+      config: {}
+      label: Fifth Question
+      fields:
+      - name: question
+        type: text
+        config:
+          required: false
+        label: Fifth Question
+        description: The fifth question in the FAQ section.
+      - name: answer
+        type: text
+        config:
+          required: false
+        label: Fifth Answer
+        description: The answer to the fifth question in the FAQ section.
+    - name: sixth-question
+      type: field_group
+      config: {}
+      label: Sixth Question
+      fields:
+      - name: question
+        type: text
+        config:
+          required: false
+        label: Sixth Question
+        description: The sixth question in the FAQ question.
+      - name: answer
+        type: text
+        config:
+          required: false
+        label: Sixth Answer
+        description: The answer to the sixth question in the FAQ section.
+- name: meet-brevard-pool-care-subheading
+  type: text
+  config:
+    required: false
+  label: Meet Brevard Pool Care Subheading
+  description: The subheading for the 'Meet Brevard Pool Care' Section.
+- name: meet-brevard-pool-care
+  type: text
+  config:
+    required: false
+  label: Meet Brevard Pool Care
+  description: '"Meet Brevard Pool Care".'
+  default: Meet Brevard Pool Care
+- name: first-review
+  type: text
+  config:
+    required: false
+  label: First Review
+  description: The first review to show on the 'Testimonial' Section.
+- name: first-reviewer
+  type: text
+  config:
+    required: false
+  label: First Reviewer
+  description: The first reviewer's name for the 'Testimonial' Section.
+- name: review-image
+  type: file
+  config:
+    maxSize: 64
+  label: Review Image
+  description: The image used in the 'Review' Section.
+- name: contact-heading
+  type: text
+  config:
+    required: false
+  label: Contact Heading
+  description: Heading for Contact Us Section.
+- name: contact-subheading
+  type: text
+  config:
+    required: false
+  label: Contact Subheading
+  description: Subheading for Contact Us Section.
