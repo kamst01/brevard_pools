@@ -1,9 +1,9 @@
 ---
 title: Brevard Pool Care
-slogan: Free top quality products at every appointment!
+slogan: 'Premium inclusive Concierge Pool Service '
 phone-number: "(321)412-5983"
-description: 'Premium Pool Service to Melbourne, Satellite Beach, Viera, Cocoa Beach,
-  Rockledge, Merritt Island since 2012 '
+description: 'Proudly servicing, Melbourne, Satellite Beach, Viera, Cocoa Beach, Rockledge,
+  Merritt Island since 2012 '
 layout: layouts/base
 mission-statement: Making each pool better, every day.
 faq:
