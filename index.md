@@ -80,9 +80,13 @@ service:
       service-icon: <i class="fas fa-award"></i>
     fourth-service:
       service-toggle: true
-      service-title: Power Washing
-      service-description: We offer power washing services on pools to all our customers!
-        Just ask us during your scheduling, or we can assess it on the spot.
+      service-title: Gold Concierge all Inclusive Service
+      service-description: 'Call or text anytime day or night! 10 step process. All
+        chemicals and treatments included. Any and all Orings/plugs will be replaced
+        yearly on the equipment all included in the gold package! Receive an email
+        when the pool is serviced every week! Pool deck and equipment pad will be
+        blown using leaf blower every 6 months. Also included: discount on yearly
+        pressure washing plan.'
       service-disable-toggle: false
       service-icon-color: yellow
       service-icon: tint
