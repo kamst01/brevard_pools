@@ -117,9 +117,8 @@ service:
       service-icon: vials
     eighth-service:
       service-toggle: true
-      service-title: Pool Supplies Delivery
-      service-description: We can deliver explicit pool supplies to you, only during
-        one of our scheduled appointments. Ask us anytime!
+      service-title: Pressure Washing
+      service-description: Leaf Blow/ Shop Vac & Pressure Wash - Pool Clean up Included.
       service-disable-toggle: true
       service-icon-color: yellow
       service-icon: box
