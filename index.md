@@ -72,13 +72,12 @@ service:
       service-icon: <i class="fas fa-medal"></i>
     third-service:
       service-toggle: true
-      service-title: Salt Water Pools
-      service-description: 'Owning a salt pool can be stressful or tedious. We can
-        help you automate this process with our regularly scheduled appointments.
-        Contact us for more information! '
+      service-title: Mid-Inclusive Service Package
+      service-description: '10 step process. All basic chemicals plus any additional
+        treatments included! Oring at pump lid will be replaced once a year! '
       service-disable-toggle: false
-      service-icon-color: indigo
-      service-icon: hand-holding-water
+      service-icon-color: blue
+      service-icon: <i class="fas fa-award"></i>
     fourth-service:
       service-toggle: true
       service-title: Power Washing
