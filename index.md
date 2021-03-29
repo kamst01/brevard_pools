@@ -63,12 +63,13 @@ service:
       service-icon: swimming-pool
     second-service:
       service-toggle: true
-      service-title: Chlorine Pools
-      service-description: We check the chlorine & state of your pool. During every
-        appointment we help you & discuss maintaining the correct chlorine levels.
+      service-title: Basic Service package
+      service-description: 10 step process, all basic chemicals included and balanced
+        weekly. Filter will be cleaned as necessary. Equipment will be inspected additional
+        cost for any parts replaced.
       service-disable-toggle: false
-      service-icon-color: blue
-      service-icon: swimmer
+      service-icon-color: indigo
+      service-icon: <i class="fas fa-medal"></i>
     third-service:
       service-toggle: true
       service-title: Salt Water Pools
@@ -120,8 +121,8 @@ service:
       service-icon-color: yellow
       service-icon: box
   included-in-service:
-  - Free Advice
   - 10 Step Service Process
+  - Free Advice
   - FREE Water Testing
 trusted:
   trusted-toggle: true
