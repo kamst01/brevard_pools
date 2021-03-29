@@ -89,7 +89,7 @@ service:
         pressure washing plan.'
       service-disable-toggle: false
       service-icon-color: yellow
-      service-icon: tint
+      service-icon: <i class="fas fa-trophy"></i>
     fifth-service:
       service-toggle: true
       service-title: Deep Cleaning
