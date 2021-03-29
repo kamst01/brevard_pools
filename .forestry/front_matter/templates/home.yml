@@ -754,3 +754,644 @@ fields:
   type: field_group
   config: {}
   label: step
+  fields: 
+  - name: steps-heading
+    type: text
+    config:
+      required: false
+    label: step Heading
+  - name: steps-subheading
+    type: text
+    config:
+      required: false
+    label: steps Subheading
+  - name: steps-first-microheading
+    type: text
+    config:
+      required: false
+    label: steps Microheading
+    description: The 'micro' heading for the 'steps 1-5' Section.
+  - name: steps-first-microdescription
+    type: text
+    config:
+      required: false
+    label: steps Microdescription
+    description: The 'micro' description for the 'steps 1-5' Section.
+  - name: steps-second-microheading
+    type: text
+    config:
+      required: false
+    label: steps Microheading
+    description: The 'micro' heading for the 'steps 6-10' Section.
+  - name: steps-second-microdescription
+      type: text
+      config:
+        required: false
+      label: steps Microdescription
+      description: The 'micro' description for the 'steps '6-10' Section.
+  - name: included-in-step
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Included In step
+    description: The items included in each step when a customer makes an appointment.
+  - name: steps
+    type: field_group
+    config: {}
+    label: steps
+    description: The 'steps' Section on the Front Page.
+    fields:
+    - name: steps-first-section
+      type: field_group
+      config: {}
+      label: steps
+      description: The first 'steps' containing 5-10 Section on the Front Page.
+      fields:
+      - name: first-step
+        type: field_group
+        config: {}
+        label: First step
+        description: The Information for the First step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: First step Toggle
+          description: Use this toggle to show or hide the First step.
+        - name: step-disable-toggle
+          type: boolean
+          label: First step Disable Toggle
+          description: Use this toggle if you want to still show the first step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: First step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: First step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: First step Icon
+          description: The icon to display within the first step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: First step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: second-step
+        type: field_group
+        config: {}
+        label: Second step
+        description: The information for the Second step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Second step Toggle
+          description: Use this toggle to show or hide the Second step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Second step Disable Toggle
+          description: Use this toggle if you want to still show the second step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Second step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Second step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Second step Icon
+          description: The icon to display within the second step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Second step Icon Color
+          description: Choose the color to be shown with the icon in the Second step
+            offered to customers.
+      - name: third-step
+        type: field_group
+        config: {}
+        label: Third step
+        description: The information for the Third step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Third step Toggle
+          description: Use this toggle to show or hide the Third step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Third step Disable Toggle
+          description: Use this toggle if you want to still show the third step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Third step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Third step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Third step Icon
+          description: The icon to display within the third step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Third step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: fourth-step
+        type: field_group
+        config: {}
+        label: Fourth step
+        description: The information for the Fourth step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Fourth step Toggle
+          description: Use this toggle to show or hide the Fourth step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Fourth step Disable Toggle
+          description: Use this toggle if you want to still show the fourth step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Fourth step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Fourth step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Fourth step Icon
+          description: The icon to display within the Fourth step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Fourth step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: fifth-step
+        type: field_group
+        config: {}
+        label: Fifth step
+        description: The information for the Fifth step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Fifth step Toggle
+          description: Use this toggle to show or hide the Fifth step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Fifth step Disable Toggle
+          description: Use this toggle if you want to still show the fifth step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Fifth step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Fifth step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Fifth step Icon
+          description: The icon to display within the Fifth step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Fifth step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+    - name: steps-second-section
+      type: field_group
+      config: {}
+      label: steps
+      description: The second 'steps' containing 5-10 Section on the Front Page.
+      fields:
+      - name: sixth-step
+        type: field_group
+        config: {}
+        label: Sixth step
+        description: The information for the Sixth step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Sixth step Toggle
+          description: Use this toggle to show or hide the Sixth step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Sixth step Disable Toggle
+          description: Use this toggle if you want to still show the Sixth step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Sixth step title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Sixth step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Sixth step Icon
+          description: The icon to display within the Sixth step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Sixth step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: seventh-step
+        type: field_group
+        config: {}
+        label: Seventh step
+        description: The information for the Seventh step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Seventh step Toggle
+          description: Use this toggle to show or hide the Seventh step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Seventh step Disable Toggle
+          description: Use this toggle if you want to still show the Seventh step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Seventh step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Seventh step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Seventh step Icon
+          description: The icon to display within the Seventh step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Seventh step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: eighth-step
+        type: field_group
+        config: {}
+        label: Eighth step
+        description: The information for the Eighth step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: Eighth step Toggle
+          description: Use this toggle to show or hide the Eighth step.
+        - name: step-disable-toggle
+          type: boolean
+          label: Eighth step Disable Toggle
+          description: Use this toggle if you want to still show the Eighth step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: Eighth step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: Eighth step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: Eighth step Icon
+          description: The icon to display within the Eighth step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: Eighth step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: ninth-step
+        type: field_group
+        config: {}
+        label: ninth step
+        description: The information for the ninth step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: ninth step Toggle
+          description: Use this toggle to show or hide the ninth step.
+        - name: step-disable-toggle
+          type: boolean
+          label: ninth step Disable Toggle
+          description: Use this toggle if you want to still show the ninth step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: ninth step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: ninth step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: ninth step Icon
+          description: The icon to display within the ninth step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: ninth step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
+      - name: tenth-step
+        type: field_group
+        config: {}
+        label: tenth step
+        description: The information for the tenth step is stored here.
+        fields:
+        - name: step-toggle
+          type: boolean
+          label: tenth step Toggle
+          description: Use this toggle to show or hide the tenth step.
+        - name: step-disable-toggle
+          type: boolean
+          label: tenth step Disable Toggle
+          description: Use this toggle if you want to still show the tenth step,
+            but want it disabled.
+        - name: step-number
+          type: number
+          config:
+            required: true
+          label: Input a number for the step.
+        - name: step-title
+          type: text
+          config:
+            required: false
+          label: tenth step Title
+        - name: step-description
+          type: text
+          config:
+            required: false
+          label: tenth step Description
+        - name: step-icon
+          type: text
+          config:
+            required: false
+          label: tenth step Icon
+          description: The icon to display within the tenth step shown to customers.
+            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+            title="Fontawesome Link" target="_blank">here</a>.
+        - name: step-icon-color
+          type: select
+          default: []
+          config:
+            required: false
+            options:
+            - blue
+            - yellow
+            - green
+            - indigo
+            - pink
+            - purple
+            source:
+              type: simple
+              section: 
+              file: 
+              path: 
+          label: tenth step Icon Color
+          description: Choose the color to be shown with the icon in the First step
+            offered to customers.
