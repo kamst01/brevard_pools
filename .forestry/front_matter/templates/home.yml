@@ -662,7 +662,8 @@ fields:
           type: number
           config:
             required: true
-          label: Input a number for the step.
+          label: First Step Number
+          description: Insert a number for the step.
         - name: step-title
           type: text
           config:
