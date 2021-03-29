@@ -1168,63 +1168,63 @@ fields:
         description: Choose the color to be shown with the icon in the First step
           offered to customers.
     - name: tenth-step
-        type: field_group
-        config: {}
-        label: tenth step
-        description: The information for the tenth step is stored here.
-        fields:
-        - name: step-toggle
-          type: boolean
-          label: tenth step Toggle
-          description: Use this toggle to show or hide the tenth step.
-        - name: step-disable-toggle
-          type: boolean
-          label: tenth step Disable Toggle
-          description: Use this toggle if you want to still show the tenth step, but
-            want it disabled.
-        - name: step-number
-          type: number
-          config:
-            required: true
-          label: Input a number for the step.
-        - name: step-title
-          type: text
-          config:
-            required: false
-          label: tenth step Title
-        - name: step-description
-          type: text
-          config:
-            required: false
-          label: tenth step Description
-        - name: step-icon
-          type: text
-          config:
-            required: false
-          label: tenth step Icon
-          description: The icon to display within the tenth step shown to customers.
-            View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
-            title="Fontawesome Link" target="_blank">here</a>.
-        - name: step-icon-color
-          type: select
-          default: []
-          config:
-            required: false
-            options:
-            - blue
-            - yellow
-            - green
-            - indigo
-            - pink
-            - purple
-            source:
-              type: simple
-              section: 
-              file: 
-              path: 
-          label: tenth step Icon Color
-          description: Choose the color to be shown with the icon in the First step
-            offered to customers.
+      type: field_group
+      config: {}
+      label: tenth step
+      description: The information for the tenth step is stored here.
+      fields:
+      - name: step-toggle
+        type: boolean
+        label: tenth step Toggle
+        description: Use this toggle to show or hide the tenth step.
+      - name: step-disable-toggle
+        type: boolean
+        label: tenth step Disable Toggle
+        description: Use this toggle if you want to still show the tenth step, but
+          want it disabled.
+      - name: step-number
+        type: number
+        config:
+          required: true
+        label: Input a number for the step.
+      - name: step-title
+        type: text
+        config:
+          required: false
+        label: tenth step Title
+      - name: step-description
+        type: text
+        config:
+          required: false
+        label: tenth step Description
+      - name: step-icon
+        type: text
+        config:
+          required: false
+        label: tenth step Icon
+        description: The icon to display within the tenth step shown to customers.
+          View the list of icons <a href="https://fontawesome.com/icons?d=gallery&amp;p=2&amp;m=free"
+          title="Fontawesome Link" target="_blank">here</a>.
+      - name: step-icon-color
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - blue
+          - yellow
+          - green
+          - indigo
+          - pink
+          - purple
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: tenth step Icon Color
+        description: Choose the color to be shown with the icon in the First step
+          offered to customers.
 - name: faq
   type: field_group
   config: {}
