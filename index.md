@@ -79,7 +79,7 @@ service:
       service-icon: <i class="fas fa-award"></i>
     fourth-service:
       service-toggle: true
-      service-title: Gold Concierge all Inclusive Service
+      service-title: Gold Concierge all Inclusive Service Package
       service-description: 'Call or text anytime day or night! 10 step process. All
         chemicals and treatments included. Any and all Orings/plugs will be replaced
         yearly on the equipment all included in the gold package! Receive an email
