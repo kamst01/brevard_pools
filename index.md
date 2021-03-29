@@ -162,12 +162,12 @@ We've been working with Brevard County, Florida **since 2012**! At Brevard Pool 
 2. **Empty skimmer and Pump basket**-
    * Every visit we leave your baskets free of debris. Emptying of baskets allows maximum water flow. Inspection of O-ring at the pump lid upon opening, lube if necessary.
 3. **Net debris off surface of water**-
-   * We use the highest quality nets to capture the smallest debris and pollen. 
+   * We use the highest quality nets to capture the smallest debris and pollen and our technicians are netting experts! We use a technique to net every inch of surface area of the water.
 4. **Vacuum every single visit**-
-   * No matter what we will use the proper vacuuming technique needed every visit.
-5. Net remaining debris until spotless.
-   * By spotless we mean it!
-6. **Brush entire surface of pool** 
+   * Pool will be vacuumed every single visit. We have the newest in pool vacuum technology as well as the old faithful system hose and vacuum head. We use the same technique to vacuum every inch of the bottom of the pool, every single visit. A fun fact we call this technique "mowing the lawn" because you wouldn't miss a blade of grass mowing the lawn; well we won't miss anything in your pool either!
+5. **Net remaining debris until spotless**-
+   * By spotless we mean it! Debris as well as nails or metal toys can leave unwanted stains. We can remove the metal or debris and work on removing any stains*.
+6. **Brush entire surface of pool**- 
    * Brushing the walls, floor, steps, stairs, etc; every visit! All while focusing on spots/stains that require more attention.
 7. **Check/Balance chemicals**- 
    * We balance the pool accordingly to the weather conditions. Checking and maintaining the following chemicals: Chlorine, Salt, P.H., Alkalinity, Stabilizer-CYA, Calcium Hardness. Phosphates* and nitrates will be tested and removed as necessary.
