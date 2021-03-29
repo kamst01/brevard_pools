@@ -129,7 +129,7 @@ step:
   steps-toggle: true
   steps-subheading: With each step, you can guarantee you will get top notch products
     used in your pool with hard working employees. We guarantee that.
-  steps-heading: Our Offered steps
+  steps-heading: Our Famouse 10 Steps
   steps-first-microheading: Steps 1-5
   steps-second-microheading: Steps 6-10
   steps:
