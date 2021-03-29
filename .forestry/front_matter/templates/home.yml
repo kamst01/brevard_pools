@@ -784,11 +784,11 @@ fields:
     label: steps Microheading
     description: The 'micro' heading for the 'steps 6-10' Section.
   - name: steps-second-microdescription
-      type: text
-      config:
-        required: false
-      label: steps Microdescription
-      description: The 'micro' description for the 'steps '6-10' Section.
+    type: text
+    config:
+      required: false
+    label: steps Microdescription
+    description: The 'micro' description for the 'steps '6-10' Section.
   - name: included-in-step
     type: list
     config:
