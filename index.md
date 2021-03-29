@@ -64,9 +64,8 @@ service:
     second-service:
       service-toggle: true
       service-title: Basic Service package
-      service-description: 10 step process, all basic chemicals included and balanced
-        weekly. Filter will be cleaned as necessary. Equipment will be inspected additional
-        cost for any parts replaced.
+      service-description: 10 step service process - No chemicals included. All chemicals
+        are charged as used on monthly bill.
       service-disable-toggle: false
       service-icon-color: indigo
       service-icon: <i class="fas fa-medal"></i>
