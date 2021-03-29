@@ -194,6 +194,6 @@ What do we bring besides great premium pool servicing & fantastic customer servi
 
 **Our expectations**
 
-We ha
+Our only expectation is that the equipment is up to date on repairs and if we suspect a leak we take proper actions to have it repaired.
 
 **About Brevard Pool Care** 
