@@ -153,34 +153,38 @@ At Brevard Pool Care we have made a name for ourselves for premium pool service.
 
 #### How we're different
 
-We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have developed a **8 step process** to clean your pool the same crisp sparkling clean every single visit. What is the **8 step process** you ask?
+We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. We offer an all inclusive premium servicing focusing on every aspect of your pool. 
 
-**8 STEP PROCESS:**
+All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have developed a **10 step process** to clean your pool the same crisp sparkling clean every single visit. What is the **10 step process** you ask?
+
+**10 STEP PROCESS:**
 
 **This process is required to be performed on every regular weekly service visit in this order by our service technicians: of course modified to your pool's specific needs.**
 
-1. **Brush Tile / Grout lines**-
-   * Every inch of tile will be brushed and grout lines will be clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits* where applicable. 
-2. **Empty skimmer and Pump basket**-
-   * Every visit we leave your baskets free of debris. Emptying of baskets allows maximum water flow. Inspection of O-ring at the pump lid upon opening, lube if necessary. 
-3. **Net debris off surface of water**-
-   * We use the highest quality nets to capture the smallest debris and pollen and our technicians are netting experts! We use a technique to net every inch of surface area of the water.
-4. **Vacuum every single visit**-
-   * Pool will be vacuumed every single visit. We have the newest in pool vacuum technology as well as the old faithful system hose and vacuum head. We use the same technique to vacuum every inch of the bottom of the pool, every single visit. A fun fact we call this technique "mowing the lawn" because you wouldn't miss a blade of grass mowing the lawn; well we won't miss anything in your pool either!
-5. **Net remaining debris until spotless**-
-   * By spotless we mean it! Debris as well as nails or metal toys can leave unwanted stains. We can remove the metal or debris and work on removing any stains*.
-6. **Brush entire surface of pool**- 
-   * Brushing the walls, floor, steps, stairs, etc; every visit! All while focusing on spots/stains that require more attention.
-7. **Check/Balance chemicals**- 
-   * We balance the pool accordingly to the weather conditions. Checking and maintaining the following chemicals: Chlorine, Salt, P.H., Alkalinity, Stabilizer-CYA, Calcium Hardness. Phosphates* and nitrates will be tested and removed as necessary.
-8. **Filter Cleaning/Equipment inspection**-  
-   * Filter will be cleaned regularly as required by the manufacture. Most require monthly cleaning. The equipment will be checked for leaks and in proper running condition before leaving your property. Salt Cells will be scheduled to be cleaned every 3 months*.
+ 1. **Brush Tile / Grout lines**-
+    * Every inch of tile will be brushed and grout lines will be clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits* where applicable. 
+ 2. **Empty skimmer and Pump basket**-
+    * Every visit we leave your baskets free of debris. Emptying of baskets allows maximum water flow. Inspection of O-ring at the pump lid upon opening, lube if necessary. 
+ 3. **Net debris off surface of water**-
+    * We use the highest quality nets to capture the smallest debris and pollen and our technicians are netting experts! We use a technique to net every inch of surface area of the water.
+ 4. **Vacuum every single visit**-
+    * Pool will be vacuumed every single visit. We have the newest in pool vacuum technology as well as the old faithful system hose and vacuum head. We use the same technique to vacuum every inch of the bottom of the pool, every single visit. A fun fact we call this technique "mowing the lawn" because you wouldn't miss a blade of grass mowing the lawn; well we won't miss anything in your pool either!
+ 5. **Net remaining debris until spotless**-
+    * By spotless we mean it! Debris as well as nails or metal toys can leave unwanted stains. We can remove the metal or debris and work on removing any stains*.
+ 6. **Brush entire surface of pool**- 
+    * Brushing the walls, floor, steps, stairs, etc; every visit! All while focusing on spots/stains that require more attention.
+ 7. **Check/Balance chemicals**- 
+    * We balance the pool accordingly to the weather conditions. Checking and maintaining the following chemicals: Chlorine, Salt, P.H., Alkalinity, Stabilizer-CYA, Calcium Hardness. Phosphates* and nitrates will be tested and removed as necessary.
+ 8. **Filter Cleaning**-  
+    * Filter will be cleaned regularly as required by the manufacture. Most require monthly cleaning. The equipment will be checked for leaks and in proper running condition before leaving your property. Salt Cells will be scheduled to be cleaned every 3 months*.
+ 9. **Equipment Inspection**-
+    * The equipment will be inspected for air leaks on the suction side and water leaks on equipment. Equipment will be replaced as needed to maintain premium operation.
+10. **Log chemicals and chemical dosages** 
+    * We use a premium route management software to log all our customers chemicals readings and dosages we added to your pool every visit! By keeping track we can see the issues that may arise well in the future and take the proper preventative maintenance.
 
 \*additional cost in some instances.
 
- we've trained our employees to not only pay attention to details, but to put themselves in the customers shoes. Every time we finish an appointment, we hear great real-time feedback from our customers : how we're always professional, timely & orderly when we arrive.
-
-What do we bring besides great pool servicing & fantastic customer service?  Every appointment we provide our own chemicals that we will use during our work at your residence / location. 
+What do we bring besides great premium pool servicing & fantastic customer service?  Every appointment our pool trucks are well equipped mobile pool store on wheels to your residence / location. 
 
 #### If you see one of our trucks, don't hesitate to honk! We love seeing friendly faces!
 
