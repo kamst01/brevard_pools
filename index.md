@@ -73,8 +73,8 @@ service:
     third-service:
       service-toggle: true
       service-title: Mid-Inclusive Service Package
-      service-description: '10 step process. All basic chemicals plus any additional
-        treatments included! Oring at pump lid will be replaced once a year! '
+      service-description: 'All chemicals and special treatments included. 10 step
+        process. All basic chemicals plus any additional treatments included!  '
       service-disable-toggle: false
       service-icon-color: blue
       service-icon: <i class="fas fa-award"></i>
