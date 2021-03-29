@@ -2,8 +2,8 @@
 title: Brevard Pool Care
 slogan: Free top quality products at every appointment!
 phone-number: "(321)412-5983"
-description: Brevard Pool Care is a Brevard County Company that provides it's customers
-  with the best pool care service in Florida!
+description: 'Brevard Pool Care proudly servicing Melbourne, Satelite Beach, Viera,
+  Cocoa Beach, Rockledge, Merritt Island since 2012 '
 layout: layouts/base
 mission-statement: Making each pool better, every day.
 faq:
@@ -120,8 +120,9 @@ service:
       service-icon-color: yellow
       service-icon: box
   included-in-service:
+  - Free Advice
+  - 10 Step Service Process
   - FREE Water Testing
-  - FREE Chemicals
 trusted:
   trusted-toggle: true
   trusted-heading: Trusted by over 100 customers in Brevard.
@@ -143,7 +144,7 @@ footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt
 
 Owning a pool is a wonderful experience. At Brevard Pool Care we are here to take that experience to the next level! By bringing joy and memories that will last a lifetime in your well manicured beautiful pool! 
 
-Our customers and their families look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the waters edge or maybe you're a daily swimmer? 
+Our customers and their families look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the water's edge or maybe you're a daily swimmer? 
 
 Time to change the way you look at owning a swimming pool and the chores it evolves. Start looking at your pool with a smile while making memories, by letting us take over your pools weekly maintenance plan today! One of our friendly service technicians would love to put a smile on your face! After when you see your pool and all you can say is "WOW". 
 
@@ -159,7 +160,7 @@ We've been working with Brevard County, Florida **since 2012**! At Brevard Pool 
 * Water Chemistry & balance
 * Equipment Maintenance
 
-All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have perfected a **10 step process** to cover the three aspects above. What is the **10 step process** you ask?
+All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have perfected a **10 step process** to cover the three aspects listed above. What is the **10 step process** you ask?
 
 **10 STEP PROCESS:**
 
@@ -194,6 +195,6 @@ What do we bring besides great premium pool servicing & fantastic customer servi
 
 **Our expectations**
 
-Our only expectation is that the equipment is up to date on repairs and if we suspect a leak we take proper actions to have it repaired.
+Our only expectation is that the equipment is up to date on repairs and is running properly. if we suspect a leak we take proper actions to have it repaired.
 
 **About Brevard Pool Care** 
