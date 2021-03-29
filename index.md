@@ -153,9 +153,13 @@ At Brevard Pool Care we have made a name for ourselves for premium pool service.
 
 #### How we're different
 
-We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. We offer an all inclusive premium servicing focusing on every aspect of your pool. 
+We've been working with Brevard County, Florida **since 2012**! At Brevard Pool Care we have been a premium pool concierge service since day one. We offer an all inclusive premium servicing focusing on every aspect of your pool. We break our weekly service plans with all three aspects of the pool in mind. 
 
-All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have developed a **10 step process** to clean your pool the same crisp sparkling clean every single visit. What is the **10 step process** you ask?
+* Pool Service Cleaning
+* Water Chemistry & balance
+* Equipment Maintence
+
+All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have perfected a **10 step process** to cover the three aspects above. What is the **10 step process** you ask?
 
 **10 STEP PROCESS:**
 
