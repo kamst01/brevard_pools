@@ -80,14 +80,14 @@ service:
     fourth-service:
       service-toggle: true
       service-title: Gold Concierge all Inclusive Service Package
-      service-description: " 10 step process. All chemicals and treatments included.
+      service-description: '10 step process. All chemicals and treatments included.
         Any and all Orings/plugs will be replaced yearly on the equipment all included
         in the gold package! Receive an email when the pool is serviced every week!
         Pool deck and equipment pad will be blown using leaf blower every 6 months.
-        Also included: discount on yearly pressure washing plan."
+        Also included: discount on yearly pressure washing plan.'
       service-disable-toggle: false
       service-icon-color: yellow
-      service-icon: <i class="fas fa-trophy"></i>
+      service-icon: trophy
     fifth-service:
       service-toggle: true
       service-title: Deep Cleaning
