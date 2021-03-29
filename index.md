@@ -157,7 +157,7 @@ We've been working with Brevard County, Florida **since 2012**! At Brevard Pool 
 
 * Pool Service Cleaning
 * Water Chemistry & balance
-* Equipment Maintence
+* Equipment Maintenance
 
 All pools are different, but yet all pools require the same weekly maintenance procedure. At Brevard Pool Care we have perfected a **10 step process** to cover the three aspects above. What is the **10 step process** you ask?
 
@@ -193,5 +193,7 @@ What do we bring besides great premium pool servicing & fantastic customer servi
 #### If you see one of our trucks, don't hesitate to honk! We love seeing friendly faces!
 
 **Our expectations**
+
+We ha
 
 **About Brevard Pool Care** 
