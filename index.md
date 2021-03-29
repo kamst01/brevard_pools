@@ -133,114 +133,112 @@ step:
   steps-first-microheading: Steps 1-5
   steps-second-microheading: Steps 6-10
   steps:
-    steps-first-section:
-      first-step:
-        step-toggle: true
-        step-number: 1
-        step-title: Brush Tile / Grout lines
-        step-description: Every inch of tile will be brushed and grout lines will
-          be clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits*
-          where applicable.
-        step-disable-toggle: false
-        step-icon-color: green
-        step-icon: swimming-pool
-      second-step:
-        step-toggle: true
-        step-number: 2
-        step-title: Empty skimmer and Pump basket
-        step-description: Every visit we leave your baskets free of debris. Emptying
-          of baskets allows maximum water flow. Inspection of O-ring at the pump lid
-          upon opening, lube if necessary.
-        step-disable-toggle: false
-        step-icon-color: indigo
-        step-icon: medal
-      third-step:
-        step-toggle: true
-        step-number: 3
-        step-title: Net debris off surface of water
-        step-description: We use the highest quality nets to capture the smallest
-          debris and pollen and our technicians are netting experts! We use a technique
-          to net every inch of surface area of the water.
-        step-disable-toggle: false
-        step-icon-color: blue
-        step-icon: award
-      fourth-step:
-        step-toggle: true
-        step-number: 4
-        step-title: Vacuum every single visit
-        step-description: Pool will be vacuumed every single visit. We have the newest
-          in pool vacuum technology as well as the old faithful system hose and vacuum
-          head. We use the same technique to vacuum every inch of the bottom of the
-          pool, every single visit. A fun fact we call this technique "mowing the
-          lawn" because you wouldn't miss a blade of grass mowing the lawn; well we
-          won't miss anything in your pool either!
-        step-disable-toggle: false
-        step-icon-color: yellow
-        step-icon: trophy
-      fifth-step:
-        step-toggle: true
-        step-number: 5
-        step-title: Net remaining debris until spotless
-        step-description: By spotless we mean it! Debris as well as nails or metal
-          toys can leave unwanted stains. We can remove the metal or debris and work
-          on removing any stains*.
-        step-disable-toggle: false
-        step-icon-color: blue
-        step-icon: hand-sparkles
+    first-step:
+      step-toggle: true
+      step-number: 1
+      step-title: Brush Tile / Grout lines
+      step-description: Every inch of tile will be brushed and grout lines will
+        be clean and free of algae. Tile scum will be removed. Removal of any calcium-deposits*
+        where applicable.
+      step-disable-toggle: false
+      step-icon-color: green
+      step-icon: swimming-pool
+    second-step:
+      step-toggle: true
+      step-number: 2
+      step-title: Empty skimmer and Pump basket
+      step-description: Every visit we leave your baskets free of debris. Emptying
+        of baskets allows maximum water flow. Inspection of O-ring at the pump lid
+        upon opening, lube if necessary.
+      step-disable-toggle: false
+      step-icon-color: indigo
+      step-icon: medal
+    third-step:
+      step-toggle: true
+      step-number: 3
+      step-title: Net debris off surface of water
+      step-description: We use the highest quality nets to capture the smallest
+        debris and pollen and our technicians are netting experts! We use a technique
+        to net every inch of surface area of the water.
+      step-disable-toggle: false
+      step-icon-color: blue
+      step-icon: award
+    fourth-step:
+      step-toggle: true
+      step-number: 4
+      step-title: Vacuum every single visit
+      step-description: Pool will be vacuumed every single visit. We have the newest
+        in pool vacuum technology as well as the old faithful system hose and vacuum
+        head. We use the same technique to vacuum every inch of the bottom of the
+        pool, every single visit. A fun fact we call this technique "mowing the
+        lawn" because you wouldn't miss a blade of grass mowing the lawn; well we
+        won't miss anything in your pool either!
+      step-disable-toggle: false
+      step-icon-color: yellow
+      step-icon: trophy
+    fifth-step:
+      step-toggle: true
+      step-number: 5
+      step-title: Net remaining debris until spotless
+      step-description: By spotless we mean it! Debris as well as nails or metal
+        toys can leave unwanted stains. We can remove the metal or debris and work
+        on removing any stains*.
+      step-disable-toggle: false
+      step-icon-color: blue
+      step-icon: hand-sparkles
       image: https://res.cloudinary.com/bpc-cloud/v1616209001/images/pool-testing_psiofz.jpg
-    steps-second-section:
-      sixth-step:
-        step-toggle: true
-        step-number: 6
-        step-title: Brush entire surface of pool
-        step-description: Brushing the walls, floor, steps, stairs, etc; every visit!
-          All while focusing on spots/stains that require more attention.
-        step-disable-toggle: false
-        step-icon-color: pink
-        step-icon: leaf
-      seventh-step:
-        step-toggle: true
-        step-number: 7
-        step-title: Check/Balance chemicals
-        step-description: We balance the pool accordingly to the weather conditions.
-          Checking and maintaining the following chemicals Chlorine, Salt, P.H., Alkalinity,
-          Stabilizer-CYA, Calcium Hardness. Phosphates* and nitrates will be tested
-          and removed as necessary.
-        step-disable-toggle: false
-        step-icon-color: purple
-        step-icon: vials
-      eighth-step:
-        step-toggle: true
-        step-number: 8
-        step-title: Filter Cleaning
-        step-description: Filter will be cleaned regularly as required by the manufacture.
-          Most require monthly cleaning. The equipment will be checked for leaks and
-          in proper running condition before leaving your property. Salt Cells will
-          be scheduled to be cleaned every 3 months*.
-        step-disable-toggle: false
-        step-icon-color: yellow
-        step-icon: box
-      ninth-step:
-        step-toggle: true
-        step-number: 9
-        step-title: Equipment Inspection
-        step-description: The equipment will be inspected for air leaks on the suction
-          side and water leaks on equipment. Equipment will be replaced as needed
-          to maintain premium operation.
-        step-disable-toggle: false
-        step-icon-color: indigo
-        step-icon: box
-      tenth-step:
-        step-toggle: true
-        step-number: 10
-        step-title: Log chemicals and chemical dosages
-        step-description: We use a premium route management software to log all our
-          customers chemicals readings and dosages we added to your pool every visit!
-          By keeping track we can see the issues that may arise well in the future
-          and take the proper preventative maintenance.
-        step-disable-toggle: false
-        step-icon-color: blue
-        step-icon: box
+    sixth-step:
+      step-toggle: true
+      step-number: 6
+      step-title: Brush entire surface of pool
+      step-description: Brushing the walls, floor, steps, stairs, etc; every visit!
+        All while focusing on spots/stains that require more attention.
+      step-disable-toggle: false
+      step-icon-color: pink
+      step-icon: leaf
+    seventh-step:
+      step-toggle: true
+      step-number: 7
+      step-title: Check/Balance chemicals
+      step-description: We balance the pool accordingly to the weather conditions.
+        Checking and maintaining the following chemicals Chlorine, Salt, P.H., Alkalinity,
+        Stabilizer-CYA, Calcium Hardness. Phosphates* and nitrates will be tested
+        and removed as necessary.
+      step-disable-toggle: false
+      step-icon-color: purple
+      step-icon: vials
+    eighth-step:
+      step-toggle: true
+      step-number: 8
+      step-title: Filter Cleaning
+      step-description: Filter will be cleaned regularly as required by the manufacture.
+        Most require monthly cleaning. The equipment will be checked for leaks and
+        in proper running condition before leaving your property. Salt Cells will
+        be scheduled to be cleaned every 3 months*.
+      step-disable-toggle: false
+      step-icon-color: yellow
+      step-icon: box
+    ninth-step:
+      step-toggle: true
+      step-number: 9
+      step-title: Equipment Inspection
+      step-description: The equipment will be inspected for air leaks on the suction
+        side and water leaks on equipment. Equipment will be replaced as needed
+        to maintain premium operation.
+      step-disable-toggle: false
+      step-icon-color: indigo
+      step-icon: box
+    tenth-step:
+      step-toggle: true
+      step-number: 10
+      step-title: Log chemicals and chemical dosages
+      step-description: We use a premium route management software to log all our
+        customers chemicals readings and dosages we added to your pool every visit!
+        By keeping track we can see the issues that may arise well in the future
+        and take the proper preventative maintenance.
+      step-disable-toggle: false
+      step-icon-color: blue
+      step-icon: box
       image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-salt-two_yo54l8.jpg
   included-in-step:
   - 10 Step Service Process
