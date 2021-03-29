@@ -55,7 +55,7 @@ service:
   services:
     first-service:
       service-toggle: true
-      service-title: Green Pools
+      service-title: Green to Clean
       service-description: We clean & maintain Green Pools. Whether it's algae build
         up or a maintained green pool!
       service-disable-toggle: false
