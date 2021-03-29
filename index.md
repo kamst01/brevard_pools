@@ -145,7 +145,7 @@ Owning a pool is a wonderful experience. At Brevard Pool Care we are here to tak
 
 Our customers and their families look at their pool with a smile knowing that it's always ready for them to enjoy. Whether you enjoy sipping your cup of coffee near the waters edge or maybe you're a daily swimmer? 
 
-Time to change the way you look at owning a swimming pool and the chores it evolves. Start looking at your pool with a smile making memories, by letting us take over your pools weekly maintenance plan today! One of our friendly service technicians would love to put a smile on your face! After we service your pool all you can say is "WOW". 
+Time to change the way you look at owning a swimming pool and the chores it evolves. Start looking at your pool with a smile making memories, by letting us take over your pools weekly maintenance plan today! One of our friendly service technicians would love to put a smile on your face! After when you see your pool and all you can say is "WOW". 
 
 **Call today (407)-WOW-POOL**
 
