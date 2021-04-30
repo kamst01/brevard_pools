@@ -254,7 +254,7 @@ trusted:
   trusted-second-stat: 100+
   trusted-third-stat: "$100k+"
   trusted-third-title: Insured
-video-still: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-chlorine_ojrfrq.jpg
+video-still: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chlorine-three_kvznsv.jpg
 about-us-image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chlorine-two_joeo7z.jpg
 review-image: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-salt_mtxhzg.jpg
 navigation-logo: https://res.cloudinary.com/bpc-cloud/v1616199938/images/logoexpanded_icou0s.png
