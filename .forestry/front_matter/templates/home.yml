@@ -27,19 +27,30 @@ fields:
     maxSize: 64
   label: Navigation Logo
   description: The logo used in the navigation at the top page.
-- name: header-video
-  type: file
-  config:
-    maxSize: 64
-  label: Header Video
-  description: The video used in the header.
-- name: video-still
-  type: file
-  config:
-    maxSize: 64
-  label: Video Still Image
-  description: The thumbnail / still image of the video that will show while the video
-    is not playing.
+- name: pool-featers
+  type: field_group
+  config: {}
+  fields:
+  - name: spa
+    type: text
+    config:
+      required: false
+    label: Spa
+    description: Spa
+  - name: waterfall
+    type: text
+    config:
+      required: false
+    label: Waterfall
+    description: Waterfall
+  - name: negative-edge
+    type: text
+    config:
+      required: false
+    label: Negative Edge
+    description: Negative Edge
+  label: Pool featers
+  description: For the questionnaire located in the header
 - name: about-us-image
   type: file
   config:
