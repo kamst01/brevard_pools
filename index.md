@@ -259,6 +259,13 @@ about-us-image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chl
 review-image: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-salt_mtxhzg.jpg
 navigation-logo: https://res.cloudinary.com/bpc-cloud/v1616199938/images/logoexpanded_icou0s.png
 footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
+pool-featers:
+  spa: Spa
+  waterfall: Waterfall
+  negative-edge: Negative Edge
+  first-pool-feature: Spa
+  second-pool-feature: Waterfall
+  third-pool-feature: Negative Edge
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; you're in good hands.
