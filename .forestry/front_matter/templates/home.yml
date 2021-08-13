@@ -31,21 +31,41 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: first-pool-feature
-    type: text
-    config:
-      required: false
-    label: First Pool Feature
-  - name: second-pool-feature
-    type: text
-    config:
-      required: false
-    label: Second Pool Feature
-  - name: third-pool-feature
-    type: text
-    config:
-      required: false
-    label: Third Pool Feature
+  - name: type
+    type: field_group
+    config: {}
+    fields:
+    - name: first
+      type: text
+      config:
+        required: false
+      label: first
+    - name: second
+      type: text
+      config:
+        required: false
+      label: second
+    - name: third
+      type: text
+      config:
+        required: false
+      label: third
+    - name: fourth
+      type: text
+      config:
+        required: false
+      label: fourth
+    - name: fifth
+      type: text
+      config:
+        required: false
+      label: fifth
+    - name: sixth
+      type: text
+      config:
+        required: false
+      label: sixth
+    label: type
   label: Pool features
   description: For the questionnaire located in the header
 - name: about-us-image
@@ -1366,3 +1386,7 @@ fields:
     required: false
   label: Contact Subheading
   description: Subheading for Contact Us Section.
+- name: type
+  type: field_group
+  config: {}
+  label: type
