@@ -27,7 +27,7 @@ fields:
     maxSize: 64
   label: Navigation Logo
   description: The logo used in the navigation at the top page.
-- name: pool-featers
+- name: pool-features
   type: field_group
   config: {}
   fields:
@@ -46,7 +46,7 @@ fields:
     config:
       required: false
     label: Third Pool Feature
-  label: Pool featers
+  label: Pool features
   description: For the questionnaire located in the header
 - name: about-us-image
   type: file
