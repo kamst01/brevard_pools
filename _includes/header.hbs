@@ -69,7 +69,7 @@
 
                                 <div>
                                     <label for="email" class="sr-only">Email</label>
-                                    <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" title="Email" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" pattern=".+@example\.com" size="30" required>
+                                    <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" title="email@example.com" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" pattern=".+@example\.com" required>
                                 </div>
 
                                 <div>
@@ -83,9 +83,16 @@
                                     </div>
                                     <div class="relative flex justify-center text-sm">
                                         <span class="px-2 bg-blue-50 text-gray-500">
-                                        Upload Photos
+                                        Important
                                         </span>
                                     </div>
+                                </div>
+
+                                <div>
+                                    <label for="spa" class="text-gray-500 text-sm font-medium">
+                                        <input type="checkbox" name="spa" id="spa" class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent">
+                                        <span>Spa</span>
+                                    </label>
                                 </div>
 
                                 <div>
@@ -98,12 +105,12 @@
                                                     </svg>
                                                     <div class="flex justify-center text-sm text-gray-600">
                                                         <label for="image-upload" class="relative cursor-pointer bg-transparent rounded-md font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500">
-                                                            <span>Upload a file</span>
+                                                            <span>Upload Photos</span>
                                                             <input id="image-upload" name="image-upload" type="file" class="sr-only" required multiple accept="image/*">
                                                         </label>
                                                     </div>
-                                                    <p class="text-gray-500 text-xs">
-                                                        Please provide images of landscaping around pool, pool filter, pool equipment and pool.
+                                                    <p class="text-gray-500 text-xs font-semibold">
+                                                        Please provide images of landscaping around pool, pool filter, pool equipment and of the pool.
                                                     </p>
                                                     <p class="text-xs text-gray-500">
                                                     PNG and JPG up to 10MB
