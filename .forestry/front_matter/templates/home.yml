@@ -31,24 +31,21 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: spa
+  - name: first-pool-feature
     type: text
     config:
       required: false
-    label: Spa
-    description: Spa
-  - name: waterfall
+    label: First Pool Feature
+  - name: second-pool-feature
     type: text
     config:
       required: false
-    label: Waterfall
-    description: Waterfall
-  - name: negative-edge
+    label: Second Pool Feature
+  - name: third-pool-feature
     type: text
     config:
       required: false
-    label: Negative Edge
-    description: Negative Edge
+    label: Third Pool Feature
   label: Pool featers
   description: For the questionnaire located in the header
 - name: about-us-image
