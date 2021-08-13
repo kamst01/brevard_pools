@@ -263,6 +263,9 @@ pool-featers:
   spa: Spa
   waterfall: Waterfall
   negative-edge: Negative Edge
+  first-pool-feature: Spa
+  second-pool-feature: Waterfall
+  third-pool-feature: Negative Edge
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; you're in good hands.
