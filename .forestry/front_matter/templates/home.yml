@@ -27,46 +27,29 @@ fields:
     maxSize: 64
   label: Navigation Logo
   description: The logo used in the navigation at the top page.
-- name: pool-features
+- name: pool-feature
   type: field_group
   config: {}
   fields:
-  - name: type
+  - name: pool-features
     type: field_group
     config: {}
     fields:
-    - name: first
-      type: text
+    - name: feature
+      type: field_group_list
+      fields:
+      - name: name
+        type: text
+        config:
+          required: false
+        label: Name
       config:
-        required: false
-      label: first
-    - name: second
-      type: text
-      config:
-        required: false
-      label: second
-    - name: third
-      type: text
-      config:
-        required: false
-      label: third
-    - name: fourth
-      type: text
-      config:
-        required: false
-      label: fourth
-    - name: fifth
-      type: text
-      config:
-        required: false
-      label: fifth
-    - name: sixth
-      type: text
-      config:
-        required: false
-      label: sixth
-    label: type
-  label: Pool features
+        min: 
+        max: 
+        labelField: 
+      label: Feature
+    label: Pool Features
+  label: Pool Feature
   description: For the questionnaire located in the header
 - name: about-us-image
   type: file
