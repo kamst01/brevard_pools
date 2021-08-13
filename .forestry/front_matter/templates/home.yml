@@ -31,24 +31,19 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: pool-features
-    type: field_group
-    config: {}
+  - name: feature
+    type: field_group_list
     fields:
-    - name: feature
-      type: field_group_list
-      fields:
-      - name: name
-        type: text
-        config:
-          required: false
-        label: Name
+    - name: name
+      type: text
       config:
-        min: 
-        max: 
-        labelField: 
-      label: Feature
-    label: Pool Features
+        required: false
+      label: name
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Feature
   label: Pool Feature
   description: For the questionnaire located in the header
 - name: about-us-image
