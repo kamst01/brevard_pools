@@ -272,6 +272,10 @@ pool-feature:
     - name: Negative Edge
     - name: Waterfall
     - name: Spa
+  feature:
+  - name: Negative Edge
+  - name: Waterfall
+  - name: Spa
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; you're in good hands.
