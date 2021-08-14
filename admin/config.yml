@@ -15,3 +15,14 @@ collections:
     folder: "data/"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slogan", name: "siteSlogan", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Phone Number", name: "companyPhoneNumber", widget: "string"}
+      - {label: "Mission Statement", name: "companyMissionStatement", widget: "string"}
+      - label: "FAQ" 
+        name: "faq" 
+        widget: "list"
+        allow_add: true
+        fields: 
+          - {label: "First Question", name: "faqFirstQuestion", widget: "string"}
+          - {label: "First Answer", name: "faqFirstAnswer", widget: "string"}
