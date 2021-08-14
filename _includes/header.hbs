@@ -62,6 +62,9 @@
                         <span class="block text-sm font-semibold tracking-wide text-blue-600 uppercase sm:text-base lg:text-sm xl:text-base">GET A FREE QUOTE WITHIN 24 HOURS!</span>
                         <div>
                             <form name="headerFreeQuote" method="POST" class="mt-4 space-y-4" netlify>
+                                <p class="hidden">
+                                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                                </p>
                                 <div>
                                     <label for="name" class="sr-only">Full name</label>
                                     <input type="text" name="name" id="name" autocomplete="name" placeholder="Full name" required class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md">
