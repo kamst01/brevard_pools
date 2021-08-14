@@ -7,7 +7,7 @@ media_library:
   name: cloudinary
   config:
     cloud_name: bpc-cloud
-    publicKey: 887479154912573
+    api_key: 887479154912573
 public_folder: /images/
 collections:
   - name: "home"
