@@ -1,17 +1,15 @@
 backend:
-  # name: git-gateway
-  # branch: main
   name: github
   repo: kamst01/brevard_pools
-  media_folder: "/images/"
+  publish_mode: editorial_workflow
+  media_folder: /images/
   media_library:
     name: cloudinary
     config:
       name: bpc-cloud
       publicKey: 887479154912573
-  public_folder: "/images/"
-  publish_mode: editorial_workflow
+  public_folder: /images/
   collections:
     - name: "home"
       label: "Home"
-      folder: "_site"
+      folder: "data/"
