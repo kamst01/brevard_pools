@@ -2,8 +2,8 @@
 title: Brevard Pool Care
 slogan: 'Premium Inclusive Concierge Pool Service '
 phone-number: "(407)-WOW-POOL"
-description: 'Proudly Servicing: Melbourne, Satellite Beach, Viera, Cocoa Beach, Rockledge,
-  Merritt Island and all in between since 2012 '
+description: 'Proudly Servicing: Merritt Island, Satellite Beach, Viera, Cocoa Beach,
+  Rockledge, Sun Tree and all in between since 2012! '
 layout: layouts/base
 mission-statement: Making each pool better, every day.
 faq:
@@ -259,6 +259,13 @@ about-us-image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chl
 review-image: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-salt_mtxhzg.jpg
 navigation-logo: https://res.cloudinary.com/bpc-cloud/v1616199938/images/logoexpanded_icou0s.png
 footer-logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
+pool-featers:
+  spa: Spa
+  waterfall: Waterfall
+  negative-edge: Negative Edge
+  first-pool-feature: Spa
+  second-pool-feature: Waterfall
+  third-pool-feature: Negative Edge
 pool-feature:
   feature:
   - name: Negative Edge
