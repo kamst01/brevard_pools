@@ -13,6 +13,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "autoprefixer": "^10.2.5",
+    "netlify-plugin-a11y": "^0.0.12",
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.4"
