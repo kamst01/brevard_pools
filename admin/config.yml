@@ -6,7 +6,7 @@ media_folder: /images/
 media_library:
   name: cloudinary
   config:
-    name: bpc-cloud
+    cloud_name: bpc-cloud
     publicKey: 887479154912573
 public_folder: /images/
 collections:
