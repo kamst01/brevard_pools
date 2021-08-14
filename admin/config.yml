@@ -1,15 +1,15 @@
 backend:
   name: github
   repo: kamst01/brevard_pools
-  publish_mode: editorial_workflow
-  media_folder: /images/
-  media_library:
-    - name: cloudinary
-      config:
-        name: bpc-cloud
-        publicKey: 887479154912573
-  public_folder: /images/
-  collections:
-    - name: "home"
-      label: "Home"
-      folder: "data/"
+publish_mode: editorial_workflow
+media_folder: /images/
+media_library:
+  - name: cloudinary
+    config:
+      name: bpc-cloud
+      publicKey: 887479154912573
+public_folder: /images/
+collections:
+  - name: "home"
+    label: "Home"
+    folder: "data/"
