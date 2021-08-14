@@ -19,6 +19,21 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Phone Number", name: "companyPhoneNumber", widget: "string"}
       - {label: "Mission Statement", name: "companyMissionStatement", widget: "string"}
+      - {label: "Email", name: "companyEmail", widget: "string"}
+      - label: "Trusted" 
+        name: "trusted" 
+        widget: "list"
+        allow_add: true
+        fields: 
+          - {label: "Heading", name: "trustedHeading", widget: "string"}
+          - {label: "Sub Heading", name: "trusxtedSubHeading", widget: "string"}
+          - label: "Stats" 
+            name: "stats" 
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Title", name: "statsTitle", widget: "string"}
+              - {label: "Stat", name: "statsStat", widget: "string"}
       - label: "FAQ" 
         name: "faq" 
         widget: "list"
@@ -26,3 +41,13 @@ collections:
         fields: 
           - {label: "Question", name: "faqQuestion", widget: "string"}
           - {label: "Answer", name: "faqAnswer", widget: "string"}
+      - {label: "Meet Brevard Pool Care Heading", name: "meetBrevardPoolCareHeading", widget: "string"}
+      - {label: "Meet Brevard Pool Care Sub-Heading", name: "meetBrevardPoolCareSubHeading", widget: "string"}
+      - label: "Steps" 
+        name: "steps" 
+        widget: "list"
+        allow_add: true
+        fields:
+          - {label: "Step Number", name: "stepNumber", widget: "number"}
+          - {label: "Title", name: "stepTitle", widget: "string"}
+          - {label: "Description", name: "stepDescription", widget: "string"}
