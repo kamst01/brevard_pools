@@ -132,7 +132,7 @@
                 <rect x="118" width="404" height="784" fill="url(#dots)" />
             </svg>
         </div>
-        <div class="relative z-10 px-4 mx-auto my-16 max-w-7xl sm:my-24 sm:px-6 lg:my-32">
+        <div class="relative z-10 px-4 mx-auto my-16 max-w-7xl sm:my-24 sm:px-6">
             <div class="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div class="space-y-4 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                     <h1>
@@ -169,10 +169,10 @@
                         </div>
                         <div class="flex-1 min-w-0 py-1 pl-5 text-sm text-gray-500 sm:py-3">
                             <p class="font-medium text-gray-900">
-                                Rated 5 stars by our 
-                                <a href="https://www.google.com/search?hl=en&q=brevard%20pool%20care#lrd=0x88e0a9ad1aa6ab27:0x78f4d95cd24c5296,1,,," class="text-blue-600 hover:text-blue-700">
-                                    happy customers
-                                </a>
+                                Rated 
+                                
+                                <a href="https://www.google.com/search?hl=en&q=brevard%20pool%20care#lrd=0x88e0a9ad1aa6ab27:0x78f4d95cd24c5296,1,,," class="text-blue-600 hover:text-blue-700">5 stars
+                                </a> by our happy customers!
                             </p>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                         <div class="px-4 py-8 sm:px-10">
                             <span class="block text-sm font-semibold tracking-wide text-blue-600 uppercase sm:text-base lg:text-sm xl:text-base">GET A FREE QUOTE WITHIN 24 HOURS!</span>
                             <div>
-                                <form action="#" method="POST" class="mt-4 space-y-6">
+                                <form name="free-quote" method="POST" class="mt-4 space-y-4" data-netlify="true">
                                     <div>
                                         <label for="name" class="sr-only">Full name</label>
                                         <input type="text" name="name" id="name" autocomplete="name" placeholder="Full name" required class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md">
@@ -198,7 +198,7 @@
                                         <input id="phone" name="phone" type="text" placeholder="Phone" autocomplete="phone" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" maxlength="16" minlength="7" required>
                                     </div>
     
-                                    <div class="mt-6 relative">
+                                    <div class="relative">
                                         <div class="absolute inset-0 flex items-center" aria-hidden="true">
                                             <div class="w-full border-t border-blue-300"></div>
                                         </div>
@@ -210,10 +210,20 @@
                                     </div>
     
                                     <div>
-                                        <label for="spa" class="text-gray-500 text-sm font-medium">
-                                            <input type="checkbox" name="spa" id="spa" class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent">
-                                            <span>Spa</span>
-                                        </label>
+                                        <div class="grid grid-cols-2 grid-flow-row gap-y-2">
+                                            <label for="Negative Edge" class="text-gray-500 text-base font-medium col-span-1">
+                                                <input type="checkbox" name="Negative Edge" id="Negative Edge-pool-feature" class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent">
+                                                <span>Negative Edge</span>
+                                            </label>
+                                            <label for="Waterfall" class="text-gray-500 text-base font-medium col-span-1">
+                                                <input type="checkbox" name="Waterfall" id="Waterfall-pool-feature" class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent">
+                                                <span>Waterfall</span>
+                                            </label>
+                                            <label for="Spa" class="text-gray-500 text-base font-medium col-span-1">
+                                                <input type="checkbox" name="Spa" id="Spa-pool-feature" class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent">
+                                                <span>Spa</span>
+                                            </label>
+                                        </div>
                                     </div>
     
                                     <div>
@@ -682,7 +692,7 @@
             </div>
             <div class="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
               <div class="max-w-lg mx-auto lg:max-w-none">
-                <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+                <form name="contact" method="POST" class="grid grid-cols-1 gap-y-6" data-netlify="true">
                   <div>
                     <label for="full_name" class="sr-only">Full name</label>
                     <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Full name">
