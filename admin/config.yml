@@ -4,10 +4,10 @@ backend:
 publish_mode: editorial_workflow
 media_folder: /images/
 media_library:
-  - name: cloudinary
-    config:
-      - name: bpc-cloud
-        publicKey: 887479154912573
+  name: cloudinary
+  config:
+    name: bpc-cloud
+    publicKey: 887479154912573
 public_folder: /images/
 collections:
   - name: "home"
