@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
-  branch: main
+  # name: git-gateway
+  # branch: main
+  name: github
+  repo: kamst01/brevard_pools
   media_folder: "/images/"
   media_library:
     name: cloudinary
