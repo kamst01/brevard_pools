@@ -182,7 +182,7 @@
                         <div class="px-4 py-8 sm:px-10">
                             <span class="block text-sm font-semibold tracking-wide text-blue-600 uppercase sm:text-base lg:text-sm xl:text-base">GET A FREE QUOTE WITHIN 24 HOURS!</span>
                             <div>
-                                <form name="headerFreeQuote" method="POST" class="mt-4 space-y-4" netlify>
+                                <form name="headerFreeQuote" method="POST" class="mt-4 space-y-4" netlify-honeypot="bot-field" netlify>
                                     <p class="hidden">
                                         <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
                                     </p>
@@ -695,7 +695,7 @@
             </div>
             <div class="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
               <div class="max-w-lg mx-auto lg:max-w-none">
-                <form name="contact" method="POST" class="grid grid-cols-1 gap-y-6" netlify>
+                <form name="contact" method="POST" class="grid grid-cols-1 gap-y-6" netlify-honeypot="bot-field" netlify>
                   <p class="hidden">
                     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
                   </p>
