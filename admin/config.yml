@@ -1,14 +1,13 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main
   media_folder: "/images/"
-  media_library: 
-    name: github
+  media_library:
+    name: cloudinary
+    config:
+      name: bpc-cloud
+      publicKey: 887479154912573
   public_folder: "/images/"
-
-  # Please run "npx netlify-cms-proxy-server" for local backend
-  local_backend: true
-
   publish_mode: editorial_workflow
   collections:
     - name: "home"
