@@ -1,4 +1,5 @@
 ---
+layout: layouts/base.hbs
 title: Brevard Pool Care
 siteSlogan: Premium Inclusive Concierge Pool Service
 description: '"Proudly Servicing: Merritt Island, Satellite Beach,
