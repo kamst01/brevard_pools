@@ -11,7 +11,7 @@ media_library:
 collections:
   - name: "home"
     label: "Home"
-    folder: "/"
+    folder: "/index.md"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slogan", name: "siteSlogan", widget: "string"}
