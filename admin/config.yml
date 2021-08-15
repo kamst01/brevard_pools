@@ -15,69 +15,69 @@ collections:
       - label: "Home Page"
         name: "home"
         file: "/index.md"
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Slogan", name: "siteSlogan", widget: "string"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Phone Number", name: "companyPhoneNumber", widget: "string"}
-        - {label: "Mission Statement", name: "companyMissionStatement", widget: "string"}
-        - {label: "Company Logo", name: "companyLogo", widget: "image"}
-        - {label: "Email", name: "companyEmail", widget: "string"}
-        - {label: "Address", name: "companyAddress", widget: "string"}
-        - {label: "Meet Brevard Pool Care Heading", name: "meetBrevardPoolCareHeading", widget: "string"}
-        - {label: "Meet Brevard Pool Care Sub-Heading", name: "meetBrevardPoolCareSubHeading", widget: "string"}
-        - label: "Trusted" 
-          name: "trusted" 
-          widget: "object"
-          allow_add: true
-          fields: 
-            - {label: "Heading", name: "trustedHeading", widget: "string"}
-            - {label: "Sub Heading", name: "trusxtedSubHeading", widget: "string"}
-            - label: "Stats" 
-              name: "stats" 
-              widget: "list"
-              allow_add: true
-              fields:
-                - {label: "Title", name: "statsTitle", widget: "string"}
-                - {label: "Stat", name: "statsStat", widget: "string"}
-        - label: "FAQ" 
-          name: "faq" 
-          widget: "list"
-          allow_add: true
-          fields: 
-            - {label: "Question", name: "faqQuestion", widget: "string"}
-            - {label: "Answer", name: "faqAnswer", widget: "string"}
-        - label: "Steps Section" 
-          name: "stepsSection" 
-          widget: "object"
-          fields:
-            - {label: "Heading", name: "stepHeading", widget: "string"}
-            - {label: "Sub Heading", name: "stepSubHeading", widget: "string"}
-            - {label: "Micro Heading", name: "stepMicroHeading", widget: "string"}
-            - label: "Steps"
-              name: "steps"
-              widget: "list"
-              allow_add: true
-              fields:
-                - {label: "Step Number", name: "stepNumber", widget: "number"}
-                - {label: "Title", name: "stepTitle", widget: "string"}
-                - {label: "Description", name: "stepDescription", widget: "string"}
-            - label: "Included In Steps"
-              name: "includedInSteps"
-              widget: "list"
-              allow_add: true
-              fields:
-                - {label: "Title", name: "alwaysIncludedTitle", widget: "string"}
-        - label: "Reviews" 
-          name: "reviews" 
-          widget: "list"
-          allow_add: true
-          fields:
-            - {label: "Reviewee", name: "reviewee", widget: "string"}
-            - {label: "Review", name: "review", widget: "string"}
-        - label: "Pool Features" 
-          name: "features" 
-          widget: "list"
-          allow_add: true
-          fields:
-            - {label: "title", name: "poolFeatureTitle", widget: "string"}
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Slogan", name: "siteSlogan", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Phone Number", name: "companyPhoneNumber", widget: "string"}
+          - {label: "Mission Statement", name: "companyMissionStatement", widget: "string"}
+          - {label: "Company Logo", name: "companyLogo", widget: "image"}
+          - {label: "Email", name: "companyEmail", widget: "string"}
+          - {label: "Address", name: "companyAddress", widget: "string"}
+          - {label: "Meet Brevard Pool Care Heading", name: "meetBrevardPoolCareHeading", widget: "string"}
+          - {label: "Meet Brevard Pool Care Sub-Heading", name: "meetBrevardPoolCareSubHeading", widget: "string"}
+          - label: "Trusted" 
+            name: "trusted" 
+            widget: "object"
+            allow_add: true
+            fields: 
+              - {label: "Heading", name: "trustedHeading", widget: "string"}
+              - {label: "Sub Heading", name: "trusxtedSubHeading", widget: "string"}
+              - label: "Stats" 
+                name: "stats" 
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "Title", name: "statsTitle", widget: "string"}
+                  - {label: "Stat", name: "statsStat", widget: "string"}
+          - label: "FAQ" 
+            name: "faq" 
+            widget: "list"
+            allow_add: true
+            fields: 
+              - {label: "Question", name: "faqQuestion", widget: "string"}
+              - {label: "Answer", name: "faqAnswer", widget: "string"}
+          - label: "Steps Section" 
+            name: "stepsSection" 
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "stepHeading", widget: "string"}
+              - {label: "Sub Heading", name: "stepSubHeading", widget: "string"}
+              - {label: "Micro Heading", name: "stepMicroHeading", widget: "string"}
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "Step Number", name: "stepNumber", widget: "number"}
+                  - {label: "Title", name: "stepTitle", widget: "string"}
+                  - {label: "Description", name: "stepDescription", widget: "string"}
+              - label: "Included In Steps"
+                name: "includedInSteps"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "Title", name: "alwaysIncludedTitle", widget: "string"}
+          - label: "Reviews" 
+            name: "reviews" 
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "Reviewee", name: "reviewee", widget: "string"}
+              - {label: "Review", name: "review", widget: "string"}
+          - label: "Pool Features" 
+            name: "features" 
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "title", name: "poolFeatureTitle", widget: "string"}
