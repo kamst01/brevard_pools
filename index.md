@@ -14,6 +14,14 @@ meetBrevardPoolCareSubHeading: Let's Work Together
 trusted:
   trustedHeading: Trusted by over 200 customers in Brevard.
   trusxtedSubHeading: We guarantee we'll provide customer satisfaction!
+  trustedSubHeading: " We guarantee we'll provide customer satisfaction!"
+  stats:
+    - statsTitle: Star Rating
+      statsStat: "5"
+    - statsTitle: Happy Customers
+      statsStat: 200+
+    - statsTitle: Insured
+      statsStat: $1m+
 stepsSection:
   stepHeading: Our Famous 10 Steps
   stepSubHeading: With each step, you can guarantee you will get
