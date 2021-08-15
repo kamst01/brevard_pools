@@ -20,4 +20,8 @@ stepsSection:
     top     notch     products     used in your pool with hard working
     employees. We     guarantee     that.
   stepMicroHeading: Steps 1 - 10
+features:
+  - poolFeatureTitle: Negative Edge
+  - poolFeatureTitle: Spa
+  - poolFeatureTitle: Waterfall
 ---
