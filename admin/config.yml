@@ -30,10 +30,9 @@ collections:
           - label: "Trusted" 
             name: "trusted" 
             widget: "object"
-            allow_add: true
             fields: 
               - {label: "Heading", name: "trustedHeading", widget: "string"}
-              - {label: "Sub Heading", name: "trusxtedSubHeading", widget: "string"}
+              - {label: "Sub Heading", name: "trustedSubHeading", widget: "string"}
               - label: "Stats" 
                 name: "stats" 
                 widget: "list"
