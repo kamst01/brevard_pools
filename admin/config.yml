@@ -2,13 +2,12 @@ backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: /images/
+media_folder: "/images/"
 media_library:
   name: cloudinary
   config:
     cloud_name: bpc-cloud
     api_key: 887479154912573
-public_folder: /images/
 collections:
   - name: "home"
     label: "Home"
