@@ -1,5 +1,5 @@
 ---
-title: Brevard Pool Care
+title: Brevard Pool Car
 siteSlogan: Premium Inclusive Concierge Pool Service
 description: "Proudly Servicing: Merritt Island, Satellite Beach, Viera,
   Cocoa   Beach,   Rockledge, Sun Tree and all in between since 2012!"
