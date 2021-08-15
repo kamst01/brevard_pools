@@ -16,6 +16,7 @@ collections:
         name: "home"
         file: "/index.md"
         fields:
+          - {label: "Layout", name: "layout", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Slogan", name: "siteSlogan", widget: "string"}
           - {label: "Description", name: "description", widget: "string"}
