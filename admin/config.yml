@@ -50,6 +50,7 @@ collections:
             name: "faq"
             widget: "object"
             fields: 
+              - {label: "Heading", name: "heading", widget: "string"}
               - label: "FAQ"
                 name: "faqs"
                 widget: "list"
