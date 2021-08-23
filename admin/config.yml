@@ -81,3 +81,9 @@ collections:
               - {label: "Reviewer", name: "reviewer", widget: "string"}
               - {label: "Review", name: "review", widget: "string"}
               - {label: "Image", name: "image", widget: "image"}
+          - label: "Contact"
+            name: "contact"
+            width: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Subheading", name: "subheading", widget: "string"}
