@@ -51,7 +51,7 @@ collections:
             widget: "object"
             fields: 
               - {label: "Heading", name: "heading", widget: "string"}
-              - label: "FAQ"
+              - label: "FAQS"
                 name: "faqs"
                 widget: "list"
                 allow_add: true
