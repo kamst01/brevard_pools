@@ -47,12 +47,16 @@ collections:
                   - {label: "Title", name: "title", widget: "string"}
                   - {label: "Stat", name: "stat", widget: "string"}
           - label: "FAQ" 
-            name: "faq" 
-            widget: "list"
-            allow_add: true
+            name: "faq"
+            width: "object"
             fields: 
-              - {label: "Question", name: "question", widget: "string"}
-              - {label: "Answer", name: "answer", widget: "string"}
+              - label: "FAQ"
+                name: "faqs"
+                widget: "list"
+                allow_add: true
+                fields:
+                  - {label: "Question", name: "question", widget: "string"}
+                  - {label: "Answer", name: "answer", widget: "string"}
           - label: "Steps Section" 
             name: "steps" 
             widget: "object"
