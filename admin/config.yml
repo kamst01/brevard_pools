@@ -74,9 +74,10 @@ collections:
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
           - label: "Reviews" 
-            name: "reviews" 
+            name: "reviews"
             widget: "list"
             allow_add: true
             fields:
               - {label: "Reviewer", name: "reviewer", widget: "string"}
               - {label: "Review", name: "review", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
