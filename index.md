@@ -13,7 +13,6 @@ meetBrevardPoolCareHeading: Meet Brevard Pool Care
 meetBrevardPoolCareSubHeading: Let's Work Together
 trusted:
   trustedHeading: Trusted by over 200 customers in Brevard.
-  trusxtedSubHeading: We guarantee we'll provide customer satisfaction!
   trustedSubHeading: " We guarantee we'll provide customer satisfaction!"
   stats:
     - statsTitle: Star Rating
@@ -22,12 +21,6 @@ trusted:
       statsStat: 200+
     - statsTitle: Insured
       statsStat: $1m+
-stepsSection:
-  stepHeading: Our Famous 10 Steps
-  stepSubHeading: With each step, you can guarantee you will get
-    top     notch     products     used in your pool with hard working
-    employees. We     guarantee     that.
-  stepMicroHeading: Steps 1 - 10
 features:
   - poolFeatureTitle: Negative Edge
   - poolFeatureTitle: Spa
