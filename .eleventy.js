@@ -5,6 +5,6 @@ module.exports = function(eleventyConfig) {
     // import markdown-it, to read the markdown from netlifycms in index.md
     let markdownIt = require("markdown-it");
     eleventyConfig.setLibrary("md", markdownIt);
-};
     // passthrough admin folder to the _site folder on build
     eleventyConfig.addPassthroughCopy("admin");
+};
