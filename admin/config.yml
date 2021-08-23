@@ -48,7 +48,7 @@ collections:
                   - {label: "Stat", name: "stat", widget: "string"}
           - label: "FAQ" 
             name: "faq"
-            width: "object"
+            widget: "object"
             fields: 
               - label: "FAQ"
                 name: "faqs"
@@ -87,7 +87,7 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
           - label: "Contact"
             name: "contact"
-            width: "object"
+            widget: "object"
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
               - {label: "Subheading", name: "subheading", widget: "string"}
