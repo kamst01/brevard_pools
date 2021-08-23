@@ -31,53 +31,52 @@ collections:
             name: "trusted" 
             widget: "object"
             fields: 
-              - {label: "Heading", name: "trustedHeading", widget: "string"}
-              - {label: "Sub Heading", name: "trustedSubHeading", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Sub Heading", name: "subheading", widget: "string"}
               - label: "Stats" 
                 name: "stats" 
                 widget: "list"
                 allow_add: true
                 fields:
-                  - {label: "Title", name: "statsTitle", widget: "string"}
-                  - {label: "Stat", name: "statsStat", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Stat", name: "stat", widget: "string"}
           - label: "FAQ" 
             name: "faq" 
             widget: "list"
             allow_add: true
             fields: 
-              - {label: "Question", name: "faqQuestion", widget: "string"}
-              - {label: "Answer", name: "faqAnswer", widget: "string"}
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "string"}
           - label: "Steps Section" 
-            name: "stepsSection" 
+            name: "steps" 
             widget: "object"
             fields:
-              - {label: "Heading", name: "stepHeading", widget: "string"}
-              - {label: "Sub Heading", name: "stepSubHeading", widget: "string"}
-              - {label: "Micro Heading", name: "stepMicroHeading", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Sub Heading", name: "subheading", widget: "string"}
               - label: "Steps"
                 name: "steps"
                 widget: "list"
                 allow_add: true
                 fields:
-                  - {label: "Step Number", name: "stepNumber", widget: "number"}
-                  - {label: "Title", name: "stepTitle", widget: "string"}
-                  - {label: "Description", name: "stepDescription", widget: "string"}
+                  - {label: "Step Number", name: "number", widget: "number"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "string"}
               - label: "Included In Steps"
                 name: "includedInSteps"
                 widget: "list"
                 allow_add: true
                 fields:
-                  - {label: "Title", name: "alwaysIncludedTitle", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
           - label: "Reviews" 
             name: "reviews" 
             widget: "list"
             allow_add: true
             fields:
-              - {label: "Reviewee", name: "reviewee", widget: "string"}
+              - {label: "Reviewee", name: "reviewer", widget: "string"}
               - {label: "Review", name: "review", widget: "string"}
           - label: "Pool Features" 
             name: "features" 
             widget: "list"
             allow_add: true
             fields:
-              - {label: "title", name: "poolFeatureTitle", widget: "string"}
+              - {label: "title", name: "title", widget: "string"}
