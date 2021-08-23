@@ -11,7 +11,11 @@ companyEmail: brevardpoolcare@outlook.com
 companyAddress: Merritt Island, Florida - 32952.
 meetBrevardPoolCareHeading: Meet Brevard Pool Care
 meetBrevardPoolCareSubHeading: Let's Work Together
-features: []
+features:
+  - title: Negative Edge?
+  - title: Spa?
+  - title: Waterfall?
+  - title: Rental or AirBnB?
 trusted:
   stats:
     - title: Star Rating
