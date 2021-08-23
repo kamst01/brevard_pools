@@ -78,5 +78,5 @@ collections:
             widget: "list"
             allow_add: true
             fields:
-              - {label: "Reviewee", name: "reviewer", widget: "string"}
+              - {label: "Reviewer", name: "reviewer", widget: "string"}
               - {label: "Review", name: "review", widget: "string"}
