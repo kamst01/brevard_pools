@@ -26,6 +26,26 @@ trusted:
       stat: $1m+
   heading: Trusted by over 200 customers in Brevard.
   subheading: "We guarantee we'll provide customer satisfaction! "
+faq:
+  heading: Frequently asked questions
+  faqs:
+    - question: How often can I schedule an appointment?
+      answer: We offer daily, weekly or monthly appointments. We
+        also       offer       select       long-term packages to customers.
+        Please contact       us for more       information.
+    - question: How much extra do chemicals cost in my appointment?
+      answer: $0! We include it with every appointment made!
+    - question: If I need an early appointment, can you do that?
+      answer: We work as early as 7 AM! We love helping our
+        customers       as       early       as         possible.
+    - question: How far are you willing to travel?
+      answer: We work within the Brevard County limits.
+    - question: Do I NEED an appointment?
+      answer: Although it is not required, it is recommended
+        highly       to       contact       us         & schedule an
+        appointment.
+    - question: There is a foreign object in my pool! Can you help?
+      answer: Yes! We clean, care for & remove select debry from our customer's pools!
 steps:
   heading: Our Famous 10 Steps
   subheading: With each step, you can guarantee you will
