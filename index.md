@@ -125,7 +125,7 @@ steps:
         keeping track we can         see the issues that         may arise well
         in the future         and         take the proper
         preventative         maintenance.
-content:
+main:
   image: https://res.cloudinary.com/bpc-cloud/image/upload/v1616209001/images/pool-testing_psiofz.jpg
   content: >-
     ### We treat every customer the same. No matter the situation or condition
