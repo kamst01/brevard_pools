@@ -27,6 +27,12 @@ collections:
           - {label: "Address", name: "companyAddress", widget: "string"}
           - {label: "Meet Brevard Pool Care Heading", name: "meetBrevardPoolCareHeading", widget: "string"}
           - {label: "Meet Brevard Pool Care Sub-Heading", name: "meetBrevardPoolCareSubHeading", widget: "string"}
+          - label: "Pool Features" 
+            name: "features" 
+            widget: "list"
+            allow_add: true
+            fields:
+              - {label: "title", name: "title", widget: "string"}
           - label: "Trusted" 
             name: "trusted" 
             widget: "object"
@@ -74,9 +80,3 @@ collections:
             fields:
               - {label: "Reviewee", name: "reviewer", widget: "string"}
               - {label: "Review", name: "review", widget: "string"}
-          - label: "Pool Features" 
-            name: "features" 
-            widget: "list"
-            allow_add: true
-            fields:
-              - {label: "title", name: "title", widget: "string"}
