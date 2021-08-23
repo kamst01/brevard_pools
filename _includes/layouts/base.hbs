@@ -62,6 +62,7 @@
     <main>
         {{> trusted }}
         {{> steps }}
+        {{#with content}}
         <div class="overflow-hidden bg-white" id="about-us">
             <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="absolute top-0 bottom-0 hidden w-screen max-h-96 lg:block bg-gray-50 left-3/4"></div>
@@ -84,7 +85,7 @@
                         <div class="relative mx-auto text-base max-w-prose lg:max-w-none">
                             <figure>
                                 <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
-                                    <img loading="lazy" class="object-cover object-center rounded-lg shadow-lg" src="{{about-us-image}}" alt="Spencer working hard for our customers showing our testing results." width="1184" height="1376">
+                                    <img loading="lazy" class="object-cover object-center rounded-lg shadow-lg" src="{{image}}" alt="Spencer working hard for our customers showing our testing results." width="1184" height="1376">
                                 </div>
                                 <figcaption class="flex mt-3 text-sm text-gray-500">
                                     <!-- Heroicon name: solid/camera -->
@@ -104,6 +105,7 @@
                 </div>
             </div>
         </div>
+        {{/with}}
         {{> reviews }}
         {{> faq }}
         {{> contact }}

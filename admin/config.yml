@@ -78,7 +78,12 @@ collections:
                 allow_add: true
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "content", widget: "markdown"}
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields: 
+              - {label: "Content Image", name: "image", widget: "image"}
+              - {label: "Content", name: "content", widget: "markdown"}
           - label: "Reviews" 
             name: "reviews"
             widget: "object"
