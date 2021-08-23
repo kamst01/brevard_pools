@@ -1,12 +1,13 @@
+{{#with reviews}}
 <div class="pt-16 lg:py-24">
   <div class="pb-16 mx-auto bg-blue-200 rounded-lg max-w-7xl lg:pb-0 lg:z-10 lg:relative">
     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
       <div class="relative lg:-my-12">
         <div aria-hidden="true" class="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden"></div>
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-          <figure>
+          <figure role="img">
             <div class="overflow-hidden shadow-xl aspect-w-10 aspect-h-6 rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-              <img loading="lazy" class="object-cover lg:h-full lg:w-full" src="{{reviews.image}}" alt="A beautiful view from a customers property in Merritt Island, Florida.">
+              <img loading="lazy" class="object-cover lg:h-full lg:w-full" src="{{image}}" alt="A beautiful view from a customers property in Merritt Island, Florida.">
             </div>
             <figcaption class="flex mt-4 text-sm text-gray-500">
               <!-- Heroicon name: solid/camera -->
@@ -26,7 +27,7 @@
                 <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
               </svg>
               <p class="mt-6 text-2xl font-medium text-gray-900">
-                {{reviews.review}}
+                {{review}}
               </p>
             </div>
             <footer class="mt-6">
@@ -53,7 +54,7 @@
                   <p class="font-medium">
                     Rated 5 stars by
                     <span class="font-semibold">
-                      {{reviews.reviewer}}
+                      {{reviewer}}
                     </span>
                   </p>
                 </div>
@@ -65,3 +66,4 @@
     </div>
   </div>
 </div>
+{{/with}}
