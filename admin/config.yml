@@ -78,8 +78,8 @@ collections:
                 allow_add: true
                 fields:
                   - {label: "Title", name: "title", widget: "string"}
-          - label: "Content"
-            name: "content"
+          - label: "Main Content"
+            name: "main"
             widget: "object"
             fields: 
               - {label: "Content Image", name: "image", widget: "image"}
