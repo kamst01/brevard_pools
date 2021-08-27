@@ -1,0 +1,26 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/admin"
+webhook_url: 
+sections:
+- type: directory
+  path: ''
+  label: Pages
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - home
+upload_dir: images
+public_path: https://res.cloudinary.com/bpc-cloud
+front_matter_path: https://res.cloudinary.com/bpc-cloud
+use_front_matter_path: true
+file_template: ":year:_:month:_:day:-:filename:-bpc"
+build:
+  preview_output_directory: _site
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run build

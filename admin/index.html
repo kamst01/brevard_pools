@@ -1,10 +1,11 @@
+<!-- forestryio: ignore; forestryio: admin -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="noindex" />
-    <title>Brevard Pool Care | Content Management System</title>
+    <title>Admin</title>
     <meta name="description" content=" " />
     <meta name="author" content=" " />
     <meta name="HandheldFriendly" content="true" />
@@ -17,36 +18,38 @@
 
     <!-- Fort awesome icon kit -->
     <script src="https://use.fortawesome.com/b6f38602.js"></script>
+
 </head>
 <body>
-    <div id="app">
+<div id="app">
 
-    </div>
-    <script id="admin-config-script" type="text/javascript">
-      var env = {
-          siteId: "07abtwwk38-fvq",
-          local: false
-      };
-    
-      function uuidv4() {
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-          var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-          return v.toString(16);
-        });
-      }
-    
-      var uuid = uuidv4()
-      var script = document.createElement('script');
-      script.src = "https://app.forestry.io/admin/forestry.min.js?hash=" + uuid
-      script.id = "forestry-admin";
-      document.body.appendChild(script);
-    
-      var link = document.createElement("link");
-      link.type = "text/css";
-      link.rel = "stylesheet";
-      link.href = "https://app.forestry.io/admin/main.css?hash=" + uuid
-      document.head.appendChild(link);
-    
-    </script>
+</div>
+<script id="admin-config-script" type="text/javascript">
+  var env = {
+      siteId: "07abtwwk38-fvq",
+      local: false
+  };
+
+  function uuidv4() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }
+
+  var uuid = uuidv4()
+  var script = document.createElement('script');
+  script.src = "https://app.forestry.io/admin/forestry.min.js?hash=" + uuid
+  script.id = "forestry-admin";
+  document.body.appendChild(script);
+
+  var link = document.createElement("link");
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  link.href = "https://app.forestry.io/admin/main.css?hash=" + uuid
+  document.head.appendChild(link);
+
+</script>
+
 </body>
 </html>
