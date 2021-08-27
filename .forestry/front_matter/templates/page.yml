@@ -1,0 +1,14 @@
+---
+label: Page
+hide_body: false
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+- name: site_heading
+  type: text
+  config:
+    required: false
+  label: Site Heading
