@@ -2,16 +2,46 @@
 label: Home
 hide_body: false
 fields:
-- name: siteheading
-  type: text
-  config:
-    required: false
-  label: Site Heading
 - name: layout
   type: text
   config:
     required: false
   label: layout
   description: "⚠️ <strong>DO NOT CHANGE THIS!! </strong>⚠️"
+- name: siteheading
+  type: text
+  config:
+    required: false
+  label: Site Heading
+- name: slogan 
+  type: text
+  config:
+    required: false
+  label: Site Slogan
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: phone_number
+  type: text
+  config:
+    required: false
+  label: Phone Number
+- name: mission_statement
+  type: text
+  config:
+    required: false
+  label: Mission Statement
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
 pages:
 - index.md
