@@ -7,5 +7,11 @@ fields:
   config:
     required: false
   label: Site Heading
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  description: "⚠️ <strong>DO NOT CHANGE THIS!! </strong>⚠️"
 pages:
 - index.md
