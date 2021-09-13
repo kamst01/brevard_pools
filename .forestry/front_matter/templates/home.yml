@@ -8,12 +8,17 @@ fields:
     required: false
   label: layout
   description: "⚠️ <strong>DO NOT CHANGE THIS!! </strong>⚠️"
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
 - name: siteheading
   type: text
   config:
     required: false
   label: Site Heading
-- name: slogan 
+- name: slogan
   type: text
   config:
     required: false
@@ -43,5 +48,105 @@ fields:
   config:
     required: false
   label: Address
+- name: meet_brevard_pool_care_heading
+  type: text
+  config:
+    required: false
+  label: Meet Brevard Pool Care Heading
+- name: meet_brevard_pool_care_subheading
+  type: text
+  config:
+    required: false
+  label: Meet Brevard Pool Care Subheading
+- name: pool_features
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  label: Pool Features
+- name: trusted
+  type: field_group
+  config: {}
+  fields:
+  - name: stats
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: stat
+      type: text
+      config:
+        required: false
+      label: Stat
+    label: Stats
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: subheading
+    type: text
+    config:
+      required: false
+    label: Subheading
+  label: Trusted
+- name: faq
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: faqs
+    type: field_group
+    config: {}
+    fields:
+    - name: question
+      type: text
+      config:
+        required: false
+      label: Question
+    - name: answer
+      type: text
+      config:
+        required: false
+      label: Answer
+    label: FAQs
+  label: FAQ
+- name: steps
+  type: field_group
+  config: {}
+  fields:
+  - name: number
+    type: number
+    label: Number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  label: Steps
 pages:
 - index.md
