@@ -9,6 +9,7 @@ sections:
   label: Pages
   create: documents
   match: "**/*"
+  exclude: README.md, package.json, netlify.tom, .forestry
   new_doc_ext: md
   templates:
   - home
