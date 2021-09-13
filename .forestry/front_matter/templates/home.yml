@@ -101,6 +101,12 @@ fields:
       config:
         required: false
       label: Stat
+    - name: rounded
+      type: text
+      config:
+        required: false
+      label: Rounded
+      description: "⚠️<strong>DO NOT CHANGE THIS!!</strong> ⚠️"
     config:
       min: 
       max: 

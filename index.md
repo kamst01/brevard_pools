@@ -21,12 +21,15 @@ trusted:
   heading: Trusted by over 200 customers in Brevard.
   subheading: We guarantee we'll provide customer satisfaction!
   stats:
-  - title: Happy Customers
-    stat: 200+
-  - title: Insured
-    stat: "$1m+"
   - title: Star Rating
     stat: "5"
+    rounded: l-lg
+  - title: Insured
+    stat: "$1m+"
+    rounded: none
+  - title: Happy Customers
+    stat: 200+
+    rounded: r-lg
 faq:
   heading: Frequently asked questions
   faqs:
