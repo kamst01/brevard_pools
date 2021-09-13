@@ -148,5 +148,18 @@ fields:
       required: false
     label: Description
   label: Steps
+- name: repeat
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: repeat
 pages:
 - index.md
