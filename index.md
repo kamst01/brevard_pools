@@ -119,6 +119,8 @@ review:
 contact:
   heading: Contact Us
   subheading: We are available from 7AM EST to 5PM EST. Monday - Friday.
+main:
+  image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chlorine-three_kvznsv.jpg
 
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; you're in good hands.
