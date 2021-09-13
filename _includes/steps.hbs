@@ -1,7 +1,7 @@
 {{#with steps}}
-<div id="steps" class="bg-white">
+<section id="steps" class="bg-white" aria-labelledby="stepsHeading">
     <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-gray-900">
+        <h2 id="stepsHeading" class="text-3xl font-extrabold text-gray-900" aria-hidden="true">
             {{heading}}
         </h2>
         <p class="text-base font-medium text-gray-600">
@@ -27,5 +27,5 @@
             </dl>
         </div>
     </div>
-</div>
+</section>
 {{/with}}

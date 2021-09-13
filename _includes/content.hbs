@@ -1,4 +1,5 @@
-<div class="overflow-hidden bg-white" id="content">
+<main id="content" class="overflow-hidden bg-white" aria-labelledby="contentHeading">
+    <h2 id="contentHeading" class="sr-only" aria-hidden="true">Content</h2>
     <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="absolute top-0 bottom-0 hidden w-screen max-h-96 lg:block bg-gray-50 left-3/4"></div>
         <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
@@ -10,6 +11,7 @@
         <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
             {{#with main}}
             <div class="relative lg:row-start-1 lg:col-start-2">
+                <!-- dotted background -->
                 <svg class="absolute top-0 right-0 hidden -mt-20 -mr-20 lg:block" width="404" height="384" fill="none" viewBox="0 0 404 384" aria-hidden="true">
                     <defs>
                         <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -41,4 +43,4 @@
             </div>
         </div>
     </div>
-</div>
+</main>
