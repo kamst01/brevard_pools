@@ -56,8 +56,9 @@ function validateForm() {
 }
 
 
-imageUploader.addEventListener('change', (files) => {
+imageUploader.addEventListener('change', (e) => {
   const zip = new JSZip();
+  const files = e.target.files;
 
   for(let file of files) {
     zip.file(file.name, file);
