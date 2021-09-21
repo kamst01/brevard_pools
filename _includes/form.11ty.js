@@ -1,4 +1,6 @@
 let currentTab = 0; // Current tab is set to be the first tab (0)
+const imageUploader = document.getElementById('image-upload');
+
 showTab(currentTab); // Display the current tab
 
 function showTab(tab) {
@@ -53,15 +55,17 @@ function validateForm() {
   return valid; // return the valid status
 }
 
-function photosUpload(files) {
+
+imageUploader.addEventListener('change', (files) => {
   const zip = new JSZip();
+
   files.forEach((file) => zip.file(file.name, file));
+
   zip.generateAsync({type: 'blob'}).then((blob) => {
     const zippedPhotos = new File([blob], `${blob}-photos`, {
       lastModified: Date.now(),
       type: 'application/zip'
     });
-    console.log(zippedPhotos);
     return zippedPhotos;
   });
-}
+});
