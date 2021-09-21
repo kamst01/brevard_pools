@@ -61,6 +61,7 @@ function photosUpload(files) {
       lastModified: Date.now(),
       type: 'application/zip'
     });
+    console.log(zippedPhotos);
     return zippedPhotos;
   });
 }
