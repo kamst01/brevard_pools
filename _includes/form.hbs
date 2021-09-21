@@ -1,79 +1,118 @@
-<form name="headerFreeQuote" method="POST" class="mt-4 space-y-4" aria-labelledby="formHeading" aria-describedby="formDescription" netlify-honeypot="bot-field" netlify>
+<form id="headerForm" name="headerFreeQuote" method="POST" class="mt-4" aria-labelledby="formHeading" aria-describedby="formDescription" netlify-honeypot="bot-field" netlify enctype="multipart/form-data">
     <h2 id="formHeading" class="sr-only" aria-hidden="true">Form</h2>
     <p id="formDescription" class="sr-only" aria-hidden="true">Get a free quote for your pool cleaning within 24 hours!</p>
     <p class="hidden">
         <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
     </p>
-    <div>
-        <label for="name" class="sr-only">Full name</label>
-        <input id="name" name="name" type="text" autocomplete="name" placeholder="Full name" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" required>
+
+    <input type="hidden" name="form-name" value="headerFreeQuote" />
+    
+    <div class="tab hidden space-y-4 flex-col">
+        <div>
+            <label for="name" class="sr-only">Full name</label>
+            <input id="name" name="name" type="text" placeholder="Full name" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" required>
+        </div>
+
+        <div>
+            <label for="address" class="sr-only">Home Address</label>
+            <input id="address" name="address" type="text" placeholder="Home Address" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" required>
+        </div>
+
+        <div>
+            <label for="email" class="sr-only">Email</label>
+            <input id="email" name="email" type="email" placeholder="Email" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" required>
+        </div>
+
+        <div>
+            <label for="phone" class="sr-only">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="Phone" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" maxlength="16" minlength="7" required>
+        </div>
     </div>
 
-    <div>
-        <label for="email" class="sr-only">Email</label>
-        <input id="email" name="email" type="email"  autocomplete="email" placeholder="Email" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" required>
-    </div>
-
-    <div>
-        <label for="phone" class="sr-only">Phone</label>
-        <input id="phone" name="phone" type="text" autocomplete="phone" placeholder="Phone" class="block w-full shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm border-gray-300 rounded-md" maxlength="16" minlength="7" required>
-    </div>
-
-    <div>
-        <div class="grid grid-cols-2 grid-flow-row gap-y-2">
+    <div class="tab hidden space-y-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 grid-flow-row w-full gap-y-2">
         {{#each pool_features}}
             <label for="{{title}}" class="text-gray-500 text-base font-medium col-span-1">
-                <input type="checkbox" name="{{title}}" id="{{title}}-pool-feature" class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent">
+                <input 
+                    type="checkbox" 
+                    name="{{title}}" 
+                    id="{{title}}-pool-feature" 
+                    class="appearance-none rounded-full border-blue-300 bg-white checked:bg-blue-600 checked:border-transparent"
+                />
                 <span>{{title}}</span>
             </label>
         {{/each}}
         </div>
     </div>
 
-    <div class="relative">
-        <div class="absolute inset-0 flex items-center" aria-hidden="true">
-            <div class="w-full border-t border-blue-300"></div>
+    <div class="tab hidden space-y-4 flex-col">
+        <div class="relative">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                <div class="w-full border-t border-blue-300"></div>
+            </div>
+            <div class="relative flex justify-center text-sm">
+                <span class="px-2 bg-blue-50 text-gray-500">
+                Important
+                </span>
+            </div>
         </div>
-        <div class="relative flex justify-center text-sm">
-            <span class="px-2 bg-blue-50 text-gray-500">
-            Important
-            </span>
+
+        <div>
+            <p class="block text-xs font-semibold tracking-wide text-gray-600 sm:text-sm text-center">Please provide images that are clear and in focus. Take as many photos as necessary to show entire pool / equipment.</p>
         </div>
-    </div>
 
-    <div>
-        <p class="block text-xs font-semibold tracking-wide text-gray-600 sm:text-sm text-center">Please provide images that are clear and in focus. Take as many photos as necessary to show entire pool / equipment.</p>
-    </div>
-
-    <div>
-        <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start">
-            <div class="mt-1 sm:mt-0 sm:col-span-3">
-                <div class="w-full flex justify-center px-6 pt-5 pb-6 border-2 border-blue-300 border-dashed rounded-md">
-                    <div class="space-y-1 text-center">
-                        <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
-                            <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <div class="flex justify-center text-sm text-gray-600">
-                            <label for="image-upload" class="relative cursor-pointer bg-transparent rounded-md font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500">
-                                <span>Upload Photos</span>
-                                <input id="image-upload" name="image-upload" type="file" class="sr-only" required multiple accept="image/*">
-                            </label>
+        <div>
+            <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start">
+                <div class="mt-1 sm:mt-0 sm:col-span-3">
+                    <div class="w-full flex justify-center px-6 pt-5 pb-6 border-2 border-blue-300 border-dashed rounded-md">
+                        <div class="space-y-1 text-center">
+                            <svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                                <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <div class="flex justify-center text-sm text-gray-600">
+                                <label for="image-upload" class="relative cursor-pointer bg-transparent rounded-md font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500">
+                                    <span>Upload Photos</span>
+                                    <input id="image-upload" name="image-upload" type="file" class="sr-only" required multiple accept="image/*">
+                                </label>
+                            </div>
+                            <p class="text-gray-500 text-xs font-semibold">
+                                Please provide images of landscaping around pool, pool filter, pool equipment and of the pool.
+                            </p>
+                            <p class="text-xs text-gray-500">
+                            PNG and JPG up to 10MB
+                            </p>
                         </div>
-                        <p class="text-gray-500 text-xs font-semibold">
-                            Please provide images of landscaping around pool, pool filter, pool equipment and of the pool.
-                        </p>
-                        <p class="text-xs text-gray-500">
-                        PNG and JPG up to 10MB
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <div>
+            <button 
+                id="submitForm"
+                type="submit" 
+                class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                Get Your FREE Quote!
+            </button>
+        </div>
     </div>
-    
-    <div>
-        <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-            Get Your FREE Quote!
+
+    <div class="flex items-center justify-end space-x-4 mt-4">
+        <button
+            type="button" 
+            id="prevButton" 
+            class="w-1/2 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            onclick="nextPrev(-1)"
+        >
+            Previous
+        </button>
+        <button 
+            type="button"
+            id="nextButton" 
+            class="w-1/2 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+            onclick="nextPrev(1)"
+        >
+            Next
         </button>
     </div>
 </form>
