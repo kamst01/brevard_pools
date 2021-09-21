@@ -59,7 +59,9 @@ function validateForm() {
 imageUploader.addEventListener('change', (files) => {
   const zip = new JSZip();
 
-  files.forEach((file) => zip.file(file.name, file));
+  for(let file of files) {
+    zip.file(file.name, file);
+  }
 
   zip.generateAsync({type: 'blob'}).then((blob) => {
     const zippedPhotos = new File([blob], `${blob}-photos`, {
