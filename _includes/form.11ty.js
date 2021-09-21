@@ -1,3 +1,5 @@
+const JSZip = require("jszip");
+
 let currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
@@ -14,8 +16,6 @@ function showTab(tab) {
   } else {
     document.getElementById('prevButton').classList.toggle('hidden');
   }
-  // ... and run a function that displays the correct step indicator:
-  // fixStepIndicator(tab)
 }
 
 function nextPrev(tab) {
@@ -52,19 +52,17 @@ function validateForm() {
       valid = false;
     }
   }
-  // If the valid status is true, mark the step as finished and valid:
-  // if (valid) {
-  //   document.getElementsByClassName('step')[currentTab].className += ' finish';
-  // }
   return valid; // return the valid status
 }
 
-// function fixStepIndicator(tab) {
-//   // This function removes the 'active' class of all steps...
-//   const stepElements = document.getElementsByClassName('step');
-//   for (let i = 0; i < stepElements.length; i++) {
-//     stepElements[i].className = stepElements[i].className.replace(' active', '');
-//   }
-//   //... and adds the 'active' class to the current step:
-//   stepElements[tab].className += ' active';
-// }
+function photosUpload(files) {
+  const zip = new JSZip();
+  files.forEach((file) => zip.file(file.name, file));
+  zip.generateAsync({type: 'blob'}).then((blob) => {
+    const zippedPhotos = new File([blob], `${blob}-photos`, {
+      lastModified: Date.now(),
+      type: 'application/zip'
+    });
+    return zippedPhotos;
+  });
+}
