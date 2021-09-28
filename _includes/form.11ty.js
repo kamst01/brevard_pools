@@ -21,7 +21,7 @@ function showTab(tab) {
 function nextPrev(tab) {
   // This function will figure out which tab to display
   const tabElements = document.getElementsByClassName('tab');
-  // EtabElementsit the function if any field in the current tab is invalid:
+  // if any field in the current tab is invalid:
   if (tab == 1 && !validateForm()) return false;
   // Hide the current tab:
   tabElements[currentTab].classList.toggle('hidden');
@@ -30,8 +30,23 @@ function nextPrev(tab) {
   // if you have reached the end of the form... :
   if (currentTab >= tabElements.length) {
     //...the form gets submitted:
+    imageUploader.addEventListener('change', (e) => {
+      const zip = new JSZip();
+      const files = e.target.files;
+
+      for (let file of files) {
+        zip.file(file.name, file);
+      }
+
+      zip.generateAsync({ type: 'blob' }).then((blob) => {
+        const zippedPhotos = new File([blob], `${blob}-photos`, {
+          lastModified: Date.now(),
+          type: 'application/zip'
+        });
+        return zippedPhotos;
+      });
+    });
     document.getElementById('headerForm').submit();
-    return false;
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);
@@ -54,21 +69,3 @@ function validateForm() {
   }
   return valid; // return the valid status
 }
-
-
-imageUploader.addEventListener('change', (e) => {
-  const zip = new JSZip();
-  const files = e.target.files;
-
-  for(let file of files) {
-    zip.file(file.name, file);
-  }
-
-  zip.generateAsync({type: 'blob'}).then((blob) => {
-    const zippedPhotos = new File([blob], `${blob}-photos`, {
-      lastModified: Date.now(),
-      type: 'application/zip'
-    });
-    return zippedPhotos;
-  });
-});
