@@ -18,7 +18,7 @@ imageUploader.addEventListener('change', (e) => {
       lastModified: Date.now(),
       type: 'application/zip'
     });
-    newFormData.append('images', zippedPhotos);
+    newFormData.append('Upload Photos', zippedPhotos);
   });
 });
 
