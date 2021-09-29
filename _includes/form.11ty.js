@@ -30,7 +30,7 @@ function nextPrev(tab) {
   // if you have reached the end of the form... :
   if (currentTab >= tabElements.length) {
     //...the form gets submitted:
-    imageUploader.addEventListener('change', () => {
+    imageUploader.addEventListener('change', (e) => {
       const zip = new JSZip();
       const files = e.target.files;
 
