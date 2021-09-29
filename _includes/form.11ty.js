@@ -18,9 +18,18 @@ imageUploader.addEventListener('change', (e) => {
       lastModified: Date.now(),
       type: 'application/zip'
     });
-    newFormData.append('Upload Photos', zippedPhotos);
+    newFormData.append('upload photos', zippedPhotos);
   });
 });
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  fetch('/', {
+    method: 'POST',
+    headers: { "Content-Type": "multipart/form-data" },
+    body: new FormData(newFormData.getAll('upload photos'))
+  }).then(() => console.log(newFormData)).then(() => navigate('/thank-you/')).catch(error => alert(error));
+}
 
 function showTab(tab) {
   // This function will display the specified tab of the form ...
@@ -49,14 +58,6 @@ function nextPrev(tab) {
   // if you have reached the end of the form... :
   if (currentTab >= tabElements.length) {
     //...the form gets submitted:
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      fetch('/', {
-        method: 'POST',
-        headers: { "Content-Type": "multipart/form-data" },
-        body: new URLSearchParams(newFormData)
-      }).then(() => navigate("/thank-you/")).catch(error => alert(error));
-    }
     document.getElementById('headerForm').addEventListener('submit', handleSubmit);
   }
   // Otherwise, display the correct tab:
