@@ -30,7 +30,7 @@ function nextPrev(tab) {
   // if you have reached the end of the form... :
   if (currentTab >= tabElements.length) {
     //...the form gets submitted:
-    imageUploader.addEventListener('change', (e) => {
+    imageUploader.addEventListener('change', () => {
       const zip = new JSZip();
       const files = e.target.files;
 
@@ -46,7 +46,19 @@ function nextPrev(tab) {
         return zippedPhotos;
       });
     });
-    document.getElementById('headerForm').submit();
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      let imagesZip = new FormData(imageUploader);
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "multipart/form-data" },
+        body: encode({
+          "form-name": e.target.getAttribute("name"),
+          "images": imagesZip
+        }).then(() => navigate("/thank-you/")).catch(error => alert(error))
+      });
+    }
+    document.getElementById('headerForm').addEventListener('submit', handleSubmit);
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);
