@@ -1,7 +1,26 @@
 let currentTab = 0; // Current tab is set to be the first tab (0)
 const imageUploader = document.getElementById('image-upload');
+const headerForm = document.getElementById('headerForm');
+const newFormData = new FormData(headerForm);
 
 showTab(currentTab); // Display the current tab
+
+imageUploader.addEventListener('change', (e) => {
+  const zip = new JSZip();
+  const files = e.target.files;
+
+  for (let file of files) {
+    zip.file(file.name, file);
+  }
+
+  zip.generateAsync({ type: 'blob' }).then((blob) => {
+    const zippedPhotos = new File([blob], `${blob}-photos`, {
+      lastModified: Date.now(),
+      type: 'application/zip'
+    });
+    newFormData.append('images', zippedPhotos);
+  });
+});
 
 function showTab(tab) {
   // This function will display the specified tab of the form ...
@@ -30,33 +49,13 @@ function nextPrev(tab) {
   // if you have reached the end of the form... :
   if (currentTab >= tabElements.length) {
     //...the form gets submitted:
-    imageUploader.addEventListener('change', (e) => {
-      const zip = new JSZip();
-      const files = e.target.files;
-
-      for (let file of files) {
-        zip.file(file.name, file);
-      }
-
-      zip.generateAsync({ type: 'blob' }).then((blob) => {
-        const zippedPhotos = new File([blob], `${blob}-photos`, {
-          lastModified: Date.now(),
-          type: 'application/zip'
-        });
-        return zippedPhotos;
-      });
-    });
     const handleSubmit = (e) => {
       e.preventDefault();
-      let imagesZip = new FormData(imageUploader);
       fetch('/', {
         method: 'POST',
         headers: { "Content-Type": "multipart/form-data" },
-        body: encode({
-          "form-name": e.target.getAttribute("name"),
-          "images": imagesZip
-        }).then(() => navigate("/thank-you/")).catch(error => alert(error))
-      });
+        body: new URLSearchParams(newFormData)
+      }).then(() => navigate("/thank-you/")).catch(error => alert(error));
     }
     document.getElementById('headerForm').addEventListener('submit', handleSubmit);
   }
