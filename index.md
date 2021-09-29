@@ -134,7 +134,7 @@ Our customers and their families look at their pool with a smile knowing that it
 
 Time to change the way you look at owning a swimming pool and the chores it evolves. Start looking at your pool with a smile while making memories, by letting us take over your pools weekly maintenance plan today! One of our friendly service technicians would love to put a smile on your face! After when you see your pool and all you can say is "WOW".
 
-**Call today (407)-WOW-POOL**
+**Call today** [**(407)-WOW-POOL**](tel:407-WOW-POOL)
 
 At Brevard Pool Care we have made a name for ourselves for premium pool service. We are not satisfied until YOU ARE satisfied - maintenance, cleaning, power washing, green pools, chlorine or salt - we come prepared and do not leave until all expectations are met.
 
@@ -146,12 +146,12 @@ We've been working with Brevard County, Florida **since 2012**! At Brevard Pool 
 * Water Chemistry & balance
 * Equipment Maintenance
 
-All pools are different, but yet all pools require the same weekly maintenance procedure. 
+All pools are different, but yet all pools require the same weekly maintenance procedure.
 
 At Brevard Pool Care we have perfected a **10 step process** to cover the three aspects listed above.
 
 What do we bring besides great premium pool servicing & fantastic customer service?
 
-Every appointment our pool trucks are well equipped mobile pool store on wheels to your residence / location.    
+Every appointment our pool trucks are well equipped mobile pool store on wheels to your residence / location.
 
 #### If you see one of our trucks, don't hesitate to honk! We love seeing friendly faces!
