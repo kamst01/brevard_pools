@@ -4,23 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx postcss styles/tailwind.css --o _site/style.css & npx @11ty/eleventy --formats=hbs,html,md,js --serve --watch",
+    "start": "npx tailwindcss -i styles/tailwind.css -o _site/style.css --watch & npx @11ty/eleventy --formats=hbs,html,md,js --serve --watch",
     "build": "ELEVENTY_PRODUCTION=true eleventy & NODE_ENV=production postcss styles/tailwind.css --o _site/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "autoprefixer": "^10.2.5",
+    "@11ty/eleventy": "^0.12.1",
+    "@tailwindcss/forms": "^0.4.0",
+    "autoprefixer": "^10.4.0",
     "netlify-plugin-a11y": "^0.0.12",
-    "postcss": "^8.2.8",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.4"
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.7"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.0",
-    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/typography": "^0.4.0"
   }
 }
