@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tailwindcss -i styles/tailwind.css -o _site/style.css --watch & npx @11ty/eleventy --formats=hbs,html,md,js --serve --watch",
-    "build": "ELEVENTY_PRODUCTION=true eleventy & NODE_ENV=production postcss styles/tailwind.css --o _site/style.css"
+    "start": "npx @11ty/eleventy --formats=hbs,html,md,js --serve --watch",
+    "tailwind:watch": "npx tailwindcss -i styles/tailwind.css -o _site/style.css --watch",
+    "build": "ELEVENTY=production eleventy & SET NODE_ENV=production postcss styles/tailwind.css --o _site/style.css"
   },
   "keywords": [],
   "author": "",
