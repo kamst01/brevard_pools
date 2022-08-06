@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx @11ty/eleventy --formats=hbs,html,md,js --serve --watch",
     "tailwind:watch": "npx tailwindcss -i ./styles/tailwind.css -o ./_site/style.css --watch",
-    "build": "npx @11ty/eleventy & NODE_ENV=production postcss ./styles/tailwind.css --o ./_site/style.css"
+    "build": "npx @11ty/eleventy & NODE_ENV=production npx tailwindcss -i ./styles/tailwind.css --o ./_site/style.css --minify"
   },
   "keywords": [],
   "author": "Keifer Amster",
