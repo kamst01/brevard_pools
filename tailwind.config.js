@@ -1,6 +1,7 @@
 module.exports = {
   content: [
     '_site/**/*.html', 
+    '_site/*.html', 
     '*/_includes/*/*.hbs'
   ],
   theme: {
