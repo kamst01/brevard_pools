@@ -1,27 +1,25 @@
 {
   "name": "brevard_pools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --formats=hbs,html,md,js --serve --watch",
-    "tailwind:watch": "npx tailwindcss -i styles/tailwind.css -o _site/style.css --watch",
+    "tailwind:watch": "npx tailwindcss -i ./styles/tailwind.css -o ./_site/style.css --watch",
     "build": "ELEVENTY=production eleventy & NODE_ENV=production postcss styles/tailwind.css --o _site/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
     "autoprefixer": "^10.4.0",
     "netlify-plugin-a11y": "^0.0.12",
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0",
-    "tailwindcss": "^3.0.7"
-  },
-  "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/typography": "^0.4.0"
+    "tailwindcss": "^3.1.7"
   }
 }
