@@ -92,7 +92,7 @@ site_heading: Brevard Pool Care
 layout: layouts/base.hbs
 logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
 siteheading: Brevard Pool Care
-slogan: my pool service
+slogan: my newest pool service
 description: "Proudly Servicing: Merritt Island, Satellite Beach, Viera,
   Cocoa   Beach, Rockledge, Sun Tree and all in between since 2012!"
 phone_number: (407)-WOW-POOL
