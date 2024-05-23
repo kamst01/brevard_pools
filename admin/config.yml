@@ -1,0 +1,386 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "_site/images/uploads"
+
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: bpc-cloud
+#     api_key: your_api_key
+    
+collections:
+  - name: "fields"
+    label: "Fields"
+    files:
+      - name: "index"
+        label: "Index"
+        file: "index.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "string",
+              required: false,
+              hint: "⚠️ DO NOT CHANGE THIS!! ⚠️",
+            }
+          - {
+              label: "Logo",
+              name: "logo",
+              widget: "image",
+              required: false,
+              max_size: "64",
+            }
+          - {
+              label: "Site Heading",
+              name: "site_heading",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Site Slogan",
+              name: "slogan",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Description",
+              name: "description",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Phone Number",
+              name: "phone_number",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Mission Statement",
+              name: "mission_statement",
+              widget: "string",
+              required: false,
+            }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - {
+              label: "Address",
+              name: "address",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Meet Brevard Pool Care Heading",
+              name: "meet_brevard_pool_care_heading",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Meet Brevard Pool Care Subheading",
+              name: "meet_brevard_pool_care_subheading",
+              widget: "string",
+              required: false,
+            }
+          - label: "Pool Features"
+            name: "pool_features"
+            widget: "list"
+            hint: "This is for the section in the Form, for getting a quote within 24 hours."
+            fields:
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  required: false,
+                  hint: "Example: Spa, Negative Edge, Waterfall",
+                }
+          - label: "Trusted"
+            name: "trusted"
+            widget: "object"
+            fields:
+              - {
+                  label: "Heading",
+                  name: "heading",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Subheading",
+                  name: "subheading",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - {
+                      label: "Title",
+                      name: "title",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "Stat",
+                      name: "stat",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "Rounded",
+                      name: "rounded",
+                      widget: "string",
+                      required: false,
+                      hint: "⚠️<strong>DO NOT CHANGE THIS!!</strong> ⚠️",
+                    }
+          - label: "FAQ"
+            name: "faq"
+            widget: "object"
+            fields:
+              - {
+                  label: "Heading",
+                  name: "heading",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "FAQs"
+                name: "faqs"
+                widget: "list"
+                fields:
+                  - {
+                      label: "Question",
+                      name: "question",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "Answer",
+                      name: "answer",
+                      widget: "string",
+                      required: false,
+                    }
+          - label: "Steps"
+            name: "steps"
+            widget: "object"
+            fields:
+              - {
+                  label: "Heading",
+                  name: "heading",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Subheading",
+                  name: "subheading",
+                  widget: "string",
+                  required: false,
+                }
+              - label: "Included In Steps"
+                name: "included_in_steps"
+                widget: "list"
+                fields:
+                  - {
+                      label: "Title",
+                      name: "title",
+                      widget: "string",
+                      required: false,
+                    }
+              - label: "Step"
+                name: "step"
+                widget: "list"
+                fields:
+                  - {
+                      label: "Number",
+                      name: "number",
+                      widget: "number",
+                      required: true,
+                      default: 0,
+                    }
+                  - {
+                      label: "Title",
+                      name: "title",
+                      widget: "string",
+                      required: false,
+                    }
+                  - {
+                      label: "Description",
+                      name: "description",
+                      widget: "string",
+                      required: false,
+                    }
+          - label: "Review"
+            name: "review"
+            widget: "object"
+            fields:
+              - {
+                  label: "Reviewer",
+                  name: "reviewer",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Review",
+                  name: "review",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                  max_size: "64",
+                }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {
+                  label: "Heading",
+                  name: "heading",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Subheading",
+                  name: "subheading",
+                  widget: "string",
+                  required: false,
+                }
+          - label: "Main Content Section"
+            name: "main"
+            widget: "object"
+            fields:
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                  max_size: "64",
+                }
+    # fields: # The fields for each document, usually in front matter
+    # - { label: "Body", name: "body", widget: "markdown" }
+    # - { label: 'Site Heading', name: 'site_heading', value: Brevard Pool Care }
+    # - { label: 'Logo', name: 'logo', value: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png }
+    # - { label: 'Slogan', name: 'slogan', value: Premium Inclusive Concierge Pool Service }
+    # - { label: 'Description', name: 'description', value: 'Proudly Servicing: Merritt Island, Satellite Beach, Viera, Cocoa   Beach,
+    #   Rockledge, Sun Tree and all in between since 2012!' }
+    # - { name: 'phone_number', value: "(407)-WOW-POOL" }
+    # - { name: 'mission_statement', value: Making each pool better, every day. }
+    # - { name: 'email', value: brevardpoolcare@outlook.com }
+    # - { name: 'address', value: Merritt Island, Florida - 32952 }
+    # - { name: 'meet_brevard_pool_care_heading', value: Meet Brevard Pool Care }
+    # - { name: 'meet_brevard_pool_care_subheading', value: Let's Work Together }
+    # - { name: 'pool_features', widget: 'list', max: '4', min: '4', fields:
+
+    # - title: Rental or AirBnB?
+    # - title: Waterfall?
+    # - title: Negative Edge?
+    # - title: Spa? }
+    # trusted:
+    #   heading: Trusted by over 200 customers in Brevard.
+    #   subheading: We guarantee we'll provide customer satisfaction!
+    #   stats:
+    #   - title: Star Rating
+    #     stat: "5"
+    #     rounded: l-lg
+    #   - title: Insured
+    #     stat: "$1m+"
+    #     rounded: none
+    #   - title: Happy Customers
+    #     stat: 200+
+    #     rounded: r-lg
+    # faq:
+    #   heading: Frequently asked questions
+    #   faqs:
+    #   - question: There is a foreign object in my pool! Can you help?
+    #     answer: Yes! We clean, care for & remove select debry from our customer's pools!
+    #   - question: Do I NEED an appointment?
+    #     answer: Although it is not required, it is recommended highly to contact us &
+    #       schedule an appointment.
+    #   - question: How far are you willing to travel?
+    #     answer: We work within the Brevard County limits.
+    #   - question: If I need an early appointment, can you do that?
+    #     answer: We work as early as 7 AM! We love helping our customers as early as possible.
+    #   - question: How much extra do chemicals cost in my appointment?
+    #     answer: "$0! We include it with every appointment made!"
+    #   - question: How often can I schedule an appointment?
+    #     answer: We offer daily, weekly or monthly appointments. We also offer select long-term
+    #       packages to customers. Please contact us for more information.
+    # steps:
+    #   heading: Our Famous 10 Steps
+    #   subheading: With each step, you can guarantee you will get top notch products used
+    #     in your pool with hard working employees. We guarantee that.
+    #   included_in_steps:
+    #   - title: Free Water Testing
+    #   - title: Free Advice
+    #   - title: 10 Step Service Process
+    #   step:
+    #   - number: 1
+    #     title: Brush Tile / Grout lines
+    #     description: Every inch of tile will be brushed and grout lines will be clean
+    #       and free of algae. Tile scum will be removed. Removal of any calcium-deposits*
+    #       where applicable.
+    #   - number: 2
+    #     title: Empty skimmer and Pump basket
+    #     description: Every visit we leave your baskets free         of         debris.         Emptying         of
+    #       baskets allows maximum         water flow.         Inspection of         O-ring
+    #       at the pump         lid         upon opening, lube         if necessary.
+    #   - number: 3
+    #     title: Net debris off surface of water
+    #     description: We use the highest quality nets to capture         the         smallest         debris         and
+    #       pollen and our         technicians are         netting experts! We         use
+    #       a technique         to         net every inch of         surface area of the
+    #       water.
+    #   - number: 4
+    #     title: Vacuum every single visit
+    #     description: Pool will be vacuumed every single visit. We         have         the         newest         in
+    #       pool vacuum technology as         well as the old         faithful         system
+    #       hose and         vacuum         head. We use the same         technique to         vacuum         every
+    #       inch of the bottom of the pool, every single visit.         A fun fact we call
+    #       this technique "mowing the lawn" because you wouldn't         miss a blade of
+    #       grass mowing the lawn; well we won't miss anything in         your pool either!
+    #   - number: 5
+    #     title: Net remaining debris until spotless
+    #     description: By spotless we mean it! Debris as well as nails         or         metal         toys         can
+    #       leave unwanted stains. We can         remove the         metal or         debris
+    #       and work on         removing         any stains*.
+    #   - number: 6
+    #     title: Brush entire surface of pool
+    #     description: Brushing the walls, floor, steps, stairs,         etc;         every         visit!         All
+    #       while focusing on         spots/stains that         require more         attention.
+    #   - number: 7
+    #     title: Check/Balance chemicals
+    #     description: We balance the pool accordingly to         the         weather         conditions.         Checking
+    #       and maintaining         the         following chemicals         Chlorine, Salt,         P.H.,         Alkalinity,         Stabilizer-CYA,         Calcium         Hardness.         Phosphates*
+    #       and nitrates will be         tested         and removed         as         necessary.
+    #   - number: 8
+    #     title: Filter Cleaning
+    #     description: Filter will be cleaned regularly as required         by         the         manufacture.         Most
+    #       require monthly         cleaning. The         equipment will         be checked
+    #       for leaks         and         in proper         running condition before         leaving         your
+    #       property. Salt Cells         will         be scheduled to         be         cleaned
+    #       every 3 months*.
+    #   - number: 9
+    #     title: Equipment Inspection
+    #     description: The equipment will be inspected for air leaks         on         the         suction         side
+    #       and water leaks on         equipment. Equipment         will be         replaced
+    #       as needed         to         maintain premium         operation.
+    #   - number: 10
+    #     title: Log chemicals and chemical dosages
+    #     description: We use a premium route management software to         log         all         our         customers
+    #       chemicals readings and         dosages we         added to your         pool
+    #       every visit!         By         keeping track we can         see the issues
+    #       that         may arise well         in the future         and         take the
+    #       proper         preventative         maintenance.
+    # review:
+    #   reviewer: Barbara Willett
+    #   review: Spencer and his crew have taken care of us for nearly 5       years and     we've
+    #     been consistently pleased with the service and support. They are     awesome and
+    #     you couldn't do better for your pool care! Highly recommended!
+    #   image: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-salt_mtxhzg.jpg
+    # contact:
+    #   heading: Contact Us
+    #   subheading: We are available from 7AM EST to 5PM EST. Monday - Friday.
+    # main:
+    #   image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chlorine-three_kvznsv.jpg

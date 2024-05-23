@@ -4,4 +4,5 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary("hbs", handlebars);
 
     eleventyConfig.addPassthroughCopy("style.css");
+    eleventyConfig.addPassthroughCopy("admin/config.yml");
 };
