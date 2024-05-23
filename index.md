@@ -136,7 +136,7 @@ contact:
 main:
   image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chlorine-three_kvznsv.jpg
 siteheading: Brevard Pool Care
-slogan: Premium Inclusive Concierge Pool Servic
+slogan: Premium Inclusive Concierge Pool Service
 description: "Proudly Servicing: Merritt Island, Satellite Beach, Viera,
   Cocoa   Beach, Rockledge, Sun Tree and all in between since 2012!"
 mission_statement: Making each pool better, every day.
