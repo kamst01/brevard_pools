@@ -2,7 +2,10 @@
 layout: layouts/base.hbs
 logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
 site_heading: Brevard Pool Care
+slogan: Premium Inclusive Concierge Pool Service
+description: "Proudly Servicing: Merritt Island and Cocoa Beach since 2012!"
 phone_number: (407)-WOW-POOL
+email: brevardpoolcare@outlook.com
 address: Merritt Island, Florida - 32952
 meet_brevard_pool_care_heading: Meet Brevard Pool Care
 meet_brevard_pool_care_subheading: Let's Work Together
@@ -27,21 +30,24 @@ trusted:
 faq:
   heading: Frequently asked questions
   faqs:
-    - question: There is a foreign object in my pool! Can you help?
-      answer: Yes! We clean, care for & remove select debry from our customer's pools!
+    - question: What SERVICES DO YOU OFFER?
+      answer: We offer a premium pool service, with a 10 step process so it's done
+        right every time!
+    - question: Do you offer one time cleanings?
+      answer: We prefer to do work on a monthly basis, but we're here to help! So
+        please don't hesitate to call!
+    - question: Will my POOL be SERVICED the same day every week?
+      answer: Yes! We strive to always service on your scheduled day, weekly! However
+        time may vary and a one day grace period for bad weather.
+    - question: What AREA do you SERVICE?
+      answer: "RESIDENTIAL SERVICE: Merritt Island, Cocoa Beach, Cape Canaveral.
+        Brevard County FOR COMMERCIAL."
     - question: Do I NEED an appointment?
       answer: Although it is not required, it is recommended highly to contact us &
         schedule an appointment.
-    - question: How far are you willing to travel?
-      answer: We work within the Brevard County limits.
     - question: If I need an early appointment, can you do that?
       answer: We work as early as 7 AM! We love helping our customers as early as
         possible.
-    - question: How much extra do chemicals cost in my appointment?
-      answer: $0! We include it with every appointment made!
-    - question: How often can I schedule an appointment?
-      answer: We offer daily, weekly or monthly appointments. We also offer select
-        long-term packages to customers. Please contact us for more information.
 steps:
   heading: Our Famous 10 Steps
   subheading: With each step, you can guarantee you will get top notch products
@@ -132,15 +138,11 @@ review:
   image: https://res.cloudinary.com/bpc-cloud/v1616251548/images/pool-salt_mtxhzg.jpg
 contact:
   heading: Contact Us
-  subheading: We are available from 7AM EST to 5PM EST. Monday - Friday.
+  subheading: We are available from 7AM EST to 7PM EST. Monday - Friday.
 main:
   image: https://res.cloudinary.com/bpc-cloud/v1616251547/images/pool-chlorine-three_kvznsv.jpg
 siteheading: Brevard Pool Care
-slogan: Premium Inclusive Concierge Pool Service
-description: "Proudly Servicing: Merritt Island, Satellite Beach, Viera,
-  Cocoa   Beach, Rockledge, Sun Tree and all in between since 2012!"
 mission_statement: Making each pool better, every day.
-email: brevardpoolcare@outlook.com
 ---
 ### We treat every customer the same. No matter the situation or condition of their pool; you're in good hands.
 
