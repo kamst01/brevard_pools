@@ -5,11 +5,11 @@ backend:
 media_folder: "images/uploads"
 public_folder: "_site/images/uploads"
 
-# media_library:
-#   name: cloudinary
-#   config:
-#     cloud_name: bpc-cloud
-#     api_key: your_api_key
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: bpc-cloud
+    api_key: 887479154912573
     
 collections:
   - name: "fields"
@@ -24,6 +24,7 @@ collections:
               name: "layout",
               widget: "string",
               required: false,
+              disabled: true,
               hint: "⚠️ DO NOT CHANGE THIS!! ⚠️",
             }
           - {
