@@ -3,7 +3,8 @@ layout: layouts/base.hbs
 logo: https://res.cloudinary.com/bpc-cloud/v1616199932/images/logo_jr9gmt.png
 site_heading: Brevard Pool Care
 slogan: Premium Inclusive Concierge Pool Service
-description: "Proudly Servicing: Merritt Island and Cocoa Beach since 2012!"
+description: "Proudly Servicing: Merritt Island, Cocoa Beach, and Cape Canaveral
+  since 2012!"
 phone_number: (407)-WOW-POOL
 email: brevardpoolcare@outlook.com
 address: Merritt Island, Florida - 32952
