@@ -8,6 +8,16 @@
     <title>{{site_heading}} | {{description}}</title>
     <link rel="stylesheet" href="/style.css"/>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16576130704"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <script>
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-16576130704');
+    </script>
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -66,5 +76,10 @@
     {{> faq }}
     {{> contact }}
     {{> footer }}
+    <script>
+        document.forms['headerFreeQuote'].addEventListener('submit', function(event) {
+            gtag('event', 'conversion', {'send_to': 'AW-16576130704/Zfp_CNPe97QZEJDdjuA9'});
+        });
+    </script>
 </body>
 </html>
